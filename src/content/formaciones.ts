@@ -2,7 +2,7 @@
 // Armonización de Espacios, los eBooks y el libro. Los textos son los de cada fuente (ver `source`);
 // precios, cupos y links de pago viven aparte, en _contenido/precios.json.
 // Las imágenes se referencian por su URL original (manifest) o como `local:<nombre>` (public/img).
-import precios from '../../../_contenido/precios.json';
+import precios from './precios.json';
 
 const GHL = 'https://assets.cdn.filesafe.space/WGytKrOBaLvxQONqxC4s/media/';
 const WPU = 'https://espaciodegeometriasagrada.com/wp-content/uploads/';

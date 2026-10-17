@@ -1,0 +1,254 @@
+{
+  "_nota": "Precios, cupos y links de pago del sitio. Se pueden editar acá sin tocar código: el build los lee de este archivo. Montos en el formato del material original. Fuentes: PDF del programa de Armonización de Espacios, páginas de GoHighLevel (experiencias, formadores, libro) y WooCommerce.",
+  "actualizado": "2026-10-16",
+  "armonizacion": {
+    "moneda": "pesos argentinos",
+    "caminos": [
+      {
+        "id": "armonizacion",
+        "nombre": "Armonización de Espacios",
+        "cupos": "Sin límite (acceso inmediato)",
+        "bonos": [
+          "Lista de materiales y donde conseguirlos (USD 47.-)",
+          "Checklist de diagnóstico de hogares (USD 97.- )",
+          "Cuadernillo de trazos por objetivo (USD 150.-)",
+          "Planilla de número Gua y elemento por integrante del hogar (USD 80.-)"
+        ],
+        "valorTotal": "$ 1.427.000-",
+        "pagoUnico": "$ 547.000.-",
+        "pagoFinanciado": "6 pagos mensuales de $110.000-",
+        "ingreso": "Compra directa",
+        "links": [
+          {
+            "texto": "Pago único",
+            "href": "https://mpago.la/2a9B3jZ"
+          },
+          {
+            "texto": "Pago financiado",
+            "href": "https://mpago.li/2aLwnis"
+          }
+        ]
+      },
+      {
+        "id": "especializacion",
+        "nombre": "Especialización en Armonización de Espacios",
+        "cupos": "20 cupos disponibles (cohorte dinámica)",
+        "bonos": [
+          "Guión para presentar el servicio a clientes escépticos (USd250)",
+          "Guía para definir el precio de tu primera consultoría (US$150)",
+          "Plantilla para armar tu portfolio con tus propios trabajos prácticos (US$200)"
+        ],
+        "valorTotal": "$ 2.940.000-",
+        "pagoUnico": "$1.447.000-",
+        "pagoFinanciado": "Anticipo $ 447.000- + 6 pagos mensuales de $ 200.000-",
+        "ingreso": "Completa el formulario + reunión para ingreso personalizado",
+        "links": [
+          {
+            "texto": "Inscribirte",
+            "href": "/formaciones/admision/?programa=armonizacion"
+          }
+        ]
+      },
+      {
+        "id": "arquitectos",
+        "nombre": "Especialización en Armonización de Espacios (ideal Arquitectos)",
+        "cupos": "6 cupos disponibles (para sostener las sesiones 1:1)",
+        "bonos": [
+          "Sesión de diagnóstico de marca y posicionamiento (USD 600)",
+          "Definición de Valor para tu tipo de proyectos (USD 500.-)",
+          "Guión para anunciar el servicio a tus clientes actuales (USD 300.-)"
+        ],
+        "valorTotal": "$ 4.940.000-",
+        "pagoUnico": "$ 2.447.000-",
+        "pagoFinanciado": "Anticipo $ 947.000.- + 6 pagos mensuales de $250.000.-",
+        "ingreso": "Completa el formulario + reunión para ingreso personalizado.",
+        "links": [
+          {
+            "texto": "Inscribirte",
+            "href": "/formaciones/admision/?programa=armonizacion"
+          }
+        ]
+      }
+    ],
+    "reservaEntrevista": "https://api.funnelup.io/widget/booking/C0WqQeVDKhLOlLNVtxxj"
+  },
+  "admision": {
+    "formacionProfesional": {
+      "calendario": "https://api.funnelup.io/widget/booking/6wlej1Q1EM4ZdUji7igb",
+      "nombre": "Entrevista de Admisión - Formación Profesional (P12años)"
+    },
+    "armonizacion": {
+      "calendario": "https://api.funnelup.io/widget/booking/C0WqQeVDKhLOlLNVtxxj",
+      "nombre": "Entrevista de ingreso - Especialización en Armonización de Espacios"
+    }
+  },
+  "club": {
+    "_pendiente": "En la página original (formadores.espaciodegeometriasagrada.com/club-page) los botones de pago y de WhatsApp tienen marcadores sin completar: [LINK_VALIDACION_GRATIS], [LINK_PAGO_MENSUAL_USD], [LINK_PAGO_ANUAL_USD], [LINK_PAGO_MENSUAL_ARS], [LINK_PAGO_ANUAL_ARS], [LINK_WHATSAPP]. Cuando existan, poné cada URL en 'href'. Mientras 'href' sea null, el botón abre un email a info@ con el plan elegido.",
+    "regiones": [
+      {
+        "id": "argentina",
+        "nombre": "Argentina",
+        "planes": [
+          {
+            "id": "gratis",
+            "precio": "ARS 0",
+            "href": null,
+            "marcador": "[LINK_VALIDACION_GRATIS]"
+          },
+          {
+            "id": "mensual",
+            "precio": "ARS 57.000",
+            "href": null,
+            "marcador": "[LINK_PAGO_MENSUAL_ARS]"
+          },
+          {
+            "id": "anual",
+            "precio": "ARS 570.000",
+            "href": null,
+            "marcador": "[LINK_PAGO_ANUAL_ARS]"
+          }
+        ]
+      },
+      {
+        "id": "mundo",
+        "nombre": "Resto del mundo",
+        "planes": [
+          {
+            "id": "gratis",
+            "precio": "USD 0",
+            "href": null,
+            "marcador": "[LINK_VALIDACION_GRATIS]"
+          },
+          {
+            "id": "mensual",
+            "precio": "USD 47",
+            "href": null,
+            "marcador": "[LINK_PAGO_MENSUAL_USD]"
+          },
+          {
+            "id": "anual",
+            "precio": "USD 470",
+            "href": null,
+            "marcador": "[LINK_PAGO_ANUAL_USD]"
+          }
+        ]
+      }
+    ],
+    "whatsapp": null
+  },
+  "experiencias": {
+    "buenosAires": {
+      "opciones": [
+        {
+          "id": "entrada",
+          "antes": "$95.000",
+          "precio": "$65.000",
+          "href": "https://www.espaciodegeometriasagrada.com/?compra_directa=35723"
+        },
+        {
+          "id": "libro",
+          "antes": "$130.000",
+          "precio": "$95.000",
+          "href": "https://www.espaciodegeometriasagrada.com/?compra_directa=38739"
+        },
+        {
+          "id": "club",
+          "antes": "$267.000",
+          "precio": "$130.000",
+          "href": "https://www.espaciodegeometriasagrada.com/?compra_directa=38740"
+        }
+      ]
+    },
+    "presentacionLibro": {
+      "encuesta": "https://api.funnelup.io/widget/survey/FvyIcrk0hc75cZNc88YG",
+      "libroInvitado": "$34.000"
+    },
+    "uruguay": {
+      "valorGeneral": "U$D 750",
+      "hoy": "U$D 470",
+      "validoHasta": "Válido hasta el 20/10/2026 o hasta agotar cupos de esta etapa — el precio sube después.",
+      "etapas": [
+        {
+          "nombre": "Preventa 2",
+          "hasta": "hasta 20/10",
+          "precio": "U$D 470",
+          "cupos": "Hasta 20 cupos",
+          "actual": true
+        },
+        {
+          "nombre": "Preventa 3",
+          "hasta": "hasta 30/11",
+          "precio": "U$D 530",
+          "cupos": "Hasta 30 cupos"
+        },
+        {
+          "nombre": "Preventa 4",
+          "hasta": "hasta 02/02",
+          "precio": "U$D 750",
+          "cupos": "Hasta agotar"
+        }
+      ],
+      "paises": [
+        [
+          "🇺🇾 URU",
+          "U$D 470",
+          "18.891 UYU",
+          "Pesos o dólares · Producción"
+        ],
+        [
+          "🇦🇷 ARG",
+          "U$D 470",
+          "730.850 ARS",
+          "Pesos o dólares · Espacio"
+        ],
+        [
+          "🇧🇷 BRA",
+          "U$D 470",
+          "2.376 BRL",
+          "Moneda local · Espacio"
+        ],
+        [
+          "🇨🇱 CHI",
+          "U$D 470",
+          "463.186 CLP",
+          "Moneda local · Espacio"
+        ],
+        [
+          "🇲🇽 MEX",
+          "U$D 470",
+          "8.675 MXN",
+          "Moneda local · Espacio"
+        ],
+        [
+          "🇨🇴 COL",
+          "U$D 470",
+          "1.496.750 COP",
+          "Moneda local · Espacio"
+        ]
+      ],
+      "cotizacion": "Cotización orientativa según tipo de cambio del día (16/10/2026). El valor final se confirma al momento del pago.",
+      "reserva": "https://api.funnelup.io/widget/survey/Otcelj4tlmRRNkd0B0Ry"
+    },
+    "productores": {
+      "formulario": "https://api.funnelup.io/widget/survey/x9ttFu3Xi9zFCy6P4BAS"
+    },
+    "postulaEspacio": {
+      "formulario": "https://api.funnelup.io/widget/form/6M4F2H1rNBKm5G0k8rKH"
+    }
+  },
+  "libro": {
+    "argentina": {
+      "pack": "1 ejemplar · Zoom exclusivo para compradores · Regalos sorpresa. Solo 20 copias disponibles.",
+      "precio": "$34.000",
+      "href": "https://www.espaciodegeometriasagrada.com/?compra_directa=38011"
+    }
+  },
+  "ebooks": {
+    "pack": {
+      "precio": "U$D 57.-",
+      "precioArs": "AR$ 45777.-",
+      "antes": "U$D 255.-",
+      "href": "/finalizar-compra/?add-to-cart=34989"
+    }
+  }
+}

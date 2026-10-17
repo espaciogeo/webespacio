@@ -1,6 +1,6 @@
 // Índices editoriales /formaciones/ y /ebooks/, y el mapa de páginas de WordPress que pasan a vivir
 // dentro de /formaciones/ (con 301 desde su URL anterior).
-import precios from '../../../_contenido/precios.json';
+import precios from './precios.json';
 import { IMG } from './formaciones';
 
 const P = precios as any;

@@ -175,7 +175,7 @@ export function Compare({ cols, groups, ctas, note, currency }: B<'compare'>) {
       {/* Móvil: selector + tarjetas apiladas */}
       <div className="u217-mob">
         <div className="u217-sel">
-          <Segmented label="Elegí un camino" value={String(card)} onChange={(v) => go(Number(v))} options={cols.map((c, i) => ({ id: String(i), label: `Nivel ${i + 1}` }))} />
+          <Segmented label="Elegí un camino" value={String(card)} onChange={(v) => go(Number(v))} options={cols.map((_c, i) => ({ id: String(i), label: `Nivel ${i + 1}` }))} />
         </div>
         {cols.map((c, i) => (
           <article key={c.id} ref={(el) => { cards.current[i] = el; }} data-i={i} className={`u217-card ${c.highlight ? 'is-hl' : ''}`} aria-labelledby={`${uid}-h${i}`}>
