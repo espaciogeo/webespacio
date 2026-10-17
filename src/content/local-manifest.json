@@ -1,0 +1,80 @@
+{
+ "construccion-manos": {
+  "name": "construccion-manos",
+  "w": 1600,
+  "h": 2405,
+  "dir": "img"
+ },
+ "equipo-duo": {
+  "name": "equipo-duo",
+  "w": 1600,
+  "h": 1067,
+  "dir": "img"
+ },
+ "equipo-retrato": {
+  "name": "equipo-retrato",
+  "w": 1433,
+  "h": 2560,
+  "dir": "img"
+ },
+ "libro": {
+  "name": "libro",
+  "w": 632,
+  "h": 885,
+  "dir": "img"
+ },
+ "monique-taller": {
+  "name": "monique-taller",
+  "w": 1600,
+  "h": 2405,
+  "dir": "img"
+ },
+ "octaedros": {
+  "name": "octaedros",
+  "w": 1600,
+  "h": 2405,
+  "dir": "img"
+ },
+ "pablo-icosaedro": {
+  "name": "pablo-icosaedro",
+  "w": 1080,
+  "h": 1080,
+  "dir": "img"
+ },
+ "taller-alumnas": {
+  "name": "taller-alumnas",
+  "w": 1600,
+  "h": 2405,
+  "dir": "img"
+ },
+ "taller-grupo": {
+  "name": "taller-grupo",
+  "w": 1600,
+  "h": 1064,
+  "dir": "img"
+ },
+ "trazo-compas": {
+  "name": "trazo-compas",
+  "w": 1600,
+  "h": 2405,
+  "dir": "img"
+ },
+ "trazo-compas-2": {
+  "name": "trazo-compas-2",
+  "w": 1600,
+  "h": 2405,
+  "dir": "img"
+ },
+ "trazo-toro": {
+  "name": "trazo-toro",
+  "w": 1600,
+  "h": 2405,
+  "dir": "img"
+ },
+ "vesica-lapiz": {
+  "name": "vesica-lapiz",
+  "w": 1600,
+  "h": 1200,
+  "dir": "img"
+ }
+}

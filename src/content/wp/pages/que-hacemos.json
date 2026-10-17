@@ -1,0 +1,309 @@
+{
+ "id": "32017",
+ "slug": "que-hacemos",
+ "path": "/que-hacemos/",
+ "kind": "institucional",
+ "title": "Que Hacemos",
+ "date": "2024-01-17",
+ "modified": "2024-07-15",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/trazo-1.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "QUÉ ES LA"
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "GEOMETRÍA SAGRADA?"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>La Geometría Sagrada</strong> es el lenguaje del universo, codificado en símbolos y patrones. Es el modelo de la creación y engendra toda la forma.</p><p>Se dice que \"Dios\" Geometriza. Ha creado armonía en la materia con esta preciosa herramienta la Geometría Sagrada, donde la medida es profana y la Proporción es Sagrada.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Descubramos juntos qué significa la Geometría Sagrada"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/geo.png",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<p>Tierra, de la tierra conocido por los griegos donde ésta desarrolla lo que está en ella. Métrica es una metodología de planificación, desarrollo y mantenimiento de sistemas de información.</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/metria.png",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<p>Medida, pero en todo lo que nos rodea, en la naturaleza y en el cosmos observamos que si bien es medible obedece a proporciones, patrones, sistemas, códigos y símbolos que surgen como fuente de vida de la materia y del espíritu.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>Lo Sagrado es una noción que, permite a un grupo o una sociedad humana creer en una separación binaria, es lo opuesto a lo profano, es el respeto a la vida. La espiritualidad es el respeto de lo esencial: amar la vida. Lo Sagrado está asociado a lo sustentable. Un proceso sustentable o sostenible es aquel que puede mantenerse en el tiempo por sí mismo, sin ayuda exterior y sin que se produzca la escasez de los recursos existentes.</p>"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "La Geometría Sagrada es el estudio de las medidas y proporciones de la materia y la energía en relación con el principio de sustentabilidad que crea la Vida."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/medusa.png",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<p>Redescubrirla nos permite observar una planificación, desarrollo y mantenimiento en base a patrones, un lenguaje simbólico de las fuerzas de la creación del universo que nos ayuda a entender mentalmente lo que ya intuitivamente conocemos.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>Todo en el universo proviene de una misma fuente o Inteligencia Universal, podrás llamarlo, Madre Naturaleza, Espíritu. La Geometría Sagrada nos demuestra, como todo lo que existe fue creado por medio de los mismos principios básicos, como desde un simple átomo hasta una inmensa galaxia siguen un mismo patrón Geométrico idéntico.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/banner-horizontal-CLASE-GRATUITA-INSCRIPCION-notebook.png",
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/banner-horizontal-CLASE-GRATUITA-INSCRIPCION-texto.png",
+     "alt": ""
+    },
+    {
+     "t": "form",
+     "name": "Banner_Clase_gratuita",
+     "fields": [
+      {
+       "label": "Name",
+       "type": "text",
+       "required": true,
+       "id": "name",
+       "options": []
+      },
+      {
+       "label": "Email",
+       "type": "email",
+       "required": true,
+       "id": "email",
+       "options": []
+      }
+     ],
+     "submit": "Sí, Quiero Registrarme!",
+     "actions": [
+      "getresponse"
+     ],
+     "formId": "05d01b7",
+     "postId": "32017",
+     "redirect": ""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>Tú puedes aplicar la observación y veras que tu ADN es Geometría Sagrada, forma y proporción, los espacios verdes te hablan en secuencias binarias y fibonacci en un orden poco común y mágico. Todas las formas de la vida como lo sabemos emergen de códigos geométricos. El recordarlo te transforma, recuerdas que eres proporción y que eres parte de una maravillosa creación, la cual se organiza a sí misma. EL alma se nutre de la información.</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/adn.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "En el arte y la música, en los diseños arquitectónicos, encontraras estos patrones de organización."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Recordarlos es parte de tu evolución consciente. Te estás re-descubriendo !!!"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>Siendo testigo consciente comprenderás que las leyes matemáticas no son meras ecuaciones humanas, existen independientemente del intelecto. Lo que un hombre puede hacer es descubrir que están allí y tomar consciencia de ello.</p><p>Los patrones Geométricos Sagrados de la creación se están volviendo a descubrir, es menester que lo hagamos en un contexto de comprensión espiritual.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "A través de la Geometría Sagrada podemos descubrir el equilibrio y la armonía existente en todos los aspectos de la vida y de nuestras relaciones."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Te proponemos descubrir y comprender la Geometría Sagrada basándonos en 4 pilares, los cuales son independientes y complementarios, son los siguientes:"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/trazos-1.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Trazos de Geometría Sagrada"
+    },
+    {
+     "t": "text",
+     "html": "<p>Los trazos de Geometría Sagrada te permiten hacer consciente lo que esta en tu insconsciente.<br>A través de los trazos comprenderás el lenguaje de la vida y su importancia en todo lo que existe. Cuando te pones en contacto con los códigos Sagrados y los trazas, estos relajan la mente, te hacen mas consiente, re-ordenan tu estructura interna y trabajan sobre tu campo emocional. Re-cordando quien eres.</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/construcciones.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Construcciones de Bio-Geometrías"
+    },
+    {
+     "t": "text",
+     "html": "<p>A medida que construyes Herramientas de la Geometría Sagrada te equilibras y armonizas tu Geometría interna. Luego estas herramientas las puedes aplicar en tu vida diaria, para armonizar tu espacio, dándole mayor sustentabilidad y mayor vitalidad, para utilizar en la consulta y en Medicina de la forma.</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/armonizacion-espacios.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Armonización de Espacios Físicos"
+    },
+    {
+     "t": "text",
+     "html": "<p>Hace milenios se creaban espacios basándose en los principios de la Geometría Sagrada, vivíamos en armonía y equilibrio con la naturaleza, la observación de la misma y su interacción con el ser humano. Te proponemos volver a la conciencia de esa relación con tu entorno, tu espacio diario, Re-creando vida y sustentabilidad en los espacios.</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/medicina-de-la-forma.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Medicina de las Formas."
+    },
+    {
+     "t": "text",
+     "html": "<p>Medicina de la Forma es la práctica nacida del pasaje de lo Instintivo a lo Cuántico llevada a formas de 2D y 3D para su aplicación. Es un Camino hacia lo Sagrado, al Campo Fractal, Geometría Perfecta que reordena nuestra Geometría desajustada y define a la Vida en distribución eficiente e irradiación de energía.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Estos pilares puedes aprenderlos a través de diferentes modalidades, según el grado de interés que tengas en la involucración de los mismos."
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Estas son nuestras propuestas:"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "card",
+     "title": "CLASES GRATUITAS",
+     "html": "Un sábado al mes, nos encontramos en vivo y en directo desde nuestra web para compartir y mutliplicar este conocimiento con todo el mundo. Registrate y sumate a nuestras clases!",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/icono-clases-gratuitas-1.png"
+    },
+    {
+     "t": "button",
+     "text": "Ver Más",
+     "href": ""
+    },
+    {
+     "t": "card",
+     "title": "NUESTROS EBOOKS",
+     "html": "¿Quieres comenzar a aprender Geometría Sagrada? Nuestros eBooks son ideales entonces. Aprenderás los principios básicos y tus primeros trazos... y además tendrás regalos sorpresa!",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/icono-ebooks-1.png"
+    },
+    {
+     "t": "card",
+     "title": "NUESTROS CURSOS",
+     "html": "La Geometría Sagrada se aplica en 4 pilares: Trazos, Construcciones, Armonización de Espacios y Medicina de las Formas. Hay un curso para cada opción. Conoce nuestras propuestas!",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/icono-cursos-1.png"
+    },
+    {
+     "t": "card",
+     "title": "FORMACIÓN PROFESIONAL",
+     "html": "Más de 2000 estudiantes en todo el mundo están aprendiendo de manera profesional este conocimiento ancestral, y todo desde sus casas. Hace click para conocer más!",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/icono-formacion-1.png"
+    }
+   ]
+  }
+ ]
+}

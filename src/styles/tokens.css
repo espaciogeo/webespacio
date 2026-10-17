@@ -1,0 +1,71 @@
+/* Tokens de diseño — fuente única para la home y todas las plantillas.
+   Paleta: azul #094372 · verde agua #66CC99 · gris #666666 · fondo blanco.
+   Los colores se guardan como canales RGB para que Tailwind pueda aplicar opacidad (bg-ink/10, etc.). */
+:root {
+  color-scheme: light;
+  /* color (canales) */
+  --c-paper: 255 255 255;
+  --c-paper-2: 255 255 255; /* todo el sitio en blanco puro */
+  --c-paper-3: 255 255 255;
+  --c-ink: 9 67 114;
+  --c-ink-soft: 12 79 132;
+  --c-ink-light: 45 127 191;
+  --c-gray: 102 102 102;
+  --c-accent: 102 204 153;
+  --c-accent-dark: 79 184 136;
+  --c-accent-ink: 28 117 79; /* verde agua oscurecido para texto sobre blanco (contraste 5.6:1) */
+  --c-error: 192 57 43;
+  --c-shadow: 9 40 70;
+  /* color (uso) */
+  --paper: rgb(var(--c-paper));
+  --paper-2: rgb(var(--c-paper-2));
+  --paper-3: rgb(var(--c-paper-3));
+  --ink: rgb(var(--c-ink));
+  --ink-soft: rgb(var(--c-ink-soft));
+  --ink-light: rgb(var(--c-ink-light));
+  --ink-2: rgb(var(--c-gray));
+  --ink-3: rgb(var(--c-gray));
+  --accent: rgb(var(--c-accent));
+  --accent-dark: rgb(var(--c-accent-dark));
+  --accent-ink: rgb(var(--c-accent-ink));
+  --error: rgb(var(--c-error));
+  --pencil: rgb(var(--c-accent) / 0.8);
+  --pencil-solid: var(--accent);
+  --hair: rgb(var(--c-ink) / 0.14);
+  --line: rgb(var(--c-ink) / 0.12);
+  --line-2: rgb(var(--c-ink) / 0.2);
+  --shadow: rgb(var(--c-shadow) / 0.14);
+  --shadow-strong: rgb(var(--c-shadow) / 0.32);
+  /* alias históricos usados por la home (mismo valor) */
+  --ochre: var(--accent);
+  --ochre-dark: var(--accent-dark);
+  --night: var(--ink);
+  /* radios */
+  --r-sm: 14px;
+  --r-md: 18px;
+  --r: 22px;
+  --r-lg: 28px;
+  --r-pill: 999px;
+  /* tipografía */
+  --font-display: Montserrat, ui-sans-serif, system-ui, sans-serif;
+  --font-body: Roboto, ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Roboto Mono', ui-monospace, monospace;
+  --fs-mono: 13px;
+  --fs-small: 16px;
+  --fs-body: 19px;
+  --fs-reading: 20px;
+  --fs-lead: 21px;
+  --fs-h4: 23px;
+  --fs-h3: 28px;
+  --fs-stat: clamp(40px, 4.4vw, 64px);
+  --fs-h2: clamp(30px, 3.6vw, 56px);
+  --fs-section: clamp(40px, 6.4vw, 104px);
+  --fs-hero: clamp(40px, 6.6vw, 112px);
+  --fs-article: clamp(36px, 5.2vw, 84px);
+  /* espaciado y movimiento */
+  --gutter: clamp(16px, 4vw, 56px);
+  --section-y: 9svh;
+  --ease-curtain: cubic-bezier(0.76, 0, 0.24, 1);
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-spring: cubic-bezier(.34, 1.45, .64, 1);
+}

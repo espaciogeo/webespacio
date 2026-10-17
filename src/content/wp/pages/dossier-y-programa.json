@@ -1,0 +1,276 @@
+{
+ "id": "32072",
+ "slug": "dossier-y-programa",
+ "path": "/formacion-profesional/dossier-y-programa/",
+ "kind": "producto",
+ "title": "Dossier y Programa",
+ "date": "2024-01-18",
+ "modified": "2025-01-25",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Nuevo Formatos - Cupos limitados!"
+    },
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "Formación Profesional en Geometría Sagrada"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Tu camino hacia la maestría personal y profesional. Mirá el video para saber si la Formación es para ti!"
+    },
+    {
+     "t": "video",
+     "provider": "vimeo",
+     "id": "891931206?h=40f37211f0"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Transforma tu vida y la de otros mientras construyes una carrera significativa."
+    },
+    {
+     "t": "text",
+     "html": "<i>¿Ya viste el video? Agenda tu entrevista hoy!</i>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "button",
+     "text": "CLICK AQUÍ PARA SOLICITAR TU ENTREVISTA DE ADMISION",
+     "href": "https://api.funnelup.io/widget/bookings/espacio-geometria-sagrada"
+    },
+    {
+     "t": "text",
+     "html": "<i>En la entrevista te ayudaremos a diseñar el plan de estudios y<strong> te contaremos el valor de la Formación. <br></strong></i>"
+    },
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "¿Te has preguntado alguna vez cómo podrías..."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Desarrollar una carrera que combine tu pasión por el crecimiento personal con ingresos constantes?"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Ayudar a otros a encontrar equilibrio y armonía mientras creces profesionalmente?"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Destacarte en el mercado del bienestar con un conocimiento único y milenario?"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "La Formación Profesional en Geometría Sagrada te ofrece exactamente eso, y mucho más.!"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p><b>En tu Desarrollo Personal:</b></p><p>Un crecimiento basado en <em><strong>3 dimensiones.</strong></em></p><p><strong>Equilibrio Mental y Emocional</strong></p><ul><li>Técnicas de meditación activa a través del trazo y las construcciones,</li><li>Herramientas para gestionar el estrés y la ansiedad y tus emociones,</li><li>Métodos de autoconocimiento mediante el trazo de símbolos sagrados.</li></ul><p><strong>Creatividad y Expresión</strong></p><ul><li>Desbloquea tus dones y tu potencial creativo, para expresarte como siempre anhelaste.</li><li>Desarrolla tu intuición, aprendiendo a observar y confiar en tus pensamientos y sentimientos.</li><li>Conexión con tu propósito vital, para llevarlo adelante confiando en tus herramientas.</li></ul><p><strong>Crecimiento Interior</strong></p><ul><li>Mayor claridad mental y capacidad de concentración, para evitar distracciones y bloqueos mentales,</li><li>Incremento en tu nivel de consciencia, reprogramando creencias limitantes,</li><li>Herramientas prácticas de autodescubrimiento, utilizando un conocimiento milenario.</li></ul>"
+    },
+    {
+     "t": "text",
+     "html": "<p><b>En tu Desarrollo Profesional:</b></p><p>Oportunidad de aplicar este conocimiento en <em><strong>3 dimensiones.</strong></em></p><p><strong>Terapias Complementarias</strong></p><ul><li>Utiliza la Geometría Sagrada brinda sesiones de terapia, complémentando con tu conocimiento,</li><li>Acompaña procesos de sanación en la mejora emocional, cognitiva y motriz,</li><li>Desarrolla programas grupales de bienestar integral en todas las edades.</li></ul><p><em><strong>Consultoría en Armonización de Espacios.</strong></em></p><ul><li>Diseña espacios armónicos para hogares y oficinas, enfocados en las personas que los habitan,</li><li>Optimiza espacios comerciales para facilitar el trabajo en equipo, aumentar las ventas, y la satisfacción del cliente,</li><li>Desarrolla proyectos de armonización para centros terapéuticos, estudios de yoga y espacios de sanación.</li></ul><p><strong>Formador Certificado</strong></p><ul><li>Imparte tus propios talleres y cursos, con tu propio estilo y sumando tu conocimiento.</li><li>Crea y promociona tus servicios profesionales usando la Geometría Sagrada para comunicar.</li><li>Forma parte de nuestra red internacional de Formadores Geómetras.</li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>Mirá los testimonios de nuestros <br><br>Formadores Certificados</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Tenemos más de mil testimonios reales de personas reales.<br>Mira los testimonios actualizados a Junio de 2024. </p>"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "6Sz_iQ3Al1g"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "AoXVntT4J5k"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "gRqUicMQVbY"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "JZGZVp04obw"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "2c6cfjn2Dc8"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "testimonial",
+     "text": "Me encantó la formación, es muy completa y me dio muchas bases para aplicar la geometría sagrada en mi vida y en mis pacientes y alumnos. Estoy feliz de haberlos encontrado! Hicieron mi aprendizaje muy sencillo. Gracias Monique, gracias Pablo!",
+     "name": "Carmen Orellana Puertas",
+     "role": "México",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/carmenorellana-1.png"
+    },
+    {
+     "t": "testimonial",
+     "text": "Mi experiencia fue que en la medida que iba aprendiendo, mi ser estaba mas consciente con todo lo que me rodeaba y todo tenía otro significado y mi mirada estaba más ampliada. Uso ahora la Geometría Sagrada en mi profesión y es asombroso ver los resultados que he obtenido.",
+     "name": "Victor Anibal Coronel",
+     "role": "Argentina",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/victor.png"
+    },
+    {
+     "t": "testimonial",
+     "text": "A través de los cursos, trazos, construcciones 3D, medicina ambiental, sentí una expansión y conexión con la “Mente de Dios”. La percepción del mundo amplificada por la Geometría Sagrada llenó mi corazón con un sentimiento de pertenencia y reconociendo que el Universo es una unidad definida en un lenguaje de luz, sonido y geometría que sustentan la vida incondicionalmente! ¡Agradezco todo el apoyo y la formación recibida por Espacio de Geometría Sagrada y deseo compartirlo con la mente y el corazón en armonía!",
+     "name": "Cristine Dal Maso",
+     "role": "Brasil",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/cristine.png"
+    },
+    {
+     "t": "testimonial",
+     "text": "Me re-encontré a mi misma, mi mundo interno, mis riquezas y dones para poder desarrollarlos y potenciarlos. La Geometría Sagrada es una herramienta maravillosa que me ayudó a mantener la cordura y la integridad en los dificultosos momentos de estos últimos años; contribuyendo a mi crecimiento, desarrollo y especialmente a aceptarme y amarme tal como soy, sin juzgarme; y a tomar conciencia de que estoy conectada a algo superior de lo cual a su vez formo parte. Estoy feliz de haberlos encontrado! Hicieron mi aprendizaje muy sencillo. Gracias Monique, gracias Pablo!",
+     "name": "Nancy Pujadas",
+     "role": "Argentina",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/nancy.png"
+    },
+    {
+     "t": "testimonial",
+     "text": "Varios cursos y Diplomados había estudiado previamente, sin embargo, no había experimentado anteriormente la cálida sensación de haber sido acogida en una familia tan amorosa. En esta atmósfera de confianza y paciencia fui desarrollando cada uno de los cursos con una buena dosis de disciplina y una dosis mayor de interés por aproximarme más y más a los misterios y maravillas de las formas.",
+     "name": "Gema Lopez Gorosove",
+     "role": "Argentina",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/gema.jpeg"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "button",
+     "text": "CLICK AQUÍ PARA SOLICITAR TU ENTREVISTA DE ADMISION",
+     "href": "https://api.funnelup.io/widget/bookings/espacio-geometria-sagrada"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "QUIENES SOMOS"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/GRUPALES-24-scaled-1.jpg",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<p><b><i>Más de 5000 personas de todas partes del mundo son parte de nuestra comunidad de estudiantes</i></b>, que acceden regularmente a nuestra plataforma de estudios con el fin de aprender como <b><i>aplicar esta maravillosa filosofía en sus vidas</i></b>.</p><p>En las redes, el <b>Espacio de Geometría Sagrada</b> cuenta con más de <i>125000 seguidores en </i><a href=\"https://www.facebook.com/EspaciodeGeometriaSagrada\"><b>Facebook</b></a>, más de 50000 en <a href=\"https://www.instagram.com/espaciodegeometriasagrada/\"><b>Instagram </b></a>y decenas de miles de vistas en nuestro Canal de <a href=\"https://www.youtube.com/c/EspaciodegeometriasagradaxMoniqueDumoulin\"><b>Youtube</b></a>. </p><p><b><i>Monique Dumoulin</i></b> es <i>Arquitecta egresada de la </i><b><i>U.B.A.</i></b>, y <i>Formadora Geómetra</i>. Lleva ya mas de 20 años difundiendo este conocimiento y es la <strong>Directora Académica</strong> de nuestra Formación.</p><p><b><i>Pablo Pettinaroli </i></b>es Diseñador Multimedial, <i>autor del podcast \"Manual para Sobrevivientes\" y es el </i><strong>Director Ejecutivo</strong><i> de nuestro espacio.</i></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>El <b>Espacio de Geometría Sagrada</b> fue fundado en el año 2014 por <b><i>Monique Dumoulin</i></b>, con la misión <i>de </i><b><i>compartir y multiplicar</i></b><i> este conocimiento ancestral que es la </i><b><i>Geometría Sagrada</i></b> <i>en todo el mundo</i>, a través de Cursos, Talleres y Seminarios, tanto presenciales como por internet.</p><p><b><i>Cada mes brindamos clases online y gratuitas</i></b> que son emitidas desde nuestra web para todo el mundo, con el fin de <i>democratizar el conocimiento y que este llegue a quienes resuenen</i>.</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/GRUPALES-egs.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "¿Dudas o consultas?"
+    },
+    {
+     "t": "text",
+     "html": "<p>Completa el formulario para que podamos enviarte el Dossier, el programa y los medios de pago habilitados en tu país. También, puedes escribirnos a <strong><a href=\"mailto:info@espaciodegeometriasagrada.com\">info@espaciodegeometríasagrada.com</a>. Te responderemos en menos de 48 hs.</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Las inscripciones a las entrevistas <br><em><strong>cierran en pocos días.</strong></em><br>Si luego de ver el video, te queda alguna duda, escríbenos aquí!</p>"
+    },
+    {
+     "t": "form",
+     "name": "Contacto",
+     "fields": [
+      {
+       "label": "Nombre",
+       "type": "text",
+       "required": true,
+       "id": "name",
+       "options": []
+      },
+      {
+       "label": "Email",
+       "type": "email",
+       "required": true,
+       "id": "email",
+       "options": []
+      },
+      {
+       "label": "Mensaje",
+       "type": "textarea",
+       "required": false,
+       "id": "message",
+       "options": []
+      }
+     ],
+     "submit": "Enviar",
+     "actions": [
+      "save-to-database",
+      "email",
+      "email2"
+     ],
+     "formId": "d050aec",
+     "postId": "32072",
+     "redirect": ""
+    }
+   ]
+  }
+ ]
+}

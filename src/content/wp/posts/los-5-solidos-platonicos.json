@@ -1,0 +1,22 @@
+{
+ "id": "1055",
+ "slug": "los-5-solidos-platonicos",
+ "path": "/los-5-solidos-platonicos/",
+ "title": "Los 5 Sólidos Platónicos",
+ "date": "2019-12-03",
+ "modified": "2024-03-25",
+ "author": {
+  "slug": "monique-dumoulin",
+  "name": "Monique Dumoulin"
+ },
+ "categories": [
+  "solidos-platonicos"
+ ],
+ "image": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2020/04/Los-5-Solidos-Platonicos.png",
+ "excerpt": "Los 5 sólidos platónicos son poliedros regulares cuyas caras son iguales entre si y en sus vértices se unen el mismo número de caras. Todos los vértices tocan la esfera que los circunscribe. Son la manera en que se…",
+ "seo": {
+  "title": "Sólidos Platónicos - Espacio de Geometría Sagrada",
+  "description": "sólidos platónicos son polígonos regulares cuyas caras son iguales entre si y en sus vértices se unen el mismo número de caras. Todos los vértices tocan..."
+ },
+ "readingMinutes": 2
+}

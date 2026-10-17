@@ -1,0 +1,530 @@
+{
+ "id": "27799",
+ "slug": "seminario",
+ "path": "/seminario/",
+ "kind": "producto",
+ "title": "Seminario",
+ "date": "2022-09-29",
+ "modified": "2024-03-05",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2021/05/espacio-de-geometria-sagrada-logo.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "1 Y 2 DE ABRIL DE 2023 | ONLINE | SALA EXCLUSIVA DE ZOOM"
+    },
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "SEMINARIO DE GEOMETRIA SAGRADA ACTIVANDO TU CAMPO DE POTENCIAL"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "UNA EXPERIENCIA QUE TRANSFORMARÁ TU VIDA"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "2pje0HsHMHk"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "2 días de conexión en vivo. Últimos 50 30 20 10"
+    },
+    {
+     "t": "button",
+     "text": "CUPOS AGOTADOS! GRACIAS A TODOS!",
+     "href": "#ADQUIRIR"
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Novena edición Más de 600 vidas impactadas!"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "ACTIVA TU CAMPO DE POTENCIAL Y LOGRA TODO LO QUE DESEAS"
+    },
+    {
+     "t": "text",
+     "html": "<p>\"Geometría Sagrada - Activando tu Campo de Potencial\",<br>es un seminario de dos días diseñado para que puedas despertar tus talentos ocultos,<br>despegarte de todo lo que te limita y construir el futuro que siempre soñaste.</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>A través de una poderosa alquimia de la <strong>Geometría Sagrada</strong> y la <strong>Programación Neuro Lingüistica</strong>, aprenderás a:</p>"
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/rESN4_uB8ECiknlZqETNbXgH23dHep06M2vvIvA7IuurNJU-fLGGEI_BHrJZYCKnW5wjF-c9qN5PEzbHqDvq=s0",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Observarte observando"
+    },
+    {
+     "t": "text",
+     "html": "<h4>La manera que observas el mundo define lo que piensas, haces y los resultados que obtienes. Descubre como es ser el observador de tu propia obra de teatro!</h4>"
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/2E9IgWle0D8BpIs7K3RbPSWggXtl3oC0ASgpStptNzuIizazIhUJJ1e7NgNfNPQNgD0XLQE2Z1wdc3gDvIoR2Q=s0",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Equilibrar tu vida"
+    },
+    {
+     "t": "text",
+     "html": "<h4>Hay una fuerza que impulsa cada área de tu vida. Aprende a identificarla y equilibrarla. Lograrás hacer pausa, foco y generar espacios de sabia reflexión! </h4>"
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/35UWyVd6Yr6IwtCU1rh_oIZ1UnpYO4R_EaKI0mSyaKOEn3P4HQDqMZ0YyS_4D-UAqLX756vrdUrPGfME6xqYoA=s0",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Activar tu potencial"
+    },
+    {
+     "t": "text",
+     "html": "<h4>Eres mucho más que un cuerpo físico. Reconoce tus campos de energía y utiliza la información que estos contienen. Experimentarás todo tu potencial activándose!</h4>"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong><em>Te invitamos a vivir una experiencia única, desde la comodidad de tu casa, <br>momentos transformadores en tu vida, que te permitirán descubrir y activar tu propio <br>Campo de Potencial!</em></strong></p>"
+    },
+    {
+     "t": "button",
+     "text": "TICKETS CON DESCUENTO - RESERVA TU LUGAR AHORA!",
+     "href": "#ADQUIRIR"
+    },
+    {
+     "t": "text",
+     "html": "<h2><strong>¿Qué técnicas aprenderás?</strong></h2>"
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/u8dyYrKEM12w56K4Nx0X5UvpPQkpyWfLaEVFmabFK_utkEsVLkFAjdhJ5ivyQDeJ6eS-LlicRbyQUyt5Ov_iwg=w126",
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/QDa_nDs9SfiVkUEpPikGRmhKNZx3vhS6o1C9hpLulE_XqcUL97Upk3iLPWnorTdOKlL7TpfgoOiAZBQ-n_cLnw=w126",
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/dYyqWY2UiEpP7hQ-7cq-9ebRpKs3VLD3SXvx5HjvF27Q_gBo-mJ_OGrU3I2laxrHM3RSEDnKImisHgZJkVvw0o8=s0",
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/3GCDpOYwDRxI3gDQx34PpVfEHBE_IQ4K-bV1_WX6Rdg9_RvXxjG1W9hQ828LKy1qS8S2f6ighYIpCl3bIqndMg=w126",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Los trazos de mandalas y cómo leerlos"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "La construcción de figuras geómetricas"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "La Meditación con las formas"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Y ejercicios corporales para activar tu potencial!"
+    },
+    {
+     "t": "text",
+     "html": "<h2><strong>¿Qué sucederá en tu vida</strong></h2><h2><strong> cuando actives tu Campo de Potencial?</strong></h2>"
+    },
+    {
+     "t": "text",
+     "html": "<h4><strong>Activar tu Campo de Potencial te permitirá conectarte con el poder ilimitado que tienes dentro de ti.</strong> </h4>"
+    },
+    {
+     "t": "text",
+     "html": "<h4><strong>Reconociendo tu propia energía, descubrirás como percibirla y moldearla, aprenderás a crear el vacío necesario para dar lugar a nuevas experiencias, y enfocarte en diseñar los pasos que darás para alcanzar tus objetivos.</strong> </h4>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<ul><li><em><strong>Estarás mas conectado contigo mismo, siendo consciente de tu poder ilimitado interior, <br><br></strong></em></li><li>Te abrirás al fluir de la abundancia en todos los sentidos en tu vida,<br><br></li><li><em><strong>Podras mejorar tus relaciones con tu pareja, familia, hijos y amigos, <br><br></strong></em></li><li>Mejorarás tu salud, alejándote de la dualidad salud-enfermedad,</li></ul>"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li><em><strong>Tendrás armonia en todas las áreas de tu vida, olvidándote del stress,<br><br></strong></em></li><li>Emprender un proyecto, ya sea un emprendimiento laboral o un viaje,<br><br></li><li>Podrás cambiar de trabajo, o mejorar en el actual, <br><br></li><li>Cualquier objetivo, sueño o meta que tengas podrás cumplirlo! <em><strong>Sólo deberás ser consciente de tu Campo de Potencial y mantenerlo activo!</strong></em></li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "button",
+     "text": "LOS CUPOS SON LIMITADOS - RESERVA TU LUGAR AHORA!",
+     "href": "#ADQUIRIR"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "FACILITADORES"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/monique-dumolin.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Monique Dumolin"
+    },
+    {
+     "t": "text",
+     "html": "<p>Arquitecta - Fundadora del <strong>Espacio de Geometría Sagrada</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Su misión de compartir y multiplicar esta maravillosa herramienta la ha llevado a brindar talleres y seminarios recorriendo Latinoamérica, y brindar cursos online donde mas de mil personas ya han cambiando sus vidas aprendiendo de su experiencia</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/pablo-pettinaroli.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Pablo Pettinaroli"
+    },
+    {
+     "t": "text",
+     "html": "<p>Director estratégico del<br><strong>Espacio de Geometría Sagrada</strong> </p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Su propósito es la de ayudar a transformar la mentalidad de las personas, difundiendo su historia de vida y sus conocimientos en Biohacking, Ingeniera del desarrollo humano y Programación Neuro-Lingüistica, a través de sus entrenamientos online que son vistos en todo el mundo.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>Desde hace 8 años, <em><strong>Monique</strong></em> y <em><strong>Pablo</strong></em> trabajan juntos en lo que es el \"<strong>Espacio de Geometría Sagrada\"</strong>,<br>donde comparten sus conocimientos para difundir esta sabiduría ancestral <br>que ayuda a elevar el potencial humano y el despertar de consciencia. </p>"
+    },
+    {
+     "t": "button",
+     "text": "RESERVAR TU TICKET CON DESCUENTO AHORA",
+     "href": "#ADQUIRIR"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "TESTIMONIOS"
+    },
+    {
+     "t": "text",
+     "html": "<p>Este seminario ya fue dado en otro lugares del mundo, aquí puedes escuchar los testimonios de las personas que ya pasaron por esta experiencia transformadora.</p>"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "6xHpOQF7lFM"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "07eWC06zkXo"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "XYo-ddyJ-Pk"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "qmkn7QKpECQ"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "4TuQfEIIN0c"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "fPty7BfqHZg"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "RVTNdJhWFZQ"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "q_iyvdq82LI"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "Nyce_6yHQcY"
+    },
+    {
+     "t": "text",
+     "html": "<p><em>\"Gracias equipo de Geometría Sagrada por darnos las herramientas para alejar el velo de las sombras, miedos, dudas, inseguridades...Y contribuir a cocrear: fortaleza, luz, seguridad y oportunidades con AMOR. Infinita gratitud.\" </em></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><p><p><p><p><p><p><p><p><p><p><strong>Miriam del Carmen Gutierrez</strong></p></p></p></p></p></p></p></p></p></p></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><em>\"Estuve en Buenos Aires, haciendo el seminario con Uds, quiero agradecerles el respeto y el amor que pusieron en todo el desarrollo del seminario, personalmente fue muy revelador encontré respuestas y significados que estaban escondidos, así que estoy feliz de haber vivido esta experiencia.\" </em></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><strong>Sandra Rojo</strong></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><em>El seminario ha sido realmente mágico para mi... me sentí muy cómoda con el grupo y como individuo! Me llegó mucho la armonía e interacción de ustedes, creo que todo fue un reflejo de eso...Valoro mucho el respeto, la coherencia y la atención a los mínimos detalles.\" </em></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><p><p><p><p><p><p><p><p><p><p><strong>Silvia Morales.</strong></p></p></p></p></p></p></p></p></p></p></p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "AGENDA"
+    },
+    {
+     "t": "text",
+     "html": "<p>El seminario \"<strong>Geometría Sagrada - Activando tu Campo de Potencial</strong>\"<br>es un evento on-line y exclusivo, <br><em><strong><u>y sólo hay lugar para 50 personas.</u></strong></em></p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Sábado, 1 de abril de 2023"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>ARG - URU - CHILE: 11.30 hs | MEX: 08.30 hs <br>PER - COL - ECU: 09.30 hs | ESP - ITA - FRA: 16.30 hs</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><p><p><p><p><p><p><p><p><em><strong>¡Despierta tu potencial dormido!<br></strong></em><br>Aprenderás las <em><strong>técnicas de Geometría Sagrada y Coaching</strong></em> más poderosas de la actualidad que<em><strong> juntas te permitirán reconocer tu campo de potencial</strong></em> y comenzar a ser el observador que necesitas ser!</p><p><em><strong>Un día diseñado para identificar las áreas de tu vida que requieren atención</strong></em> y cargar de buenas intenciones tus proyectos!</p></p></p></p></p></p></p></p></p>"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li>Para este día debes tener un compás, una regla o escuadra, y lápices de colores.</li></ul>"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Domingo, 2 de abril 2023"
+    },
+    {
+     "t": "text",
+     "html": "<p><p><p><p><p><p><p><p><p><em><strong>¡Impregna tu Campo de Potencial!<br></strong></em></p><p>Experimentarás <em><strong>fascinantes técnicas de Geometría Sagrada</strong></em> que te permitirán ordenar tu energía, y <em><strong>crear el vacío y equilibrio necesarios</strong></em> para tomar las decisiones correctas, <em><strong>despertar tu potencial interior y vibrar en sintonía con él</strong></em>.</p><p><em><strong>Un día diseñado para que puedas elegir que es lo mejor para ti y que acciones tomar!</strong></em></p></p></p></p></p></p></p></p></p>"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li>Para este día debes prepararte para trabajar con todo lo aprendido en el día 1.</li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "¿CÓMO SERÁ ESTE SEMINARIO ON-LINE?"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/10/DSC09092.jpg",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<ol>\n<li>Luego de tu inscripción, <em><strong>recibirás el acceso a nuestra \"Plataforma de Estudios\".</strong></em></li>\n<li>Tendrás una serie de <em><strong>regalos habilitados</strong></em>, para <em><strong>ver antes de la fecha del Seminario.</strong></em></li>\n<li>En la plataforma, podrás descargar el<em><strong> material de trabajo.</strong></em></li>\n<li>El <em><strong>1 y 2 de Abril</strong></em>, se habilitará una <em><strong>sala exclusiva de Zoom</strong></em> para que te conectes en<em> vivo y directo.</em></li>\n<li>Durante <em><strong>dos días</strong></em>, estaremos conversando, jugando, trazando y aprendiendo como \"<em><strong>Activar tu Campo de Potencial</strong></em>\" y sostenerlo en el tiempo.</li>\n<li>Luego de finalizado el Seminario, tendrás una clase de seguimiento con parte del equipo del <strong>Espacio de Geometría Sagrada</strong></li>\n</ol>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Hemos diseñado una experiencia audiovisual en la cual podrás experimentar todas las actividades de una manera muy original y divertida para activar tu propio Campo de Potencial."
+    },
+    {
+     "t": "button",
+     "text": "RESERVA AHORA TU TICKET CON DESCUENTO",
+     "href": "#ADQUIRIR"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "El acceso al Seminario incluye"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Ingreso a la sala de Zoom para los dos días</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Material de <br>Estudio</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Certificado de<br>Asistencia</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Apoyo durante<br>todo el Seminario</strong></p>"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Y además, estos regalos!"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/10/Seminario-Activando-tu-Campo-de-Potencial-STORY.png",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<ul><li><em><strong>Taller de preparación</strong></em><br>Para prepararte para el Seminario, podrás ver una clase de regalo donde aprenderás a establecer objetivos específicos en cada área de tu vida.<br>Esta clase se trasmitirá en vivo desde nuestra plataforma y podrás ver la grabación si no puedes presenciarla.<br><strong><strong><strong>Valorado en U$D 37.-, será de regalo<br><br></strong></strong></strong></li><li><em><strong>Curso de Construcción del Cuerpo de Luz</strong></em><br>Además, mientras esperas por el Seminario, te enviaremos un mini-curso de regalo donde aprenderás a construir tu cuerpo de luz, también llamado \"estrella doble tetraedro\".<br><strong><strong><strong>Valorado en U$D 27.-, será de regalo<br><br></strong></strong></strong></li><li><em><strong>Clase de Seguimiento con Pablo en vivo</strong></em><strong><br></strong>Un mes después del Seminario, podrás acceder a una <em><strong>clase magistral</strong></em> con <em><strong>Pablo</strong></em> donde podrás evaluar tus mejoras en cada área. La fecha será comunicada por email. <br><strong><strong><strong><strong>Valorada en U$D 37.- y será de regalo.<br><br></strong></strong></strong></strong></li><li><em><strong>Meditaciones en MP3</strong></em><strong><br></strong>Todas las meditaciones que se realicen en el Seminario, podrás descargarlas editadas en Mp3 para llevarlas contigo y repetirlas cuantas veces desees.<br><strong><strong><strong><strong>Valorada en U$D 47.- y será de regalo.<br><br></strong></strong></strong></strong></li><li><em><strong>Acceso a nuestro Grupo Privado de Facebook</strong></em><br>Donde podrás compartir con otros estudiantes tus experiencias, tus trabajos y tus aprendizajes, y podrás ver nuestras trasmisiones mensuales!<br><strong>Esto es invaluable! Y esperamos que disfrutes este regalo.</strong></li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "RESERVA TU LUGAR AHORA!"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Cupos limitados.</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Valor real de la entrada U$D 257</strong></p>"
+    },
+    {
+     "t": "button",
+     "text": "CUPOS AGOTADOS! GRACIAS A TODOS POR SER PARTE!",
+     "href": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9MLJ3HGR2B6K6"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<h3><strong>¿Tienes consultas?</strong><strong> Aquí las respuestas a las preguntas más frecuentes.</strong></h3>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<ul><li><strong>¿Requiero de algún conocimiento previo para hacer este seminario? </strong> <em>No! Solo necesitas tener muchas ganas de aprender y vivir experiencias únicas en un ambiente preparado especialmente para tal fin!</em> <br><br></li><li><em><strong>¿Cúales son los medios de pago? </strong></em> Según el lugar donde vivas, puedes abonar con tu tarjeta de crédito, o bien, en efectivo mediante transferencia o depósito bancario. <br><br></li><li><em><strong>¿Que materiales necesito? </strong></em> Para el primer día, debes tener un compas, un lápiz negro, lápices de colores, una boligoma y una regla o escuadra. Durante el seminario Todo lo demás que necesitas para aprender, será brindado por nosotros!<br><br></li><li><em><strong>Me interesa asistir, pero no puedo abonar ahora. ¿Me reservan el lugar con descuento? </strong></em> Este seminario es ofrecido exclusivamente a nuestra base de mas de 30000 suscriptores. Te recordamos que los cupos son limitados y hay pocos lugares, por lo tanto <a href=\"https://hornerodigital.lpages.co/espacio-geo-cdv-seminario-online-editado/#entradas\"><em><strong>te aconsejamos adquirir tus entradas con descuento antes que estas se agoten!</strong></em></a></li></ul>"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li><em><strong>¿Este seminario cuenta con certificado? </strong></em> Al finalizar el mismo, te daremos un certificado de asistencia.<br><br></li><li><em><strong>¿Este es uno de los talleres habituales que ofrece el Espacio de Geometría Sagrada? </strong></em> No. \"<em><strong>Geometría Sagrada - Activando tu Campo de Potencial</strong></em>\", es un seminario de dos días diseñado para que puedas despegarte de todo aquello que te limita o impide cumplir con tus objetivos para lograr aquello que deseas. A través de una poderosa alquimia de la Geometría Sagrada y el Coaching Ontológico, accederás a las herramientas y experiencias que te permitirán conectar a tu campo de potencial humano y activarlo, enfocarte en diseñar los pasos que darás para alcanzar tus objetivos. Aplicarás las herramientas de ambas disciplinas y vivirás una experiencia transformadora!<br><br></li><li><em><strong>¿Qué pasa si adquiero mi entrada y luego no puedo asistir?</strong></em> Si no puedes asistir, deberás escribir a nuestro email <em><strong>info@espaciodegeometriasagrada.com</strong></em>. Podrás cambiar la entrada por cualquiera de nuestros cursos siempre que des aviso hasta una semana antes del Seminario.</li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "¿Tienes otra duda? Escríbenos a info@espaciodegeometriasagrada.com con el asunto \"Consulta por Seminario\""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "© 2013-2022 Espacio de Geometría Sagrada"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": "33073",
+ "slug": "responsabilidad-empresarial",
+ "path": "/responsabilidad-empresarial/",
+ "kind": "legal",
+ "title": "Responsabilidad empresarial",
+ "date": "2024-03-05",
+ "modified": "2024-03-05",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2021/05/espacio-de-geometria-sagrada-logo.png",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<p>RESPONSABILIDAD EMPRESARIAL</p><p>En ESPACIO DE GEOMETRIA SAGRADA.COM somos conscientes de la importancia de aportar valor a la sociedad como empresa y agente motor de cambios.<br><br>Por lo tanto, realizamos las siguientes acciones para lograr dicho fin:<br><br>Clases Gratuitas</p><p>Con el fin de democratizar el conocimiento y que este llegue a toda persona con la posibilidad de acceder a un dispositivo tecnológico con acceso a internet.</p><p>Inversiones en Investigación y desarrollo de productos.<br>Actualmente y a través de nuestro programa de Capacitación Continua, formamos a nuestro equipo de trabajo y los impulsamos en la creación de sus propios negocios.</p><p>Este es el listado de emprendimientos, empresas y/o que actualmente reciben nuestra ayuda financiera y/o :<br><br>- PABLO PETTINAROLI COACH, invirtiendo en la producción y realización de su podcast “Manual para Sobrevivientes”<br>- ECOAHORRO.INFO, otorgando el alojamiento de su sitio web</p><p>- ATENEA - SANAR JUGANDO, invirtiendo en la producción de los llamados “JUEGOS DE GEOMETRIA SAGRADA” </p><p>- MERCELOBO.COM, invirtiendo en el desarrollo, producción, y comercialización de sus propuestas de capacitación online.<br>- ESPACIOCONSCIENTE369.COM,invirtiendo en el desarrollo, producción y comercialización de sus productos y servicios.<br><br>En ESPACIO DE GEOMETRIA SAGRADA creemos que las empresas son actores de mejora de la sociedad con la que se vinculan y creemos en la posibilidad de que cualquier persona, sin importar su edad, conocimiento o condición previa, puede trabajar de lo que le gusta, viviendo bien de ello y aportando una mejora al entorno en el que viven.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "© 2013-2023 Espacio de Geometría Sagrada"
+    }
+   ]
+  }
+ ]
+}

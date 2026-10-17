@@ -1,0 +1,583 @@
+{
+  "trailingSlash": true,
+  "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "experiencias.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/experiencias/",
+      "permanent": true
+    },
+    {
+      "source": "/presentacionlibro",
+      "has": [
+        {
+          "type": "host",
+          "value": "experiencias.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/experiencias/presentacion-del-libro/",
+      "permanent": true
+    },
+    {
+      "source": "/bsas-2811",
+      "has": [
+        {
+          "type": "host",
+          "value": "experiencias.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/experiencias/buenos-aires-28-de-noviembre/",
+      "permanent": true
+    },
+    {
+      "source": "/uruguay-0327-321941",
+      "has": [
+        {
+          "type": "host",
+          "value": "experiencias.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/experiencias/retiro-maldonado-uruguay/",
+      "permanent": true
+    },
+    {
+      "source": "/postula-espacio",
+      "has": [
+        {
+          "type": "host",
+          "value": "experiencias.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/experiencias/postula-tu-espacio/",
+      "permanent": true
+    },
+    {
+      "source": "/productores",
+      "has": [
+        {
+          "type": "host",
+          "value": "experiencias.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/experiencias/productores/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "experiencias.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/experiencias/",
+      "permanent": true
+    },
+    {
+      "source": "/club-page",
+      "has": [
+        {
+          "type": "host",
+          "value": "formadores.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/club-formadores/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "formadores.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/club-formadores/",
+      "permanent": true
+    },
+    {
+      "source": "/solicita-tu-entrevista-fpgs",
+      "has": [
+        {
+          "type": "host",
+          "value": "admision.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/admision/#agenda",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "admision.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/admision/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "especializacion.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/armonizacion-de-espacios/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "terapias.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/formaciones/especializacion-en-terapias/",
+      "permanent": true
+    },
+    {
+      "source": "/promo-lanzamiento",
+      "has": [
+        {
+          "type": "host",
+          "value": "libro.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/libro/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "libro.espaciodegeometriasagrada.com"
+        }
+      ],
+      "destination": "https://espaciodegeometriasagrada.com/libro/",
+      "permanent": true
+    },
+    {
+      "source": "/inicio/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/inicio-nuevo/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/clase-gratuita-1/",
+      "destination": "/clase-gratuita/",
+      "permanent": true
+    },
+    {
+      "source": "/category/blog/armonizacion-de-espacios/",
+      "destination": "/category/armonizacion-de-espacios/",
+      "permanent": true
+    },
+    {
+      "source": "/category/blog/centros-de-energia/",
+      "destination": "/category/centros-de-energia/",
+      "permanent": true
+    },
+    {
+      "source": "/category/blog/medicina-de-la-forma/",
+      "destination": "/category/medicina-de-la-forma/",
+      "permanent": true
+    },
+    {
+      "source": "/category/blog/reflexiones/",
+      "destination": "/category/reflexiones/",
+      "permanent": true
+    },
+    {
+      "source": "/category/blog/solidos-platonicos/",
+      "destination": "/category/solidos-platonicos/",
+      "permanent": true
+    },
+    {
+      "source": "/category/blog/trazos-de-geometria-sagrada/",
+      "destination": "/category/trazos-de-geometria-sagrada/",
+      "permanent": true
+    },
+    {
+      "source": "/los-7-centros-energeticos/",
+      "destination": "/los-chakras-7-centros-energeticos/",
+      "permanent": true
+    },
+    {
+      "source": "/el-tetraedro-sus-caracteristicas/",
+      "destination": "/tetraedro-sus-caracteristicas/",
+      "permanent": true
+    },
+    {
+      "source": "/4002/",
+      "destination": "/los-5-elementos-y-los-3-ciclos4002/",
+      "permanent": true
+    },
+    {
+      "source": "/ancla-tu-energia-al-cielo-y-la-tierra/",
+      "destination": "/meditacion-cielo-tierra/",
+      "permanent": true
+    },
+    {
+      "source": "/quienes/monique-dumolin/",
+      "destination": "/quienes-somos/monique-dumolin/",
+      "permanent": true
+    },
+    {
+      "source": "/quienes/pablo-pettinaroli/",
+      "destination": "/quienes-somos/pablo-pettinaroli/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/02-aprendiendo-a-reconocer-el-cuerpo/",
+      "destination": "/news-geometrico/aprendiendo-a-reconocer-el-cuerpo/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/04-el-dia-que-todo-cambio/",
+      "destination": "/news-geometrico/el-dia-que-todo-cambio/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/05-lo-que-mi-nieta-me-enseno-sobre/",
+      "destination": "/news-geometrico/lo-que-mi-nieta-me-enseno-sobre/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/06-lo-que-platon-sabia-y-que-puedes/",
+      "destination": "/news-geometrico/lo-que-platon-sabia-y-que-puedes/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/07-lo-que-movia-agua-en-el-desierto/",
+      "destination": "/news-geometrico/lo-que-movia-agua-en-el-desierto/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/08-los-alquimistas-del-pasado-y-del/",
+      "destination": "/news-geometrico/los-alquimistas-del-pasado-y-del/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/09-lo-que-paso-una-noche-con-el-cubo/",
+      "destination": "/news-geometrico/lo-que-paso-una-noche-con-el-cubo/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/10-tu-espacio-te-habla-lo-estas-escuchando/",
+      "destination": "/news-geometrico/tu-espacio-te-habla-lo-estas-escuchando/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/11-lo-que-las-catedrales-sabian-sobre/",
+      "destination": "/news-geometrico/lo-que-las-catedrales-sabian-sobre/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/12-la-capilla-que-guarda-una-partitura/",
+      "destination": "/news-geometrico/la-capilla-que-guarda-una-partitura/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/13-cuando-la-forma-es-medicina/",
+      "destination": "/news-geometrico/cuando-la-forma-es-medicina/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/14-el-hilo-invisible-que-conecta/",
+      "destination": "/news-geometrico/el-hilo-invisible-que-conecta/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/15-el-terapeuta-que-ya-no-vuelve/",
+      "destination": "/news-geometrico/el-terapeuta-que-ya-no-vuelve/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/16-la-fuerza-de-creer-que-es-por/",
+      "destination": "/news-geometrico/la-fuerza-de-creer-que-es-por/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/17-el-libro-que-tardo-casi-12-anos/",
+      "destination": "/news-geometrico/el-libro-que-tardo-casi-12-anos/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/18-lo-que-no-se-aprende-en-un-fin/",
+      "destination": "/news-geometrico/lo-que-no-se-aprende-en-un-fin/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/19-el-fruto-de-la-constancia/",
+      "destination": "/news-geometrico/el-fruto-de-la-constancia/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/20-conectar-los-puntos-hacia-atras/",
+      "destination": "/news-geometrico/conectar-los-puntos-hacia-atras/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/21-esta-fue-la-causa-de-nuestro-silencio/",
+      "destination": "/news-geometrico/esta-fue-la-causa-de-nuestro-silencio/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/22-la-herramienta-que-te-ayuda-a/",
+      "destination": "/news-geometrico/la-herramienta-que-te-ayuda-a/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/23-lo-que-pasa-debajo-de-una-geometria/",
+      "destination": "/news-geometrico/lo-que-pasa-debajo-de-una-geometria/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/24-lo-que-otros-pueden-hacer-por/",
+      "destination": "/news-geometrico/lo-que-otros-pueden-hacer-por/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/25-el-paso-de-la-2d-a-la-3d/",
+      "destination": "/news-geometrico/el-paso-de-la-2d-a-la-3d/",
+      "permanent": true
+    },
+    {
+      "source": "/news-geometrico/26-el-dibujo-que-me-guio-durante/",
+      "destination": "/news-geometrico/el-dibujo-que-me-guio-durante/",
+      "permanent": true
+    },
+    {
+      "source": "/formacion-profesional/",
+      "destination": "/formaciones/formacion-profesional/",
+      "permanent": true
+    },
+    {
+      "source": "/formacion-profesional/dossier-y-programa/",
+      "destination": "/formaciones/formacion-profesional/dossier-y-programa/",
+      "permanent": true
+    },
+    {
+      "source": "/formacion-profesional/entrevista-confirrmada/",
+      "destination": "/formaciones/formacion-profesional/entrevista-confirrmada/",
+      "permanent": true
+    },
+    {
+      "source": "/cursos/",
+      "destination": "/formaciones/cursos/",
+      "permanent": true
+    },
+    {
+      "source": "/cursos/los-solidos-platonicos-y-la-estrella-madre/",
+      "destination": "/formaciones/cursos/los-solidos-platonicos-y-la-estrella-madre/",
+      "permanent": true
+    },
+    {
+      "source": "/cursos/trazos-re-conociendo-tu-campo-energetico/",
+      "destination": "/formaciones/cursos/trazos-re-conociendo-tu-campo-energetico/",
+      "permanent": true
+    },
+    {
+      "source": "/mentoria-emprendimientos/",
+      "destination": "/formaciones/mentoria-emprendimientos/",
+      "permanent": true
+    },
+    {
+      "source": "/actualizate/",
+      "destination": "/formaciones/actualizate/",
+      "permanent": true
+    },
+    {
+      "source": "/workshop-experiencias-geometricas/",
+      "destination": "/formaciones/experiencias/workshop-julio-2025/",
+      "permanent": true
+    },
+    {
+      "source": "/seminario/",
+      "destination": "/formaciones/seminario-activando-tu-campo-de-potencial/",
+      "permanent": true
+    },
+    {
+      "source": "/seminario-emprender-estudiantes/",
+      "destination": "/formaciones/seminario-emprendimiento/",
+      "permanent": true
+    },
+    {
+      "source": "/formacion_profesional/",
+      "destination": "/formaciones/formacion-profesional/",
+      "permanent": true
+    },
+    {
+      "source": "/ebook-7-trazos-de-geometria-sagrada/",
+      "destination": "/ebooks/7-trazos-de-geometria-sagrada/",
+      "permanent": true
+    },
+    {
+      "source": "/ebook7trazosgs/",
+      "destination": "/ebooks/7-trazos-de-geometria-sagrada/",
+      "permanent": true
+    },
+    {
+      "source": "/ebook-los-secretos-de-los-solidos-platonicos-2/",
+      "destination": "/ebooks/los-secretos-de-los-solidos-platonicos/",
+      "permanent": true
+    },
+    {
+      "source": "/ebook-circulos-de-cosecha/",
+      "destination": "/ebooks/trazos-de-circulos-de-cosecha/",
+      "permanent": true
+    },
+    {
+      "source": "/cursos/ebook-7-trazos-de-la-geometria-sagrada/",
+      "destination": "/ebooks/7-trazos-de-geometria-sagrada/",
+      "permanent": true
+    },
+    {
+      "source": "/cursos/ebook-los-secretos-de-los-solidos-platonicos/",
+      "destination": "/ebooks/los-secretos-de-los-solidos-platonicos/",
+      "permanent": true
+    },
+    {
+      "source": "/cursos/ebook-trazos-de-circulos-de-cosecha/",
+      "destination": "/ebooks/trazos-de-circulos-de-cosecha/",
+      "permanent": true
+    },
+    {
+      "source": "/producto/ebook/",
+      "destination": "/ebooks/",
+      "permanent": true
+    },
+    {
+      "source": "/seminario-emprender/",
+      "destination": "/formaciones/seminario-emprendimiento/",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "compra_directa"
+        }
+      ],
+      "destination": "https://wp.espaciodegeometriasagrada.com/"
+    },
+    {
+      "source": "/courses/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/courses/:path*"
+    },
+    {
+      "source": "/lessons/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/lessons/:path*"
+    },
+    {
+      "source": "/topics/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/topics/:path*"
+    },
+    {
+      "source": "/groups/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/groups/:path*"
+    },
+    {
+      "source": "/quizzes/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/quizzes/:path*"
+    },
+    {
+      "source": "/producto/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/producto/:path*"
+    },
+    {
+      "source": "/wp-admin/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/wp-admin/:path*"
+    },
+    {
+      "source": "/wp-login.php",
+      "destination": "https://wp.espaciodegeometriasagrada.com/wp-login.php"
+    },
+    {
+      "source": "/wp-json/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/wp-json/:path*"
+    },
+    {
+      "source": "/wp-content/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/wp-content/:path*"
+    },
+    {
+      "source": "/wp-includes/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/wp-includes/:path*"
+    },
+    {
+      "source": "/xmlrpc.php",
+      "destination": "https://wp.espaciodegeometriasagrada.com/xmlrpc.php"
+    },
+    {
+      "source": "/tienda/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/tienda/:path*"
+    },
+    {
+      "source": "/carrito/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/carrito/:path*"
+    },
+    {
+      "source": "/finalizar-compra/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/finalizar-compra/:path*"
+    },
+    {
+      "source": "/mi-cuenta/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/mi-cuenta/:path*"
+    },
+    {
+      "source": "/ingreso-a-la-plataforma/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/ingreso-a-la-plataforma/:path*"
+    },
+    {
+      "source": "/acceso/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/acceso/:path*"
+    },
+    {
+      "source": "/mis-cursos/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/mis-cursos/:path*"
+    },
+    {
+      "source": "/mi-cuenta/ayuda/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/mi-cuenta/ayuda/:path*"
+    },
+    {
+      "source": "/mi-cuenta/tus-datos/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/mi-cuenta/tus-datos/:path*"
+    },
+    {
+      "source": "/registration/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/registration/:path*"
+    },
+    {
+      "source": "/registration-success/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/registration-success/:path*"
+    },
+    {
+      "source": "/registration-2/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/registration-2/:path*"
+    },
+    {
+      "source": "/registration-success-2/:path*",
+      "destination": "https://wp.espaciodegeometriasagrada.com/registration-success-2/:path*"
+    }
+  ]
+}

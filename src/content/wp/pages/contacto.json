@@ -1,0 +1,73 @@
+{
+ "id": "31833",
+ "slug": "contacto",
+ "path": "/contacto/",
+ "kind": "institucional",
+ "title": "Contacto",
+ "date": "2024-01-17",
+ "modified": "2024-08-10",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Contactanos"
+    },
+    {
+     "t": "text",
+     "html": "<p>En el Espacio de Geometría Sagrada nos gusta estar cerca tuyo, contestar a tus inquietudes y recibir propuestas y sugerencias.</p><p>Puedes enviarnos cualquier consulta que tengas sobre Geometría Sagrada, o sobre alguna de nuestras propuestas. Completa el formulario y recibirás atención dentro de las 48 hs hábiles.</p><p>Nuestro horario de atención es de Lunes a Viernes de 10.30 a 15.30 hs, hora Argentina.</p><p>Tambíen, te invitamos a sumarte a nuestra comunidad de buscadores en las redes, donde somos decenas de miles en todo el mundo compartiendo y multiplicando el conocimiento sobre esta maravillosa herramienta.</p>"
+    },
+    {
+     "t": "form",
+     "name": "Contacto",
+     "fields": [
+      {
+       "label": "Nombre",
+       "type": "text",
+       "required": true,
+       "id": "name",
+       "options": []
+      },
+      {
+       "label": "Email",
+       "type": "email",
+       "required": true,
+       "id": "email",
+       "options": []
+      },
+      {
+       "label": "Mensaje",
+       "type": "textarea",
+       "required": false,
+       "id": "message",
+       "options": []
+      },
+      {
+       "label": "field_59ebbcc",
+       "type": "recaptcha",
+       "required": false,
+       "id": "field_59ebbcc",
+       "options": []
+      }
+     ],
+     "submit": "Enviar",
+     "actions": [
+      "save-to-database",
+      "email",
+      "email2",
+      "getresponse"
+     ],
+     "formId": "9355512",
+     "postId": "31833",
+     "redirect": ""
+    }
+   ]
+  }
+ ]
+}

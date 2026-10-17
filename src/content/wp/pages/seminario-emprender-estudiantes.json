@@ -1,0 +1,504 @@
+{
+ "id": "28999",
+ "slug": "seminario-emprender-estudiantes",
+ "path": "/seminario-emprender-estudiantes/",
+ "kind": "producto",
+ "title": "Seminario Geometría Sagrada para Potenciar tu Emprendimiento",
+ "date": "2023-01-02",
+ "modified": "2024-03-05",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2021/05/espacio-de-geometria-sagrada-logo.png",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "28 y 29 de ENERO 2023 | ONLINE | SALA EXCLUSIVA DE ZOOM"
+    },
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "GEOMETRIA SAGRADA PARA POTENCIAR TU EMPRENDIMIENTO"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "UN SEMINARIO PARA HACER QUE LAS COSAS PASEN"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/12/seminario-GS-PARA-potenciar-tu-emprendimiento-pym-yt.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "2 días de conexión en vivo. 50 25 15 5 lugares disponibles"
+    },
+    {
+     "t": "button",
+     "text": "DESCUENTO ESPECIAL PARA ESTUDIANTES AGOTADO",
+     "href": "/seminario-emprender/"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "3 y 4 de FEBRERO 2024 | ONLINE | SALA EXCLUSIVA DE ZOOM"
+    },
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "GEOMETRIA SAGRADA PARA POTENCIAR TU EMPRENDIMIENTO"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "UN SEMINARIO PARA HACER QUE LAS COSAS PASEN"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/12/seminario-GS-PARA-potenciar-tu-emprendimiento-pym-yt.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "2 días de conexión en vivo. 50 25 15 5 lugares disponibles"
+    },
+    {
+     "t": "button",
+     "text": "DESCUENTO ESPECIAL PARA ESTUDIANTES AGOTADO",
+     "href": "/seminario-emprender/"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>APLICA GEOMETRIA SAGRADA<br><br>Y LLEVA TUS PROYECTOS AL SIGUIENTE NIVEL</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>\"Geometría Sagrada para Potenciar tu Emprendimiento\",<br>es un seminario de dos días diseñado para que puedas encontrar el plan de acción adecuado<br>y las áreas donde debes enfocar tu atención y dirigir tu energía<br>en pos de hacer crecer tu negocio o emprendimiento.</p>"
+    },
+    {
+     "t": "text",
+     "html": "<h4><strong>Todo es energía. Los emprendimientos son parte del \"todo\". <br>Cada idea que tienes, cada acción que realizas,<br>cada interacción con tus proveedores o clientes tienen impacto en los resultados que obtienes.</strong></h4>"
+    },
+    {
+     "t": "text",
+     "html": "<p>A través de una poderosa alquimia de la <strong>Geometría Sagrada <br></strong>y la <strong>Programación Neuro Lingüistica</strong>, aprenderás a:</p>"
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/rESN4_uB8ECiknlZqETNbXgH23dHep06M2vvIvA7IuurNJU-fLGGEI_BHrJZYCKnW5wjF-c9qN5PEzbHqDvq=s0",
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/2E9IgWle0D8BpIs7K3RbPSWggXtl3oC0ASgpStptNzuIizazIhUJJ1e7NgNfNPQNgD0XLQE2Z1wdc3gDvIoR2Q=s0",
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/35UWyVd6Yr6IwtCU1rh_oIZ1UnpYO4R_EaKI0mSyaKOEn3P4HQDqMZ0YyS_4D-UAqLX756vrdUrPGfME6xqYoA=s0",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Determinar la \"psicología correcta\" para tener éxito"
+    },
+    {
+     "t": "text",
+     "html": "Muchas ideas y creencias obsoletas sobre el \"dinero\", los \"negocios\", el \"esfuerzo\", las \"ventas y marketing\" están estropeando un proyecto que le podría hacer bien al mundo.\nTe enseñaremos a modificarlo para siempre!"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Reconocer tus ciclos de siembra y cosecha"
+    },
+    {
+     "t": "text",
+     "html": "<p>Cada proyecto tiene su propio ciclo de vida, que se rige por los mismos principios naturales.<br>Aprenderás a detectarlos<br>y usarlos a tu favor.</p>"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Potenciar tu emprendimiento y llevarlo a un nuevo nivel."
+    },
+    {
+     "t": "text",
+     "html": "<p>Definir una estrategia, saber contar una historia que comunique tus valores y misión, reconocer quienes son (y que necesitan) tus clientes, armonizar tus espacios y aplicar la Geometría Sagrada para crecer de manera armónica.</p>"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li>Las<em><strong> áreas a las cuales debes prestar atención</strong></em> y hacer foco para hacer crecer tu emprendimiento o negocio,<br><br></li><li>Una<em><strong> poderosa herramienta de Geometría Sagrada</strong></em> para trabajar en tu “<em><strong>mindset</strong></em>“, es decir, la <em><strong>creencias y psicología mental que debes tener para hacer próspera tu actividad,<br><br></strong></em></li><li>La forma en la que puedes <em><strong>usar la Geometría Sagrada para diseñar tus piezas publicitarías</strong></em>, trasmitiendo de esta manera la esencia de tu proyecto,</li></ul>"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li>A establecer <em><strong>objetivos concretos, que estén alineados con tus valores</strong></em> y en <em><strong>sintonía con lo que tus clientes necesitan</strong></em>,<br><br></li><li>Cómo <em><strong>“dar orden” a tus ideas</strong></em> y tener claridad sobre que <em><strong>es prioridad de hacer</strong></em>, y comprender cuál es el momento exacto para <em><strong>dar pasos certeros en pos de tus objetivos</strong></em>,<br><br></li><li>Las diferentes <em><strong>maneras que puedes “armonizar” tu espacio de trabajo,</strong></em> para permitir que la energía fluya de manera armónica hacia ti y desde ti…</li></ul>"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong><em>Te invitamos a vivir una experiencia teórica y práctica, desde la comodidad de tu hogar, donde aplicaras en el momento lo aprendido y fijaras el impulso necesario para hacer crecer tu emprendimiento o negocio y llevarlo al siguiente nivel, sea donde sea que te encuentres hoy.</em></strong></p>"
+    },
+    {
+     "t": "button",
+     "text": "TICKETS CON DESCUENTO - RESERVA TU LUGAR AHORA!",
+     "href": "#ADQUIRIR"
+    },
+    {
+     "t": "text",
+     "html": "<h2><strong>¿Qué sucederá en tu emprendimiento cuando apliques Geometría Sagrada</strong><strong>?</strong></h2>"
+    },
+    {
+     "t": "text",
+     "html": "<h4>Aprender los principios sagrados es volver a la fuente, comprendiendo que todo emprendimiento tiene un ciclo de vida y como tal es vital para su subsitencia en el tiempo, conocerlo.</h4>"
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/3GCDpOYwDRxI3gDQx34PpVfEHBE_IQ4K-bV1_WX6Rdg9_RvXxjG1W9hQ828LKy1qS8S2f6ighYIpCl3bIqndMg=w126",
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/u8dyYrKEM12w56K4Nx0X5UvpPQkpyWfLaEVFmabFK_utkEsVLkFAjdhJ5ivyQDeJ6eS-LlicRbyQUyt5Ov_iwg=w126",
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/QDa_nDs9SfiVkUEpPikGRmhKNZx3vhS6o1C9hpLulE_XqcUL97Upk3iLPWnorTdOKlL7TpfgoOiAZBQ-n_cLnw=w126",
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/dYyqWY2UiEpP7hQ-7cq-9ebRpKs3VLD3SXvx5HjvF27Q_gBo-mJ_OGrU3I2laxrHM3RSEDnKImisHgZJkVvw0o8=s0",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Tendrás un sistema de planificación que te permite ordenar tus prioridades comprendiendo los ciclos de cada proyecto."
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Los trazos podrán darte ideas o información concreta para aplicar en las diferentes áreas de cada negocio."
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Aplicarás las proporciones para diseñar tus piezas, productos y la narrativa de las historias que cuentas."
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Armonizarás los espacios de trabajo, con los elementos necesarios para direccionar la energía."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "button",
+     "text": "LOS CUPOS SON LIMITADOS - RESERVA TU LUGAR AHORA!",
+     "href": "#ADQUIRIR"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "FACILITADORES"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/monique-dumolin.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Monique Dumolin"
+    },
+    {
+     "t": "text",
+     "html": "<p>Arquitecta - Fundadora del <strong>Espacio de Geometría Sagrada</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Su misión de compartir y multiplicar esta maravillosa herramienta la ha llevado a brindar talleres y seminarios recorriendo Latinoamérica, y brindar cursos online donde mas de mil personas ya han cambiando sus vidas aprendiendo de su experiencia</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/pablo-pettinaroli.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Pablo Pettinaroli"
+    },
+    {
+     "t": "text",
+     "html": "<p>Director estratégico del<br><strong>Espacio de Geometría Sagrada</strong> </p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Su propósito es la de ayudar a transformar la mentalidad de las personas, difundiendo su historia de vida y sus conocimientos en Biohacking, Ingeniera del desarrollo humano y Programación Neuro-Lingüistica, a través de sus entrenamientos online que son vistos en todo el mundo.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>Desde hace 8 años, <em><strong>Monique</strong></em> y <em><strong>Pablo</strong></em> trabajan juntos en lo que es el \"<strong>Espacio de Geometría Sagrada\"</strong>,<br>donde comparten sus conocimientos para difundir esta sabiduría ancestral <br>que ayuda a elevar el potencial humano y el despertar de consciencia. </p>"
+    },
+    {
+     "t": "button",
+     "text": "RESERVAR TU TICKET CON DESCUENTO AHORA",
+     "href": "#ADQUIRIR"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "¿PARA QUIEN SI ES ESTE SEMINARIO?"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li>Personas que tienen un emprendimiento que tiene hasta 8 años de vida y desean llevarlo al siguiente nivel.<br><br></li><li>Quienes tengan una idea concreta para emprender y necesiten tener orden por donde empezar y la motivación necesaria.<br><br></li><li>Quienes se sientan \"estancados\" en sus proyectos o hayan considerado abandonar en el último año.<br><br></li><li>Personas que hacen su trabajo con pasión y entusiasmo de ser los protagonistas de sus proyectos.</li></ul>"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "¿PARA QUIEN NO ES ESTE SEMINARIO?"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li>Personas que tienen una \"idea de hacer algo\", o \"le gustaría emprender en algún momento\" pero todavía no saben bien qué.<br><br></li><li>Aquellos que buscan la \"formula mágica\" de las cosas, y no aplican lo que aprenden ni saben esperar resultados.<br><br></li><li>Quienes tengan necesidad económicas muy urgentes o ningún recurso para invertir en su negocio.<br><br></li><li>Personas que no estan dispuestas a realizar modificaciones en su manera de hacer las cosas.</li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "AGENDA"
+    },
+    {
+     "t": "text",
+     "html": "<p>El seminario \"<strong>Geometría Sagrada para Potenciar tu Emprendimiento</strong>\"<br>es un evento on-line y exclusivo,<em><strong><u>y sólo hay lugar para 50 personas.</u></strong></em></p><p>Para garantizar la privacidad de los proyectos, el Seminario <strong>no</strong> se grabará.<br>Inscríbete sólo si puedes garantizar tu presencia en el curso.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Sábado, 28 de enero de 2023"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>ARG - URU - CHILE: 11.30 hs | MEX: 08.30 hs <br>PER - COL - ECU: 09.30 hs | ESP - ITA - FRA: 16.30 hs<br>Duración aproximada: 6 hs 30 minutos. Breaks de descanso.</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><p><p><p><p><p><p><p><p><em><b>DIA 1: Evalúa tus oportunidades</b><br></em><br>Aprenderás las <em><strong>técnicas de Geometría Sagrada y Coaching</strong></em> más poderosas de la actualidad que<em><strong> juntas te permitirán reconocer las áreas mas importantes donde enfocarte</strong></em> y establecer quien necesitas ser!</p><p><em><strong>Un día diseñado para comprometerte con el futuro que deseas</strong></em> y cargar de buenas intenciones tus proyectos!</p></p></p></p></p></p></p></p></p>"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li>Para este día debes tener un compás, una regla o escuadra, y lápices de colores.</li></ul>"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Domingo, 29 de enero de 2023"
+    },
+    {
+     "t": "text",
+     "html": "<p><p><p><p><p><p><p><p><p><em><strong>DIA 2: Lleva tus resultados al siguiente nivel<br></strong></em></p><p>Experimentarás <em><strong>fascinantes técnicas de Geometría Sagrada</strong></em> que te permitirán ordenar tu energía, y <em><strong>crear el vacío y equilibrio necesarios</strong></em> para tomar las decisiones correctas, <em><strong>despertar tu potencial interior y vibrar en sintonía con él</strong></em>.</p><p><em><strong>Un día diseñado para que puedas elegir que es lo mejor para ti y que acciones tomar!</strong></em></p></p></p></p></p></p></p></p></p>"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li>Para este día debes prepararte para trabajar con todo lo aprendido en el día 1.</li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "¿CÓMO SERÁ ESTE SEMINARIO ON-LINE?"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/10/DSC09092.jpg",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<ol><li>Luego de tu inscripción, <em><strong>recibirás el acceso a nuestra \"Plataforma de Estudios\".</strong></em></li><li>Tendrás una serie de <em><strong>regalos habilitados</strong></em>, para <em><strong>ver antes de la fecha del Seminario.</strong></em></li><li>En la plataforma, podrás descargar el<em><strong> material de trabajo.</strong></em></li><li>El <em><strong>28 y 29 de enero</strong></em>, se habilitará una <em><strong>sala exclusiva de Zoom</strong></em> para que te conectes en<em> vivo y directo.</em></li><li>Durante <em><strong>dos días</strong></em>, estaremos conversando, trabajando, trazando y aprendiendo como \"<em><strong>Potencial tu emprendimiento</strong></em>\" y sostenerlo en el tiempo.</li><li>Luego de finalizado el Seminario, tendrás una clase de seguimiento con parte del equipo del <strong>Espacio de Geometría Sagrada</strong></li></ol>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Hemos diseñado una experiencia audiovisual en la cual podrás experimentar todas las actividades de una manera muy original y divertida para que apliques la Geometría Sagrada en beneficio de tu emprendimiento."
+    },
+    {
+     "t": "button",
+     "text": "RESERVA AHORA TU TICKET CON DESCUENTO",
+     "href": "#ADQUIRIR"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "El acceso al Seminario incluye"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Ingreso a la sala de Zoom para los dos días</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Material de <br>Estudio</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><b>Grupo de <br>Apoyo</b></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><b>Seguimiento de Objetivos</b></p>"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Y además, estos BONOS de regalos."
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/12/seminario-GS-PARA-potenciar-tu-emprendimiento-pym-story.png",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<ul><li><em><strong>Taller de preparación</strong></em><br>Para prepararte para el Seminario, podrás ver una clase de regalo donde aprenderás a establecer objetivos específicos en cada área de tu emprendimiento.<br>Esta clase estará disponible en nuestra plataforma para que puedas verla antes del Seminario.<br><strong><strong><strong><strong>Valorado en U$D 47.-, será de regalo<br><br></strong></strong></strong></strong></li><li><em><strong>Curso de Construcción del Cuerpo de Luz</strong></em><br>Además, mientras esperas por el Seminario, te enviaremos un mini-curso de regalo donde aprenderás a construir tu cuerpo de luz, también llamado \"estrella doble tetraedro\" que usaras para armonizar tus espacios.<br><strong><strong><strong><strong>Valorado en U$D 27.-, será de regalo<br><br></strong></strong></strong></strong></li><li><em><strong>Clase de Seguimiento con Pablo en vivo</strong></em><strong><br></strong>Un mes después del Seminario, podrás acceder a una <em><strong>clase magistral</strong></em> con <em><strong>Pablo</strong></em> donde podrás evaluar tus mejoras en cada área. La fecha será comunicada por email. <br><strong><strong><strong><strong><strong>Valorada en U$D 47.- y será de regalo.<br><br></strong></strong></strong></strong></strong></li><li><em><strong>Meditaciones en MP3</strong></em><strong><br></strong>Todas las meditaciones que se realicen en el Seminario, podrás descargarlas editadas en Mp3 para llevarlas contigo y repetirlas cuantas veces desees.<br><strong><strong><strong><strong><strong>Valorada en U$D 47.- y será de regalo.<br><br></strong></strong></strong></strong></strong></li><li><em><strong>Acceso a nuestro Grupo Privado de Mastermind</strong></em><br>Donde podrás compartir con otros estudiantes tus experiencias, tus trabajos y tus aprendizajes, y podrás ver nuestras trasmisiones mensuales!<br><strong>Esto es invaluable! Y esperamos que disfrutes este regalo.</strong></li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/12/ATENEA8.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "ASISTENCIA LIBRE DE RIESGO"
+    },
+    {
+     "t": "text",
+     "html": "<p>Si no puedes asistir, deberás escribir a nuestro email info@espaciodegeometriasagrada.com.</p><p>Podrás cambiar la entrada por cualquiera de nuestros cursos o seminarios siempre que des aviso hasta 7 días antes del comienzo del Seminario. La misma no aplica para la Formación en Geometría Sagrada.</p><p>Estamos tan seguros de los beneficios de nuestra propuesta que si el contenido del Seminario no es de tu interés, podrás solicitar un reembolso una vez finalizado el día 1 antes de la medianoche del sábado. Para eso, deberás enviar un email solicitando el reembolso y entregar el trabajo realizado hasta el momento como prueba que aplicaste lo aprendido.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "RESERVA TU LUGAR AHORA!"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Cupos limitados.</strong><br>El descuento especial para Estudiantes<br>ha finalizado.</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Valor real de la entrada<br>$18707.- | U$D 257 </strong><em><strong> <br></strong></em><em><strong>Descuento especial<br></strong></em></p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<h3><strong>¿Tienes consultas?</strong><strong> Aquí las respuestas a las preguntas más frecuentes.</strong></h3>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<ul><li><strong>¿Requiero de algún conocimiento previo para hacer este seminario? </strong> <em>No! Solo necesitas tener muchas ganas de aprender y vivir experiencias únicas en un ambiente preparado especialmente para tal fin!</em> <br><br></li><li><em><strong>¿Cúales son los medios de pago? </strong></em> Según el lugar donde vivas, puedes abonar con tu tarjeta de crédito, o bien, en efectivo mediante transferencia o depósito bancario. <br><br></li><li><em><strong>¿Que materiales necesito? </strong></em> Para el primer día, debes tener un compas, un lápiz negro, lápices de colores, una boligoma y una regla o escuadra. Durante el seminario Todo lo demás que necesitas para aprender, será brindado por nosotros!<br><br></li><li><em><strong>Me interesa asistir, pero no puedo abonar ahora. ¿Me reservan el lugar con descuento? </strong></em> Este seminario es ofrecido exclusivamente a nuestra base de mas de 30000 suscriptores. Te recordamos que los cupos son limitados y hay pocos lugares, por lo tanto <a href=\"https://hornerodigital.lpages.co/espacio-geo-cdv-seminario-online-editado/#entradas\"><em><strong>te aconsejamos adquirir tus entradas con descuento antes que estas se agoten!</strong></em></a></li></ul>"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li><em><strong>¿Este seminario cuenta con certificado? </strong></em> Al finalizar el mismo, te daremos un certificado de asistencia.</li><li><em><strong>¿Este es uno de los talleres habituales que ofrece el Espacio de Geometría Sagrada? </strong></em> No. \"<em><strong>Geometría Sagrada para potenciar tu negocio</strong></em>\", es un seminario que esta por fuera de nuestra agenda y no tenemos pensado volver a dar durante 2023. . A través de una poderosa alquimia de la Geometría Sagrada y el Coaching Ontológico, accederás a las herramientas y experiencias que te permitirán conectar a tu campo de potencial humano y activarlo, enfocarte en diseñar los pasos que darás para alcanzar tus objetivos. Aplicarás las herramientas de ambas disciplinas y vivirás una experiencia transformadora!</li><li><em><strong>¿Qué pasa si adquiero mi entrada y luego no puedo asistir?</strong></em> Si no puedes asistir, deberás escribir a nuestro email <em><strong>info@espaciodegeometriasagrada.com</strong></em>. Podrás cambiar la entrada por cualquiera de nuestros cursos siempre que des aviso hasta 7 días antes del comienzo del Seminario.</li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "¿Tienes otra duda? Escríbenos a info@espaciodegeometriasagrada.com con el asunto \"Consulta por Seminario\""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "© 2013-2022 Espacio de Geometría Sagrada"
+    }
+   ]
+  }
+ ]
+}

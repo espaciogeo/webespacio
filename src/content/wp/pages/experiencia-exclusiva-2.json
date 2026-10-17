@@ -1,0 +1,137 @@
+{
+ "id": "34895",
+ "slug": "experiencia-exclusiva-2",
+ "path": "/experiencia-exclusiva-2/",
+ "kind": "producto",
+ "title": "Experiencia Exclusiva – Semana Geo",
+ "date": "2024-07-23",
+ "modified": "2025-07-15",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Bienvenida a la Experiencia Exclusiva!"
+    },
+    {
+     "t": "video",
+     "provider": "vimeo",
+     "id": "979388845"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Descarga los Bonos Aquiridos!"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/07/e-books.png",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Gracias por tu interés en nuestras propuestas!<br></strong>Descarga tus ebooks haciendo click en cada botón, se abrirá una nueva pestaña.<br><em><strong>Te sugerimos leerlos en el orden presentados!</strong></em><br>Si tienes dudas, <strong>mira el video de arriba para más información.</strong></p>"
+    },
+    {
+     "t": "button",
+     "text": "7 TRAZOS DE GEOMETRÍA SAGRADA",
+     "href": "https://drive.google.com/file/d/1VRoud7VS29poaUzgCc2H2RQTfAcC-eer/view?usp=drive_link"
+    },
+    {
+     "t": "button",
+     "text": "SECRETOS DE LOS SÓLIDOS PLATÓNICOS",
+     "href": "https://drive.google.com/file/d/1a-S7RJih0MSFMmOX1T3URysUxYUjWf9o/view?usp=sharing"
+    },
+    {
+     "t": "button",
+     "text": "TRAZOS DE CÍRCULOS DE COSECHA",
+     "href": "https://drive.google.com/file/d/1M2R33uXWnYlsmmcTLSRm0cTczoquKsUG/view?usp=drive_link"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "MasterClass y Meditaciones"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "skuSAH1X4w0"
+    },
+    {
+     "t": "button",
+     "text": "MEDITACIONES DE REGALO",
+     "href": "https://drive.google.com/drive/folders/1gPJ0Vqt-0mRnuG3g_znllJgwMaQDNN57"
+    },
+    {
+     "t": "text",
+     "html": "<p>Para mejorar tu experiencia, te regalamos las meditaciones brindadas durante la semana, en formato mp3 y editadas.</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>5 - Masterclass \"Cómo aplicar Geometría Sagrada en tu vida diaria\"<br><em>Monique</em></strong> y <em><strong>Pablo</strong> </em>han grabado una clase magistral donde te cuentan todos sus secretos de aplicación de esta poderosa herramienta en sus propias vidas.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>Desde hace 10 años, <em><strong>Monique</strong></em> y <em><strong>Pablo</strong></em> trabajan juntos en lo que es el \"<strong>Espacio de Geometría Sagrada\"</strong>,<br>donde comparten sus conocimientos para difundir esta sabiduría ancestral <br>que ayuda a elevar el potencial humano y el despertar de consciencia. </p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p><strong>EL EQUIPO</strong></p>"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Un evento de estas características requiere de un equipo de trabajo comprometido. Conocé a las personas que harán posible una trasmisión para miles de personas en todo el mundo."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_2073.jpg",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<p>Desde hace 10 años, <em><strong>Monique</strong></em> y <em><strong>Pablo </strong></em>trabajan en el \"<strong>Espacio de Geometría Sagrada</strong>\", donde comparten sus conocimientos para difundir esta <em><strong>sabiduría ancestral</strong></em> que <em><strong>ayuda a elevar el potencial humano</strong></em> y el <em><strong>despertar de consciencia</strong></em>. Juntos, lideran un <em>equipo interdisciplinario</em> de personas con pasión por lo que hacen y con vocación de servicio. <em><strong>Todos y cada uno de ellos, hacen posible estas clases gratuitas!</strong></em></p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "© 2014-2024 Espacio de Geometría Sagrada. Todos los derechos reservados"
+    }
+   ]
+  }
+ ]
+}

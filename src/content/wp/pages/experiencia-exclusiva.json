@@ -1,0 +1,727 @@
+{
+ "id": "27846",
+ "slug": "experiencia-exclusiva",
+ "path": "/experiencia-exclusiva/",
+ "kind": "producto",
+ "title": "experiencia-exclusiva",
+ "date": "2022-09-30",
+ "modified": "2024-03-05",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2021/05/espacio-de-geometria-sagrada-logo.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "3er Congreso Online y Gratuito de Geometría Sagrada"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Bienvenid@ a la sala de exposición!"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "AQu0Tb-oQoI"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Te compartimos las grabaciones de todo el Congreso."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Descarga tus regalos sorpresa!"
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/dFYRGdQL02I4dQAs2ZqpgcpNkypIyaZKJid8QlCDlecZ0lmT-oMYIBwvqbYLLi0kJk93tMm8KuufEWc90DYPYGLVCwzOgayu9gc=s0",
+     "alt": "",
+     "href": "/wp-content/uploads/2022/02/EspaciodeGeometriaSagrada-Introduccion-a-la-Geometria-Sagrada.pdf"
+    },
+    {
+     "t": "image",
+     "src": "https://lh3.googleusercontent.com/RPCenDm5moVTU3iozdhnuZ3IcwQJGvnnoq8rO9n4dj2FlruhjyITSj_5feydhwPCIrXLdSupdMUKI91YpuD-=w138",
+     "alt": "",
+     "href": "https://drive.google.com/drive/folders/1Ef_8H0-qdR6Ny5y49tsok-FSZ1ycWutE?usp=sharing"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "La MasterClass \"Geometría Sagrada para manifestar\" esta disponible al final de la página, junto con la Experiencia Exclusiva."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Las Grabaciones de todo el Congreso"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Dia 1"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "EJX6oOLyIuY"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Te invitamos a revivir el \"Día 1\" con las ponencias de: Monique Dumoulin & Pablo Pettinaroli: presentación del Congreso. Patricia Altamir: \"La Geometría de las Flores\" Marcé Lobo: \"Hablando de nuestro origen\""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Te invitamos a revivir el \"Día 2\" con las ponencias de: Alodia Gallo: \"Los Sagrado de la Tawa Chakana\". Jenny Durango: \"El cerebro y la Geometría Sagrada\" Nancy Pujadas: \"Laberintos, un camino hacia tu centro\""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Dia 2"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "EhxPRlH44is"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Dia 3"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "0_MtydeIKcs"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Te invitamos a revivir el \"Día 3\" con las ponencias de: María Laura de Rose: \"Geometría para conectar con tu esencia\". Javier Stocco: \"Somos viajeros eternos\" Silvia Tassistro: \"Ejercicios de Chi Qung para activar tu energía\""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Te invitamos a revivir el \"Día 4\" con las ponencias de: \"Geometría Sagrada para la Creatividad\", por Natividad Ontivero; \"Cómo gestionar las emociones\", por Mirta Susana Mazza; y \"Geometría Sagrada para transformar creencias\", por Virginia Segovia... Además: \"Reflexiones para la nueva Era\", por Pablo Pettinaroli y La posibilidad de ver el \"Encuentro de Estudiantes\" de nuestra Formación"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Dia 4"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "Sa7sFLzpp7o"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Dia 5"
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "cWrBGZEcrsA"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Te invitamos a revivir el \"Día 5\" con las ponencias de: Graciela Castro: \"El árbol de la vida\", y Estefania Rodriguez: \"Feng Shui y las energías Ying Yang\""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "video",
+     "provider": "vimeo",
+     "id": "804689479?h=217348c2c7"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Te compartimos la grabación de la Experiencia Exclusiva. Disfrutala!"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Te compartimos la grabación de MasterClass \"Geometría Sagrada para Manifestar\""
+    },
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "5vQGszSuC84"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "¿Como prepararte para este congreso? Revisa nuestros consejos!"
+    },
+    {
+     "t": "text",
+     "html": "<p>Las ponencias han sido grabadas para una mejor experiencia. <br>Las ponencias del Espacio de Geometría Sagrada, son realizadas en vivo y directo.<br>Cualquier duda o consulta escríbenos a info@espaciodegeometriasagrada.com</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "PREPARA TUS MATERIALES DE TRABAJO"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Para participar de este Congreso, necesitarás:"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li>Hojas de dibujo blancas,</li><li>Un compás,</li><li>Lápices de colores,</li><li>Regla o escuadra,</li><li>Una tijera,</li><li>Un cuaderno para tomar apuntes.</li></ul>"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Además, te sugerimos:"
+    },
+    {
+     "t": "text",
+     "html": "<p>1- Reservar espacio en tu agenda. Cada día del evento durará apróxidamente cuatro horas.<br>2- Descargar el material de regalo y leerlo antes del evento.<br>3- Invitar a tus amigos, colegas y conocidos. Será una experiencia increíble.<br>4- Preparar tu espacio de estudio. Revisa el wifi y tus dispositivos de audio.</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><em><strong>¿Cómo puedo saber más del Espacio de Geometría Sagrada?</strong></em><br>Siguiéndonos en nuestras redes o visitando nuestra web.</p>"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "CHEQUEA LAS PREGUNTAS FRECUENTES"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>¿Cómo puedo ver la trasmisión del Congreso?</strong><br>Sigue las indicaciones que dejamos en el video. Una vez que confirmes tu registro, te enviaremos a tu correo el enlace de acceso para que puedas ver la trasmisión.</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>¿Necesito pagar algo?</strong><br>Absolutamente NO! El Congreso es gratuito para todo el mundo. Solo debes tener un dispositivo (PC, Tablet o Celular) con conexión a internet. Sólo si lo deseas, puedes adquirir la experiencia exclusiva.</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><em><strong>No puedo asistir, ¿el Congreso quedará grabado?<br></strong></em>La experiencia de estar en vivo junto a miles de almas conectadas en todas partes del mundo es increíble. <br>Tendrás acceso a las grabaciones mientras duré el congreso. Luego, sólo estará disponible para nuestros estudiantes matriculados. <br>Reserva espacio en tu agenda o adquiere el acceso a la experiencia exclusiva!</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><em><strong>Tengo algunas dudas, ¿cómo puedo resolverlas?</strong></em><br>Si revisas toda la información que te enviamos, podrás evacuarlas. Sólo si es necesario, escríbenos a info@espaciodegeometriasagrada.com y te responderemos a la brevedad. Paz-ciencia, recibimos cientos de correos por día.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p><strong>Estas serán las ponencias</strong></p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>Desde hace 8 años, <em><strong>Monique</strong></em> y <em><strong>Pablo</strong></em> trabajan juntos en lo que es el \"<strong>Espacio de Geometría Sagrada\"</strong>,<br>donde comparten sus conocimientos para difundir esta sabiduría ancestral <br>que ayuda a elevar el potencial humano y el despertar de consciencia. </p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/monique-dumolin.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Monique Dumolin"
+    },
+    {
+     "t": "text",
+     "html": "<p>Arquitecta - Fundadora del <strong>Espacio de Geometría Sagrada</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Su misión de compartir y multiplicar esta maravillosa herramienta la ha llevado a brindar talleres y seminarios recorriendo Latinoamérica, y brindar cursos online donde mas de mil personas ya han cambiando sus vidas aprendiendo de su experiencia</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/pablo-pettinaroli.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Pablo Pettinaroli"
+    },
+    {
+     "t": "text",
+     "html": "<p>Director estratégico del<br><strong>Espacio de Geometría Sagrada</strong> </p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Su propósito es la de ayudar a transformar la mentalidad de las personas, difundiendo su historia de vida y sus conocimientos en Biohacking, Ingeniera del desarrollo humano y Programación Neuro-Lingüistica, a través de sus entrenamientos online que son vistos en todo el mundo.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/patricia.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Patricia Altamir"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Sta Fé - Argentina"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "“La Geometría de las Flores”"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/natividad.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Natividad Ontivero"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Alicante - España"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "\"Geometría Sagrada para la Creatividad\""
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/graciela.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Graciela Castro"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Bs. As. - Argentina"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "“El árbol de la Vida”"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/alodia.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Alodia Gallo"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Islas Canarias, España"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "“La Tawa Chakana Sagrada”"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/maru.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "María Laura de Rose"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "\"Geometría para Conectar con tu Esencia\""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/09/nancy.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Nancy Pujadas"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Adrogué - Argentina"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "\"Laberintos, un camino hacia tu centro\""
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2023/02/foto-Jenny-Geometria-Jenny-Durango.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Jenny Durango"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Manizales, Colombia"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "\"El cerebro y la Geometría Sagrada\""
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/09/estefania-e1665160862146.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Estefania Rodriguez"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Bs As - Argentina"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "\"Feng Shui y las energías Ying Yang\""
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2023/02/Imagen_Informacion_personal.jpg",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Mercé Lobo"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Almería - España"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "“Hablando de nuestro origen”"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2023/02/Silvia-Tass-3.jpeg",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Silvia Tassistro"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Avellaneda, Argentina"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "\"Ejercicios de Chi Qung para Activar tu energía\""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2023/02/8572d4a7-c17e-ba65-1816-994a147fd28d.jpg",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Virginia Lopez"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Ciudad de México"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "“Geometría Sagrada para transformar creencias”"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2023/02/Javier-Stocco.jpg",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Javier Stocco"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Bs As - Argentina"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "“Somos viajeros eternos”"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2023/02/Mirta-Susana-Mazza-copia.jpg",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Mirta Susana Mazza"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "Córdoba - Argentina"
+    },
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "“Cómo gestionar las emociones”"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p><strong>EL EQUIPO</strong></p>"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Un evento de estas características requiere de un equipo de trabajo comprometido. Conocé a las personas que harán posible una trasmisión para miles de personas en todo el mundo."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/nadia-presberg.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Nadia Presberg"
+    },
+    {
+     "t": "text",
+     "html": "<p>Diseño y Redes</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/patricia-hurden.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Patricia Hurden"
+    },
+    {
+     "t": "text",
+     "html": "<p>Administración</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/diego-cocuzza.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Diego Cocuzza"
+    },
+    {
+     "t": "text",
+     "html": "<p>Diseño Web</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/ale.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Alejandro Arlía"
+    },
+    {
+     "t": "text",
+     "html": "<p>Seguridad</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/silvia-tassitro.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Silvia Tassistro"
+    },
+    {
+     "t": "text",
+     "html": "<p>Depto. de Estudiantes</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/02/fede.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Federico Bruno"
+    },
+    {
+     "t": "text",
+     "html": "<p>Planificación</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2022/09/romi-1.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Romina Gatti"
+    },
+    {
+     "t": "text",
+     "html": "<p>Redes</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "© 2013-2023 Espacio de Geometría Sagrada. Todos los derechos reservados"
+    }
+   ]
+  }
+ ]
+}

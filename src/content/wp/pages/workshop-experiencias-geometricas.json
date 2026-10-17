@@ -1,0 +1,383 @@
+{
+ "id": "34904",
+ "slug": "workshop-experiencias-geometricas",
+ "path": "/workshop-experiencias-geometricas/",
+ "kind": "producto",
+ "title": "Workshop Experiencias Geométricas",
+ "date": "2024-07-24",
+ "modified": "2025-07-16",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "WORKSHOP \"EXPERIENCIAS GEOMÉTRICAS\""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Sábado 26 de Julio de 2025 | Palermo, Ciudad de Buenos Aires"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "¡UNA PROPUESTA PRESENCIAL E INMERSIVA !"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Cumplimos 11 años, vení a festejarlo aprendiendo cómo la Geometría Sagrada puede ayudarte a transformar tu vida."
+    },
+    {
+     "t": "video",
+     "provider": "vimeo",
+     "id": "1021827689"
+    },
+    {
+     "t": "button",
+     "text": "PREVENTA EXCLUSIVA CON DESCUENTO HABILITADA Y 3 CUOTAS SIN INTERES",
+     "href": "#ADQUIRIR"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Últimos 3 lugares disponibles! Reserva tu lugar ahora!"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>UN WORKSHOP EXCLUSIVO PARA EXPERIMENTAR LA<br>GEOMETRÍA SAGRADA EN COMUNIDAD<br></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>La<strong> energía de nuestras \"clases gratuitas\" en vivo,<br>junto a <em>Monique</em>, <em>Pablo</em> y todo el equipo que lo hace posible.</strong></p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "gallery",
+     "images": [
+      "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_1846.jpg",
+      "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_1338.jpg",
+      "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_1926.jpg",
+      "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_1873.jpg",
+      "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_1797.jpg",
+      "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_1001.jpg",
+      "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_2063.jpg",
+      "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_1766.jpg",
+      "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_1630.jpg",
+      "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_1689.jpg"
+     ]
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Vamos a trazar"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "El símbolo geométrico con el cuál iniciamos nuestro camino."
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Jugar con los mandalas"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Y estaremos creando \"masa crítica\", un inmenso tubo toroide lleno de amor para enviar al mundo."
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Construir figuras"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Construiremos una figura geométrica y experimentaremos el significado de dar y recibir."
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Meditar en vivo"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Meditaremos con las formas, en un viaje que irá más allá de nuestros 5 sentidos."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>Te recibiremos con un <em><strong>desayuno de bienvenida</strong></em>, la <strong>ponencias de Monique y Pablo</strong>, una serie de experiencias Geométricas donde vamos a <em><strong> jugar con las formas, aprender, meditar y trazar!</strong></em></p>"
+    },
+    {
+     "t": "button",
+     "text": "ULTIMOS LUGARES DISPONIBLES - RESERVA TU TICKET AHORA!",
+     "href": "#ADQUIRIR"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong><em>Te invitamos a vivir una experiencia única, en nuestro lugar de trabajo, <br>y compartir con una comunidad afín la pasión que la Geometría Sagrada despierta</em></strong></p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "TUS ANFITRIONES"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/monique-dumolin.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Monique Dumolin"
+    },
+    {
+     "t": "text",
+     "html": "<p>Arquitecta - Fundadora del <strong>Espacio de Geometría Sagrada</strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Su misión de compartir y multiplicar esta maravillosa herramienta la ha llevado a brindar talleres y seminarios recorriendo Latinoamérica, y brindar cursos online donde miles de personas ya han cambiando sus vidas aprendiendo de su experiencia</p>"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/pablo-pettinaroli.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Pablo Pettinaroli"
+    },
+    {
+     "t": "text",
+     "html": "<p>Director estratégico del<br><strong>Espacio de Geometría Sagrada</strong> </p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Su propósito es la de ayudar a transformar la mentalidad de las personas, difundiendo su historia de vida y sus conocimientos en Biohacking, Ingeniera del desarrollo humano y Programación Neuro-Lingüistica.</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Desde hace 11 años<br><em><strong>Monique</strong></em> y <em><strong>Pablo</strong></em> trabajan juntos en lo que es el \"<strong>Espacio de Geometría Sagrada\"</strong>,<br>donde comparten sus conocimientos para difundir esta sabiduría ancestral <br>que ayuda a elevar el potencial humano y el despertar de consciencia. </p>"
+    },
+    {
+     "t": "button",
+     "text": "RESERVAR TU TICKET CON DESCUENTO AHORA",
+     "href": "#ADQUIRIR"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "AGENDA y LUGAR"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Sábado, 26 de Julio"
+    },
+    {
+     "t": "text",
+     "html": "<p><b>Las puertas abrirán a las 10.00 hs.</b></p><p><strong>10.00 a 10.40:</strong> <br>Desayuno de bienvenida y registro al evento.<br><strong><br>10.40 a 12.30:</strong> <br>Saludos de bienvenida por los Formadores.<br>Comienzo de <strong>Experiencias Geométricas</strong></p><p><strong>13.30 a 14.30 hs:</strong> <br>Ponencias de <strong>Monique</strong> y <strong>Pablo</strong>.</p><p><strong>16.00 </strong><br><strong>Cierre del evento.</strong></p><p>Los horarios son estimativos y pueden modificarse en función a la dinámica. Reserva una hora de tiempo adicional en tu agenda.</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>MATERIALES</strong><br>Te invitamos a traer tu compás, hojas de dibujo, tijera, y lápices de colores.</p><p><strong>IMPORTANTE</strong><br>Este evento podrá ser transmitido en vivo total o parcialmente. <br>Al adquirir tu entrada, aceptas ser filmado para su transmisión y que el material sea utilizado luego con fines publicitarios. Por favor, recuerda esto el día del evento.</p>"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "La Maquinita Co"
+    },
+    {
+     "t": "text",
+     "html": "<p>Av. <em><strong>Coronel Niceto Vega</strong></em> 4736, <em><strong>Palermo</strong></em>, C.A.B.A</p>"
+    },
+    {
+     "t": "map",
+     "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6568.900855993898!2d-58.43334002526442!3d-34.59276995691835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca77cf1fee37%3A0x3303fe2752fea96f!2sLa%20Maquinita%20Co.%20Palermo%20Soho%20-%20Niceto%20Vega!5e0!3m2!1ses!2sar!4v1751402486434!5m2!1ses!2sar"
+    },
+    {
+     "t": "text",
+     "html": "<p><em><strong>¿Cómo llegar?</strong></em></p><p>Las <em><strong>líneas de colectivo</strong></em> 34, 39, 55, 57, 59, 63, 67, 110, 128, 140, 166, 168, 172 te acercan. El <em><strong>subte línea \"B\"</strong></em> te lleva hasta la estación \"<em><strong>Malabia</strong></em>\" y desde ahí debes caminar 8 cuadras aproximadamente. Si vienes <em><strong>en auto</strong></em>, tienes un estacionamiento en la dirección <strong><em>Malabia 1330 </em></strong>y otro en<strong><em> Armenia 1261 </em></strong> (A la vuelta del evento)</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "¿QUE PASA LUEGO DE ADQUIRIR TU ENTRADA?"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_2073.jpg",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<ol><li>Luego de tu pago, <em><strong>recibirás un correo con confirmación de compra.</strong></em></li><li>Durante los días previos al evento, te enviaremos material a tu correo electrónico para que puedas prepararte.</li><li>El 26 de Julio, te esperaremos en \"La Maquinita\" para presenciar el evento!</li><li>La ubicación dentro del lugar de trabajo será asignada por orden de compra. Te indicaremos tu lugar el día del evento</li></ol>"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Hemos diseñado una experiencia inmersiva en la cual podrás experimentar todo lo aprendido en tu Formación, acompañado por Pablo, Monique y el equipo de Formadores y Formadoras. Te esperamos!"
+    },
+    {
+     "t": "button",
+     "text": "ADQUIRI TU ENTRADA AHORA!",
+     "href": "#ADQUIRIR"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "El acceso a la experiencia presencial incluye"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Desayuno de bienvenida.<br></strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><b>Experiencias Geométricas Sensoriales</b></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><b>Souvenirs de recuerdo para decorar tu casa.</b></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><b>Grupo de WhatsApp con compañeros</b></p>"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Y además, estos regalos!"
+    },
+    {
+     "t": "video",
+     "provider": "vimeo",
+     "id": "1022136032"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li><b><i>Material de descarga</i></b><br>Una vez terminada la clase, recibirás un cuadernillo con todo lo trabajado en el Workshop, incluida la ponencia que daremos el día Sábado.<br><br></li><li><em><strong>Curso de Construcción del Cuerpo de Luz</strong></em><br>Además, mientras esperas por el evento, te enviaremos un mini-curso de regalo donde aprenderás a construir tu cuerpo de luz, también llamado \"Estrella Doble Tetraedro\".<br><strong><strong><strong><strong><strong>Valorado en U$D 27.-, será de regalo.<br><br></strong></strong></strong></strong></strong></li><li><em><strong>Clase de Seguimiento con Pablo en vivo</strong></em><strong><br></strong>Un mes después del evento, podrás acceder a una <em><strong>clase magistral</strong></em> con <em><strong>Pablo</strong></em> donde podrás evaluar el impacto que tuvo la clase en ti. La fecha será comunicada por email. <br><strong><strong><strong><strong><strong><strong><strong><strong>Valorada en U$D 57.- y será de regalo.<br><br></strong></strong></strong></strong></strong></strong></strong></strong></li><li><em><strong>Meditaciones en MP3</strong></em><strong><br></strong>Todas las meditaciones que se realicen en la semana Geométrica, podrás descargarlas editadas en Mp3 para llevarlas contigo y repetirlas cuantas veces desees.<br><strong><strong><strong><strong><strong><strong><strong><strong>Valorada en U$D 47.- y será de regalo.</strong></strong></strong></strong></strong></strong></strong></strong></li><li><em><strong>Acceso a un grupo con los invitados del evento.</strong></em><br>Donde podrás compartir con otr@s estudiantes tus experiencias, tus trabajos y tus aprendizajes.<br><strong>Esto es invaluable! Y esperamos que disfrutes este regalo.</strong></li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "CIERRE DE INSCRIPCIONES CON DESCUENTO 20 DE JULIO"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>20% DESCUENTO + 3 cuotas sin interés(*) hasta el 20 de Julio o agotar lugares disponibles.<br>Adquirí tu entrada ahora!</strong><strong><br></strong></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><b>Valor real de la entrada $75.570.-</b></p>"
+    },
+    {
+     "t": "text",
+     "html": "<p><b>Obtiene la tuya hoy por $59.997.-</b></p>"
+    },
+    {
+     "t": "button",
+     "text": "HAZ CLICK AQUÍ PARA ADQUIRIR TU ENTRADA ANTICIPADA",
+     "href": "https://mpago.li/2tadWcA"
+    },
+    {
+     "t": "text",
+     "html": "<p>Serás dirigido a MercadoPago para poder completar tu proceso. (*) Las cuotas sin interés sólo pueden abonarse con Tarjeta de Crédito.</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Cerramos inscripciones el 20 de Julio. Si deseas hacer una trasnferencia, hazlo al alias \"GEOMETRIA-SAGRADA\" a nombre de M. DUMOULIN.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<h3><strong>¿Tienes consultas?</strong><strong> Aquí las respuestas a las preguntas más frecuentes.</strong></h3>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<ul><li><em><strong>¿Cuáles son los medios de pago? </strong></em> Puedes abonar con tu tarjeta de crédito, o débito. O a nuestro alias \"GEOMETRIA-SAGRADA\".<br><br></li><li><em><strong>¿Qué materiales necesito? </strong></em> Debes tener un compás, un lápiz negro, lápices de colores, una boligoma y una regla o escuadra. <br>Todo lo demás que necesitas para aprender, será brindado por nosotros!<br><br></li><li><em><strong>Me interesa asistir, pero no puedo abonar ahora. ¿Me reservan el lugar con descuento? </strong></em> Son muchas las personas que nos han pedido que hiciéramos algo presencial. Esta oportunidad fue enviada solamente nuestra comunidad de Formadores Certificados y Estudiantes de la Formación que viven en Argentina, pero sólo tenemos 20 lugares con descuento. <br>Por lo tanto <a href=\"https://hornerodigital.lpages.co/espacio-geo-cdv-seminario-online-editado/#entradas\"><em><strong>te aconsejamos adquirir tus entradas con descuento antes que estas se agoten!</strong></em></a></li></ul>"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li><em><strong>¿Este workshop cuenta con certificado? </strong></em> No. Las propuestas que presenciales son experiencias para divertirse y disfrutar de la magia de la Geometría Sagrada.<br><br></li><li><em><strong>¿Este es uno de los talleres habituales que ofrece el Espacio de Geometría Sagrada?</strong></em> \"<em><strong>Experiencias Geométricas</strong></em>\", es un evento diseñado para transmitir con todo el mundo lo que la Geometría Sagrada puede hacer en la vida de las personas. Cada evento es diferente y este tiene la particularidad que regresamos a las actividades presenciales para <em><em><em><strong>experimentar en comunidad los beneficios de esta herramienta.<br><br></strong></em></em></em></li><li><em><strong>¿Qué pasa si adquiero mi entrada y luego no puedo asistir?</strong></em> Si no puedes asistir, deberás escribir a nuestro email <em><strong>info@espaciodegeometriasagrada.com</strong></em>. Podrás cambiar la entrada por cualquiera de nuestros ebooks o cursos de similar valor hasta el 15/7. No emitiremos reembolsos.</li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "¿Tienes otra duda? Escríbenos a info@espaciodegeometriasagrada.com con el asunto \"Consulta por Experiencias Geométricas\""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "© 2014-2024 Espacio de Geometría Sagrada"
+    }
+   ]
+  }
+ ]
+}

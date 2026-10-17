@@ -1,0 +1,38 @@
+{
+ "id": "32006",
+ "slug": "monique-dumolin",
+ "path": "/quienes-somos/monique-dumolin/",
+ "kind": "institucional",
+ "title": "Monique Dumolin",
+ "date": "2024-01-17",
+ "modified": "2024-01-17",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/monique-dumolin.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Monique Dumolin​"
+    },
+    {
+     "t": "text",
+     "html": "<p>Fundadora y Facilitadora Geómetra</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Monique Dumoulin es Arquitecta egresada de la Universidad de Buenos Aires y Formadora Geómetra.</p><p>Desde hace más de 20 años, trabaja en la misión de compartir y multiplicar. Ha estudiado y aprendido de grandes maestros como Constanza Lofredda, Drunvalo Melchidezek y colaboró con Arturo Ponce de Leon en una Universidad de Psicogeometría.</p><p>Entre sus proyectos se encuentra la co-fundación de la Escuela de Sagrada Geometría del Sur del Mundo, junto a Dana Tir, la cual cerró sus puertas en diciembre de 2013.</p><p>En el año 2014, fundó el Espacio de Geometría Sagrada, en el cual vuelca todos sus conocimientos en diferentes cursos y talles.</p><p>Gracias a esto, pudo recorrer gran parte de América brindado Seminarios, y ser facilitadora para que más de 2000 estudiantes cambien su vida con la Geometría Sagrada.</p><p>Puedes seguirla en Instagram:</p>"
+    }
+   ]
+  }
+ ]
+}

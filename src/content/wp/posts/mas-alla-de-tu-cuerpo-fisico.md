@@ -1,0 +1,24 @@
+La dualidad es la realidad vista desde dos miradas. Es la propiedad de lo que es doble o contiene en sí dos naturalezas, dos sustancias o dos principios.  
+El dualismo es un concepto de la filosofía y la teología, que se basa en dos realidades o dos principios supremos, increados, independientes, irreductibles y antagónicos, uno del bien y otro del mal, por cuya acción se explica el origen y evolución del mundo. La materia y el espíritu, límite e ilimitado, par e impar, amistad y odio que lleva al principio de incertidumbre.
+
+Uno de los símbolos de la dualidad es el llamado ying yang, principio de la filosofía china, en donde el yin y yang son dos energías opuestas que se necesitan y se complementan, la existencia de uno depende de la existencia del otro. El yin y yang es un símbolo de armonía debido al equilibrio que produce la interacción de las dos energías. Y la línea del centro es el equilibrio. Describe las dos fuerzas fundamentales opuestas y complementarias, que se encuentran en todas las cosas.
+
+El _yin_ es el principio femenino, la tierra, la oscuridad, la pasividad y la absorción. El _yang_ es el principio masculino, el cielo, la luz, la actividad y la penetración. Cualquier idea puede ser vista como su contraria si se la mira desde otro punto de vista.
+
+Ahora bien imaginemos cualquier objeto,  el cual acercas tanto a los ojos que no puedes más que distinguir quizás un color pero no lograrías identificar su forma ni definirlo hasta que lo alejaras un poco de tus ojos allí estarías viéndolo podrías definirlo, podrías ¨observarlo¨ y si  lo alejaras más aun lograrías verlo en un contexto, podrías observar con más amplitud lo que al solo observarlo veías. De igual manera podemos comparar nuestra situación con nuestros diferentes cuerpos que nos rodean. A unos 60cm de tu cuerpo físico, ese al cual reconoces, vistes con ropa cada mañana y sale al mundo a vivir sus experiencias, ese personaje de la obra de teatro, se encuentra el cuerpo electromagnético, es un cuerpo caótico siempre está intentando comprender como re-accionar ante diferentes estímulos de la vida cotidiana, de las relaciones con las que interactúa… intenta armonizarse a través de diferentes terapias, sonoras, energéticas, de color, pero aun no sabe que es el involucrado en la obra de teatro y este cuerpo está siempre des-ajustándose., es como ver el objeto tan cerca de la vista que no logra más que ver su color, en este caso la situación que lo aqueja.
+
+Intentemos alejarnos de la obra de teatro, des-pegarnos de la misma, estarías accediendo y recordando otro cuerpo, este se localiza a una proporción de tus brazos extendidos se llama campo gravitacional o tubo toroide.  Es un cuerpo, campo a través del cual logras tomar distancia y ahora logras ser el observador de la obra de teatro,  observas los personajes, cómo interactúan,  comprendes el libreto y el juego, es en este campo y condición donde la Geometría Sagrada puede darte mayor información y una nueva mirada de comprensión. Todas las formas, todas las letras, símbolos, una información valiosa esta allí a tu alrededor para re-ordenar, re-significa, re descubrirte, armar un campo mas fuerte a tu alrededor, ser consciente de lograr vaciarte para permitir que las experiencias a vivir no se estanquen y vivas una y otra vez las mismas circunstancias ya que tienes la posibilidad de rediseñarte.  Y por ultimo si te alejaras más aun existe un cuerpo fractal, es el observador que observa al involucrado te das cuenta que la obra de teatro tiene un propósito de aprendizaje se desarrolla en un contexto tu mirada se amplia, tu consciencia despierta a una mirada donde lo que llamabas dualidad tiene un propósito de unidad de equilibrio de experiencia., detrás de cada circunstancia de cada encuentro hay un propósito.
+
+Conoces esa frase  lo que es arriba es abajo, lo que es afuera es adentro, Hay una forma que está a nuestro alrededor se llama doble tetraedro donde un tetraedro apunta al cielo (tetraedro cielo) y otro apunta a la tierra (tetraedro tierra), se fusionan para vivir la experiencia, representan la energía del cielo viniendo a experimentar una vida humana y el humano intentando elevarse en consciencia.
+
+Te invito a experimentar recreando estas formas a tu alrededor, te acercamos una meditación guiada del tetraedro cielo. Puedes de igual manera invertir la experiencia creando el tetraedro tierra, esperamos lo disfrutes!!!
+
+https://espaciodegeometriasagrada.com/downloads/audiosmdt/audio7000tetraedro.mp3
+
+Espera unos minutos para que cargue el archivo, el cual dura aproximadamente 10 minutos! El archivo no puede descargarse, soló esta disponible para ser escuchado de manera online.
+
+Un abrazo!!!
+
+_**Monique**_
+
+En los próximos días daremos un evento Online, Intimo y Gratuito. ¿Te gustaría verlo? [Reserva ahora tu lugar!](https://hornerodigital.leadpages.co/leadbox/140fbb273f72a2%3A14c87ac02b46dc/5146118144917504/)

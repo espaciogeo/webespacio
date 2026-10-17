@@ -1,0 +1,63 @@
+{
+ "id": "28755",
+ "slug": "ig",
+ "path": "/ig/",
+ "kind": "producto",
+ "title": "IG",
+ "date": "2022-12-06",
+ "modified": "2024-07-15",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2021/05/espacio-de-geometria-sagrada-logo.png",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>¿Qué estás buscando por aquí?</strong></p>"
+    },
+    {
+     "t": "button",
+     "text": "Semana Geométrica - Inscripción Gratuita",
+     "href": "/semana-geometrica/"
+    },
+    {
+     "t": "button",
+     "text": "Festejo 10 años - 27 de Julio en Bs. As.",
+     "href": "/semana-geometrica-cierre/"
+    },
+    {
+     "t": "button",
+     "text": "Formación Profesional en Geometría Sagrada",
+     "href": "/formacion_profesional/"
+    },
+    {
+     "t": "button",
+     "text": "Nuestro Blog",
+     "href": "/blog/"
+    },
+    {
+     "t": "button",
+     "text": "Contacto",
+     "href": ""
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 6,
+     "text": "© 2013-2023 Espacio de Geometría Sagrada"
+    }
+   ]
+  }
+ ]
+}

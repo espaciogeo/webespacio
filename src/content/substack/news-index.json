@@ -1,0 +1,630 @@
+[
+ {
+  "kind": "news",
+  "number": 1,
+  "slug": "hoy-empieza-algo-nuevo",
+  "path": "/news-geometrico/hoy-empieza-algo-nuevo/",
+  "title": "Hoy empieza algo nuevo",
+  "subtitle": "Una nueva etapa en Espacio de Geometría Sagrada",
+  "date": "2026-05-23",
+  "modified": "2026-05-23",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-01-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Una nueva etapa en Espacio de Geometría Sagrada",
+  "readingMinutes": 8,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/hoy-empieza-algo-nuevo",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 2,
+  "slug": "aprendiendo-a-reconocer-el-cuerpo",
+  "path": "/news-geometrico/aprendiendo-a-reconocer-el-cuerpo/",
+  "title": "Aprendiendo a reconocer el cuerpo donde estas viviendo",
+  "subtitle": "¿Creías que eras solamente eso que ves en el espejo?",
+  "date": "2026-05-23",
+  "modified": "2026-05-23",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-02-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "¿Creías que eras solamente eso que ves en el espejo?",
+  "readingMinutes": 10,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/02-aprendiendo-a-reconocer-el-cuerpo",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 3,
+  "slug": "por-que-tu-ansiedad-regresa",
+  "path": "/news-geometrico/por-que-tu-ansiedad-regresa/",
+  "title": "¿Por qué tu ansiedad regresa?",
+  "subtitle": "Una mirada \"Geómetrica\" de nuestros patrones de comportamiento.",
+  "date": "2026-05-23",
+  "modified": "2026-05-23",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-03-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Una mirada \"Geómetrica\" de nuestros patrones de comportamiento.",
+  "readingMinutes": 8,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/por-que-tu-ansiedad-regresa",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 4,
+  "slug": "el-dia-que-todo-cambio",
+  "path": "/news-geometrico/el-dia-que-todo-cambio/",
+  "title": "El día que todo cambió",
+  "subtitle": "Te cuento una historia sobre Espacio de Geometría Sagrada",
+  "date": "2026-05-27",
+  "modified": "2026-06-05",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-04-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Te cuento una historia sobre Espacio de Geometría Sagrada",
+  "readingMinutes": 9,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/04-el-dia-que-todo-cambio",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 5,
+  "slug": "lo-que-mi-nieta-me-enseno-sobre",
+  "path": "/news-geometrico/lo-que-mi-nieta-me-enseno-sobre/",
+  "title": "Lo que mi nieta me enseñó sobre las emociones",
+  "subtitle": "Las infancias también nos enseñan",
+  "date": "2026-05-27",
+  "modified": "2026-05-27",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-05-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Las infancias también nos enseñan",
+  "readingMinutes": 8,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/05-lo-que-mi-nieta-me-enseno-sobre",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 6,
+  "slug": "lo-que-platon-sabia-y-que-puedes",
+  "path": "/news-geometrico/lo-que-platon-sabia-y-que-puedes/",
+  "title": "Lo que Platón sabía (y que puedes verificar hoy mismo)",
+  "subtitle": "La Geometría Sagrada es más antigua de lo que crees.",
+  "date": "2026-05-27",
+  "modified": "2026-05-27",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-06-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "La Geometría Sagrada es más antigua de lo que crees.",
+  "readingMinutes": 3,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/06-lo-que-platon-sabia-y-que-puedes",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 7,
+  "slug": "lo-que-movia-agua-en-el-desierto",
+  "path": "/news-geometrico/lo-que-movia-agua-en-el-desierto/",
+  "title": "Lo que movía agua en el desierto (sin electricidad)",
+  "subtitle": "Descubre porque la Geometría Sagrada es un conocimiento ancestral",
+  "date": "2026-05-28",
+  "modified": "2026-05-28",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-07-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Descubre porque la Geometría Sagrada es un conocimiento ancestral",
+  "readingMinutes": 2,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/07-lo-que-movia-agua-en-el-desierto",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 8,
+  "slug": "los-alquimistas-del-pasado-y-del",
+  "path": "/news-geometrico/los-alquimistas-del-pasado-y-del/",
+  "title": "Los Alquimistas del pasado... y del futuro",
+  "subtitle": "Todos podemos ser alquimistas y no darnos cuenta.",
+  "date": "2026-05-28",
+  "modified": "2026-05-28",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-08-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Todos podemos ser alquimistas y no darnos cuenta.",
+  "readingMinutes": 3,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/08-los-alquimistas-del-pasado-y-del",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 9,
+  "slug": "lo-que-paso-una-noche-con-el-cubo",
+  "path": "/news-geometrico/lo-que-paso-una-noche-con-el-cubo/",
+  "title": "Lo que pasó una noche con el Cubo de Metatrón",
+  "subtitle": "¿Y si una figura geométrica cambiara tu forma de ver la vida?",
+  "date": "2026-05-28",
+  "modified": "2026-05-28",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-09-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "¿Y si una figura geométrica cambiara tu forma de ver la vida?",
+  "readingMinutes": 2,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/09-lo-que-paso-una-noche-con-el-cubo",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 10,
+  "slug": "tu-espacio-te-habla-lo-estas-escuchando",
+  "path": "/news-geometrico/tu-espacio-te-habla-lo-estas-escuchando/",
+  "title": "Tu espacio te habla. ¿Lo estás escuchando?",
+  "subtitle": "El espacio que habitas y la importancia de armonizarlo.",
+  "date": "2026-05-29",
+  "modified": "2026-05-29",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-10-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "El espacio que habitas y la importancia de armonizarlo.",
+  "readingMinutes": 6,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/10-tu-espacio-te-habla-lo-estas-escuchando",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 11,
+  "slug": "lo-que-las-catedrales-sabian-sobre",
+  "path": "/news-geometrico/lo-que-las-catedrales-sabian-sobre/",
+  "title": "Lo que las catedrales sabían sobre el sonido",
+  "subtitle": "Vas a disfrutar la música de otra forma.",
+  "date": "2026-05-29",
+  "modified": "2026-05-29",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-11-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Vas a disfrutar la música de otra forma.",
+  "readingMinutes": 5,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/11-lo-que-las-catedrales-sabian-sobre",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 12,
+  "slug": "la-capilla-que-guarda-una-partitura",
+  "path": "/news-geometrico/la-capilla-que-guarda-una-partitura/",
+  "title": "La capilla que guarda una partitura en piedra",
+  "subtitle": "La Geometría Sagrada en las construcciones de los siglos pasados.",
+  "date": "2026-05-29",
+  "modified": "2026-05-29",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-12-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "La Geometría Sagrada en las construcciones de los siglos pasados.",
+  "readingMinutes": 4,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/12-la-capilla-que-guarda-una-partitura",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 13,
+  "slug": "cuando-la-forma-es-medicina",
+  "path": "/news-geometrico/cuando-la-forma-es-medicina/",
+  "title": "Cuando la Forma es Medicina",
+  "subtitle": "Terapias complementarias aplicadas con Geometría Sagrada",
+  "date": "2026-05-29",
+  "modified": "2026-05-29",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-13-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Terapias complementarias aplicadas con Geometría Sagrada",
+  "readingMinutes": 4,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/13-cuando-la-forma-es-medicina",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 14,
+  "slug": "el-hilo-invisible-que-conecta",
+  "path": "/news-geometrico/el-hilo-invisible-que-conecta/",
+  "title": "El hilo invisible que conecta todo",
+  "subtitle": "",
+  "date": "2026-06-05",
+  "modified": "2026-06-06",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-14-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Mientras recibes estas líneas, estoy disfrutando de un descanso en Cabalango, Córdoba, en la casa de una querida…",
+  "readingMinutes": 4,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/14-el-hilo-invisible-que-conecta",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 15,
+  "slug": "el-terapeuta-que-ya-no-vuelve",
+  "path": "/news-geometrico/el-terapeuta-que-ya-no-vuelve/",
+  "title": "El terapeuta que ya no vuelve a casa vacío",
+  "subtitle": "",
+  "date": "2026-06-08",
+  "modified": "2026-06-08",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-15-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Hace unos días, en la clase de cierre de la Especialización en Terapias, una estudiante me dijo una frase que no me puedo sacar de la…",
+  "readingMinutes": 3,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/15-el-terapeuta-que-ya-no-vuelve",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 16,
+  "slug": "la-fuerza-de-creer-que-es-por",
+  "path": "/news-geometrico/la-fuerza-de-creer-que-es-por/",
+  "title": "La fuerza de creer que es por ahí",
+  "subtitle": "",
+  "date": "2026-06-16",
+  "modified": "2026-06-16",
+  "authors": [
+   {
+    "slug": "pablo-pettinaroli",
+    "name": "Pablo Pettinaroli"
+   },
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-16-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Esta semana le pedí a Monique que me dejara escribirte, ya que hay algo que quiero contarte de esta manera. Por acá, en este lugar de encuentro. Con calma. Como cuando compartís algo importante con…",
+  "readingMinutes": 4,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/16-la-fuerza-de-creer-que-es-por",
+  "aboutBook": true
+ },
+ {
+  "kind": "news",
+  "number": 17,
+  "slug": "el-libro-que-tardo-casi-12-anos",
+  "path": "/news-geometrico/el-libro-que-tardo-casi-12-anos/",
+  "title": "El libro que tardó casi 12 años en llegar",
+  "subtitle": "",
+  "date": "2026-06-27",
+  "modified": "2026-07-03",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-17-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "En ese momento, con todos mis ahorros invertidos en una nueva web y una nueva etapa, no sabía bien adónde iba. Solo sabía que había que seguir…",
+  "readingMinutes": 2,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/17-el-libro-que-tardo-casi-12-anos",
+  "aboutBook": true
+ },
+ {
+  "kind": "news",
+  "number": 18,
+  "slug": "lo-que-no-se-aprende-en-un-fin",
+  "path": "/news-geometrico/lo-que-no-se-aprende-en-un-fin/",
+  "title": "Lo que no se aprende en un fin de semana",
+  "subtitle": "",
+  "date": "2026-07-02",
+  "modified": "2026-07-03",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": "substack:news-18-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "La semana, en el medio del lanzamiento de nuestro libro, pasada cerramos el…",
+  "readingMinutes": 6,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/18-lo-que-no-se-aprende-en-un-fin",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 19,
+  "slug": "el-fruto-de-la-constancia",
+  "path": "/news-geometrico/el-fruto-de-la-constancia/",
+  "title": "El fruto de la constancia",
+  "subtitle": "",
+  "date": "2026-07-14",
+  "modified": "2026-07-14",
+  "authors": [
+   {
+    "slug": "pablo-pettinaroli",
+    "name": "Pablo Pettinaroli"
+   }
+  ],
+  "image": null,
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Hoy te escribe Pablo. Quiero contarte algo que todavía me cuesta creer del…",
+  "readingMinutes": 3,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/19-el-fruto-de-la-constancia",
+  "aboutBook": true
+ },
+ {
+  "kind": "news",
+  "number": 20,
+  "slug": "conectar-los-puntos-hacia-atras",
+  "path": "/news-geometrico/conectar-los-puntos-hacia-atras/",
+  "title": "Conectar los puntos hacia atrás",
+  "subtitle": "",
+  "date": "2026-07-16",
+  "modified": "2026-07-16",
+  "authors": [
+   {
+    "slug": "pablo-pettinaroli",
+    "name": "Pablo Pettinaroli"
+   }
+  ],
+  "image": null,
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Es domingo por la tarde en Argentina, y mientras escribo estas líneas me recupero lentamente de una gripe fuerte que me agarró…",
+  "readingMinutes": 3,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/20-conectar-los-puntos-hacia-atras",
+  "aboutBook": true
+ },
+ {
+  "kind": "news",
+  "number": 21,
+  "slug": "esta-fue-la-causa-de-nuestro-silencio",
+  "path": "/news-geometrico/esta-fue-la-causa-de-nuestro-silencio/",
+  "title": "Esta fue la causa de nuestro silencio",
+  "subtitle": "",
+  "date": "2026-08-31",
+  "modified": "2026-08-31",
+  "authors": [
+   {
+    "slug": "pablo-pettinaroli",
+    "name": "Pablo Pettinaroli"
+   }
+  ],
+  "image": null,
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Hace unas semanas dejamos de escribirte con la frecuencia de siempre. No hubo news un domingo. Después faltó…",
+  "readingMinutes": 4,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/21-esta-fue-la-causa-de-nuestro-silencio",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 22,
+  "slug": "la-herramienta-que-te-ayuda-a",
+  "path": "/news-geometrico/la-herramienta-que-te-ayuda-a/",
+  "title": "La herramienta que te ayuda a observar señales",
+  "subtitle": "",
+  "date": "2026-09-07",
+  "modified": "2026-09-07",
+  "authors": [
+   {
+    "slug": "pablo-pettinaroli",
+    "name": "Pablo Pettinaroli"
+   }
+  ],
+  "image": null,
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Monique nos habla siempre de aprender a convertirse en el observador de la propia obra de…",
+  "readingMinutes": 5,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/22-la-herramienta-que-te-ayuda-a",
+  "aboutBook": true
+ },
+ {
+  "kind": "news",
+  "number": 23,
+  "slug": "lo-que-pasa-debajo-de-una-geometria",
+  "path": "/news-geometrico/lo-que-pasa-debajo-de-una-geometria/",
+  "title": "Lo que pasa debajo de una Geometría",
+  "subtitle": "",
+  "date": "2026-09-22",
+  "modified": "2026-09-22",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": null,
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Aquí Monique, retomando esta hermoso momento de poder…",
+  "readingMinutes": 3,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/23-lo-que-pasa-debajo-de-una-geometria",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 24,
+  "slug": "lo-que-otros-pueden-hacer-por",
+  "path": "/news-geometrico/lo-que-otros-pueden-hacer-por/",
+  "title": "Lo que otros pueden hacer por vos",
+  "subtitle": "",
+  "date": "2026-09-25",
+  "modified": "2026-09-25",
+  "authors": [
+   {
+    "slug": "pablo-pettinaroli",
+    "name": "Pablo Pettinaroli"
+   }
+  ],
+  "image": null,
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Casi siempre te escribo sobre lo que damos. Sobre los pilares, las prácticas, lo que enseñamos. Hoy quiero contarte lo otro: lo que recibimos en el camino, y lo que aprendí sobre tener que aprender a…",
+  "readingMinutes": 3,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/24-lo-que-otros-pueden-hacer-por",
+  "aboutBook": false
+ },
+ {
+  "kind": "news",
+  "number": 25,
+  "slug": "el-paso-de-la-2d-a-la-3d",
+  "path": "/news-geometrico/el-paso-de-la-2d-a-la-3d/",
+  "title": "El paso de la 2D a la 3D",
+  "subtitle": "",
+  "date": "2026-09-28",
+  "modified": "2026-09-28",
+  "authors": [
+   {
+    "slug": "monique-dumoulin",
+    "name": "Monique Dumoulin"
+   }
+  ],
+  "image": null,
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Te escribe Monique, y dejo preparado este correo antes de tomarme unos días de descanso en el…",
+  "readingMinutes": 7,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/25-el-paso-de-la-2d-a-la-3d",
+  "aboutBook": true
+ },
+ {
+  "kind": "news",
+  "number": 26,
+  "slug": "el-dibujo-que-me-guio-durante",
+  "path": "/news-geometrico/el-dibujo-que-me-guio-durante/",
+  "title": "El dibujo que me guió durante 20 años",
+  "subtitle": "",
+  "date": "2026-10-05",
+  "modified": "2026-10-05",
+  "authors": [
+   {
+    "slug": "pablo-pettinaroli",
+    "name": "Pablo Pettinaroli"
+   }
+  ],
+  "image": "substack:news-26-portada",
+  "categories": [
+   "news-geometrico"
+  ],
+  "excerpt": "Hay un dibujo de más de quinientos años que estuvo colgado en la pared durante toda mi formación. Lo veía todos los días. Y no tenía la menor idea de que me estaba marcando el…",
+  "readingMinutes": 7,
+  "substackUrl": "https://espaciodegeometriasagrada.substack.com/p/26-el-dibujo-que-me-guio-durante",
+  "aboutBook": false
+ }
+]

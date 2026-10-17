@@ -1,0 +1,126 @@
+{
+ "id": "36039",
+ "slug": "experiencia-geometrica-gracias",
+ "path": "/experiencia-geometrica-gracias/",
+ "kind": "confirmacion",
+ "title": "Experiencia Exclusiva – Semana Geo",
+ "date": "2024-11-22",
+ "modified": "2024-11-22",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": true,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "EXPERIENCIAS GEOMETRICAS"
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Bienvenida a la página de seguimiento!"
+    },
+    {
+     "t": "video",
+     "provider": "vimeo",
+     "id": "1021827689"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/10/DSC_2033.jpg",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>Gracias por tu interés en nuestras propuestas!<br></strong>Descarga tu cuadernillo de trabajo, completa la encuesta post-evento y disfruta de los bonos prometidos.<br>Si tienes dudas, <strong>escríbenos a info@espaciodegeometriasagrada.com.</strong></p>"
+    },
+    {
+     "t": "button",
+     "text": "CUADERNILLO DE TRABAJO",
+     "href": "https://drive.google.com/file/d/1K4MxZkzqi0LZDGTerPrUbjOWwWtLq0Q9/view?usp=drive_link"
+    },
+    {
+     "t": "button",
+     "text": "MEDITACIONES DE REGALO",
+     "href": "https://drive.google.com/drive/folders/1gPJ0Vqt-0mRnuG3g_znllJgwMaQDNN57"
+    },
+    {
+     "t": "button",
+     "text": "COMPLETA LA ENCUESTA",
+     "href": "https://docs.google.com/forms/d/e/1FAIpQLSdWIDMN8yAFrn-xurD9ng1TCu8pjQdHDbmhXdXGPdoYcNY3Jw/viewform"
+    },
+    {
+     "t": "button",
+     "text": "CLASE SEGUIMIENTO: SÁBADO 21 DE DICIEMBRE | 14.30 HS ARGENTINA | CLIK AQUI PARA ACCEDER",
+     "href": "https://calendly.com/espaciodegeometriasagrada/clase-de-repaso"
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "Para personalizar la experiencia, requerimos que te registres. Por favor, hazlo sólo si asistirás. Muchas gracias!"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Construcción del Cuerpo de Luz"
+    },
+    {
+     "t": "video",
+     "provider": "vimeo",
+     "id": "454863920"
+    },
+    {
+     "t": "text",
+     "html": "<p><strong>5 - Construcción del cuerpo de luz</strong><em> </em>es un mini-curso que te regalamos para que puedas construir una de tus primeras figuras. Con ella, puedes ambientar un lugar que tu casa -el que tu desees!- y meditar debajo de ella.</p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p><strong>EL EQUIPO</strong></p>"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Un evento de estas características requiere de un equipo de trabajo comprometido. Conocé a las personas que harán posible una trasmisión para miles de personas en todo el mundo."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/GRUPALES-egs.png",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<p>Desde hace 10 años, <em><strong>Monique</strong></em> y <em><strong>Pablo </strong></em>trabajan en el \"<strong>Espacio de Geometría Sagrada</strong>\", donde comparten sus conocimientos para difundir esta <em><strong>sabiduría ancestral</strong></em> que <em><strong>ayuda a elevar el potencial humano</strong></em> y el <em><strong>despertar de consciencia</strong></em>. Juntos, lideran un <em>equipo interdisciplinario</em> de personas con pasión por lo que hacen y con vocación de servicio. <em><strong>Todos y cada uno de ellos, hacen posible estas clases gratuitas!</strong></em></p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "© 2014-2024 Espacio de Geometría Sagrada. Todos los derechos reservados"
+    }
+   ]
+  }
+ ]
+}

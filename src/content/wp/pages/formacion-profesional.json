@@ -1,0 +1,264 @@
+{
+ "id": "32042",
+ "slug": "formacion-profesional",
+ "path": "/formacion-profesional/",
+ "kind": "producto",
+ "title": "Formación Profesional",
+ "date": "2024-01-17",
+ "modified": "2024-07-30",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "video",
+     "provider": "youtube",
+     "id": "BiBSGnFBoNY"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "100% Online. Aval Internacional. Salida Laboral - ¡ INSCRIPCIONES ABIERTAS! - Solicita tu entrevista de admisión"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Te presentamos la primera Formación Profesional de Geometría Sagrada de habla hispana."
+    },
+    {
+     "t": "form",
+     "name": "Formacion Profesional",
+     "fields": [
+      {
+       "label": "Nombre",
+       "type": "text",
+       "required": true,
+       "id": "name",
+       "options": []
+      },
+      {
+       "label": "Email",
+       "type": "email",
+       "required": true,
+       "id": "email",
+       "options": []
+      }
+     ],
+     "submit": "Sí, Quiero Registrarme!",
+     "actions": [
+      "save-to-database",
+      "email",
+      "redirect",
+      "getresponse"
+     ],
+     "formId": "0186f5c",
+     "postId": "32042",
+     "redirect": "/formacion-profesional/dossier-y-programa/"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Facilitada por Geómetras, para todo el mundo"
+    },
+    {
+     "t": "heading",
+     "level": 5,
+     "text": "La Formación Profesional en Geometría Sagrada esta diseñada para que la realices desde la comodidad de tu hogar. Esta compuesta por 11 cursos, tiene una duración de 24 meses, y entrega un Certificado Internacional con aval del Espacio de Geometría Sagrada."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Quienes Somos?"
+    },
+    {
+     "t": "text",
+     "html": "El <strong>Espacio de Geometría Sagrada</strong> cuenta ya con 8 años difundiendo este conocimiento en todo el mundo a través de sus Cursos, Talleres y Seminarios presenciales y online."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/monique-pablo_Mesa-de-trabajo-1.png",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "Más de <em><strong>2000 estudiantes de todas partes del mundo</strong></em> <strong>son parte de nuestra comunidad de estudiantes</strong>, que acceden regularmente a nuestra <em>plataforma de estudios de vanguardia</em> con el fin de prepararse para aplicar este conocimiento en sus vidas. En las redes, el <strong>Espacio de Geometría Sagrada</strong> cuenta con mas de <em><strong>135000 seguidores en Facebook,</strong></em> y decenas de miles de vistas en nuestro <em><strong>Canal de Youtube</strong></em>.<em><strong>Cada mes brindamos clases online y gratuitas para todo el mundo.</strong></em>Su fundadora, <strong>Monique Dumoulin</strong>, es Arquitecta egresada de la UBA, y Formadora Geómetra. Lleva ya mas de 20 años dedicada a la misión de compartir y multiplicar."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "Descarga el Dossier y el Programa de Estudios"
+    },
+    {
+     "t": "button",
+     "text": "QUIERO VER EL PROGRAMA",
+     "href": "#formabajo"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Con tu certificado de Formador Geómetra, podrás"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<ul><li><em><strong>Brindar asesoramiento en armonización y limpieza de ambientes</strong></em>, para limpiar, cuidar y proteger la energía de las casas y oficinas de tu comunidad.</li><li><em><strong>Ofrecer tus servicios como Terapista Geómetra</strong></em>, o complementarlos con tu actividad, y ayudar a las personas a reordenarse energética y geometricamente.</li><li><em><strong>Ofrecer tus propios cursos y talleres en tu ciudad</strong></em>, y viajar por el mundo compartiendo y multiplicando, con el <strong><em>aval y promoción </em></strong>del <strong>Espacio de Geometría Sagrada.</strong></li></ul>"
+    },
+    {
+     "t": "text",
+     "html": "<ul><li><em><strong>Aplicar en tu propia vida </strong></em>cada una de las herramientas que este conocimiento ofrece, con absoluta Maestría, alcanzado un profundo nivel de conocimiento acerca de ti.</li><li><em><strong>Formar parte del staff de Formadores Geómetras</strong></em>, lo que te ayudara a ganar visibilidad internacional al mismo tiempo que te posicionara como referente en tu localidad.</li><li><em><strong>Acceder a programas de formación continua</strong></em>, para sumar mas saberes y experiencias, con los líderes mas influyentes en el campo del desarrollo del potencial humano.</li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Mirá los testimonios de nuestros Formadores Certificados"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "text",
+     "html": "<p>Más de<strong> 5000 estudiantes</strong> de <strong><em>diferentes partes del mundo</em></strong> están cursando actualmente.<br>Mira los testimonios actualizados a Marzo de 2023. </p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "testimonial",
+     "text": "El Espacio de Geometría Sagrada es un lugar donde encuentro familia, mucha información ordenada, y un lugar donde encontrarme conmigo misma! Confiaron mucho en mi y en mi proyecto y me hace feliz que eso se pueda multiplicar a muchas personas geómetras más!",
+     "name": "Ma. Laura de Rose",
+     "role": "Buenos Aires - Argentina",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/maru.png"
+    },
+    {
+     "t": "testimonial",
+     "text": "A través de los cursos, trazos, construcciones 3D, medicina ambiental, sentí una expansión y conexión con la “Mente de Dios”. La percepción del mundo amplificada por la Geometría Sagrada llenó mi corazón con un sentimiento de pertenencia y reconociendo que el Universo es una unidad definida en un lenguaje de luz, sonido y geometría que sustentan la vida incondicionalmente! ¡Agradezco todo el apoyo y la formación recibida por Espacio de Geometría Sagrada y deseo compartirlo con la mente y el corazón en armonía!",
+     "name": "Cristine Dal Maso",
+     "role": "Brasil",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/cristine.png"
+    },
+    {
+     "t": "testimonial",
+     "text": "Me encantó la formación, es muy completa y me dio muchas bases para aplicar la geometría sagrada en mi vida y en mis pacientes y alumnos. Estoy feliz de haberlos encontrado! Hicieron mi aprendizaje muy sencillo. Gracias Monique, gracias Pablo!",
+     "name": "Carmen Orellana Puertas",
+     "role": "México",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/carmenorellana-1.png"
+    },
+    {
+     "t": "testimonial",
+     "text": "Me re-encontré a mi misma, mi mundo interno, mis riquezas y dones para poder desarrollarlos y potenciarlos. La Geometría Sagrada es una herramienta maravillosa que me ayudó a mantener la cordura y la integridad en los dificultosos momentos de estos últimos años; contribuyendo a mi crecimiento, desarrollo y especialmente a aceptarme y amarme tal como soy, sin juzgarme; y a tomar conciencia de que estoy conectada a algo superior de lo cual a su vez formo parte. Estoy feliz de haberlos encontrado! Hicieron mi aprendizaje muy sencillo. Gracias Monique, gracias Pablo!",
+     "name": "Nancy Pujadas",
+     "role": "Argentina",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/nancy.png"
+    },
+    {
+     "t": "testimonial",
+     "text": "Varios cursos y Diplomados había estudiado previamente, sin embargo, no había experimentado anteriormente la cálida sensación de haber sido acogida en una familia tan amorosa. En esta atmósfera de confianza y paciencia fui desarrollando cada uno de los cursos con una buena dosis de disciplina y una dosis mayor de interés por aproximarme más y más a los misterios y maravillas de las formas.",
+     "name": "Gema Lopez Gorosove",
+     "role": "Argentina",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/gema.jpeg"
+    },
+    {
+     "t": "testimonial",
+     "text": "Ha sido muy bello para mi hacer esta Formación pues aprendí mucho y me llene de herramientas para comprender mejor la vida, el hábitat y a mi misma. Me siento agradecida por todo lo que brinda el espacio y la forma en que llevan adelante los estudios. Siempre me sentí cómoda y recibiendo apoyo. Ahora puedo ver todo de una manera mas amplia y me ayuda para vivir los momentos difíciles de la vida.",
+     "name": "Ma. Fernanda Aldana",
+     "role": "Argentina",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/mariafernanda.png"
+    },
+    {
+     "t": "testimonial",
+     "text": "Mi experiencia fue que en la medida que iba aprendiendo, mi ser estaba mas consciente con todo lo que me rodeaba y todo tenía otro significado y mi mirada estaba más ampliada. Uso ahora la Geometría Sagrada en mi profesión y es asombroso ver los resultados que he obtenido.",
+     "name": "Victor Anibal Coronel",
+     "role": "Argentina",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/victor.png"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "La Formación"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/mockup-4-48235981512063929-large1.png",
+     "alt": ""
+    },
+    {
+     "t": "text",
+     "html": "<ul><li><strong>Compuesta por 11 cursos.</strong></li><li><strong>Duración total: 24 meses </strong><em>de cursada</em></li><li><strong><em>100% Online.<br>Las primeras 6 materias</em></strong> se cursan al ritmo del estudiante, siguiendo videos y material de descarga.<br><strong><em>Las restantes 5 se cursan en vivo y directo, e</em></strong>n diferentes horas y días de cursada.</li><li><strong><em>4 pilares: </em></strong><em>Trazos de Geometría Sagrada, Construcciones en 3D, Medicina de las Formas y Armonización de Espacios</em></li><li><strong><em>Apoyo y orientación </em></strong><em>a cargo del <strong>Consejo Académico</strong>.</em></li></ul>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Inscripción Online"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 1,
+     "text": "Conocé el valor y los Medios de Pago habilitados"
+    },
+    {
+     "t": "button",
+     "text": "QUIERO SABER MAS",
+     "href": "#formabajo"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "¿Dudas o consultas?"
+    },
+    {
+     "t": "text",
+     "html": "<p>Completa el formulario para que podamos enviarte el Dossier, el programa y los medios de pago habilitados en tu país. También, puedes escribirnos a <strong><a href=\"mailto:info@espaciodegeometriasagrada.com\">info@espaciodegeometríasagrada.com</a>. Te responderemos en menos de 48 hs.</strong></p>"
+    }
+   ]
+  }
+ ]
+}

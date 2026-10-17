@@ -1,0 +1,379 @@
+{
+ "oldSlugs": [
+  [
+   "/los-7-centros-energeticos/",
+   "/los-chakras-7-centros-energeticos/"
+  ],
+  [
+   "/el-tetraedro-sus-caracteristicas/",
+   "/tetraedro-sus-caracteristicas/"
+  ],
+  [
+   "/4002/",
+   "/los-5-elementos-y-los-3-ciclos4002/"
+  ],
+  [
+   "/ancla-tu-energia-al-cielo-y-la-tierra/",
+   "/meditacion-cielo-tierra/"
+  ],
+  [
+   "/quienes/monique-dumolin/",
+   "/quienes-somos/monique-dumolin/"
+  ],
+  [
+   "/quienes/pablo-pettinaroli/",
+   "/quienes-somos/pablo-pettinaroli/"
+  ],
+  [
+   "/seminario-emprender/",
+   "/seminario-emprender-estudiantes/"
+  ]
+ ],
+ "menus": {
+  "principal": [
+   {
+    "label": "Inicio",
+    "href": "/",
+    "order": 1
+   },
+   {
+    "label": "Que Hacemos",
+    "href": "/que-hacemos/",
+    "order": 2
+   },
+   {
+    "label": "LIBRO",
+    "href": "https://envivo.espaciodegeometriasagrada.com/",
+    "order": 3
+   },
+   {
+    "label": "FORMACIONES",
+    "href": "https://formacion.espaciodegeometriasagrada.com/",
+    "order": 4
+   },
+   {
+    "label": "BLOG",
+    "href": "https://espaciodegeometriasagrada.substack.com/",
+    "order": 5
+   },
+   {
+    "label": "Contacto",
+    "href": "/contacto/",
+    "order": 6
+   }
+  ],
+  "login2": [
+   {
+    "label": "Inicio",
+    "href": "/",
+    "order": 1
+   },
+   {
+    "label": "Tu Formación",
+    "href": "/mis-cursos/",
+    "order": 2
+   },
+   {
+    "label": "LIBRO POR EL MUNDO",
+    "href": "https://envivo.espaciodegeometriasagrada.com/",
+    "order": 3
+   },
+   {
+    "label": "Salir",
+    "href": "#uo_log_in_out_link",
+    "order": 4
+   }
+  ],
+  "pie": [
+   {
+    "label": "NOSOTROS",
+    "href": "/quienes-somos/",
+    "order": 1
+   },
+   {
+    "label": "ACCESO ESTUDIANTES",
+    "href": "/acceso/",
+    "order": 2
+   },
+   {
+    "label": "ESPECIALIZACIONES",
+    "href": "https://terapias.espaciodegeometriasagrada.com",
+    "order": 3
+   },
+   {
+    "label": "FORMACION",
+    "href": "https://formacion.espaciodegeometriasagrada.com",
+    "order": 4
+   },
+   {
+    "label": "BLOG",
+    "href": "https://espaciodegeometriasagrada.substack.com/",
+    "order": 5
+   }
+  ],
+  "legales": [
+   {
+    "label": "CONTACTO",
+    "href": "/contacto/",
+    "order": 1
+   },
+   {
+    "label": "RESPONSABILIDAD SOCIAL",
+    "href": "/responsabilidad-empresarial/",
+    "order": 2
+   },
+   {
+    "label": "POLITICAS PRIVACIDAD",
+    "href": "/politica-de-privacidad/",
+    "order": 3
+   },
+   {
+    "label": "RESPONSABILIDAD Y LEGALES",
+    "href": "/descargo-de-responsabilidad/",
+    "order": 4
+   }
+  ]
+ },
+ "categories": [
+  {
+   "slug": "armonizacion-de-espacios",
+   "name": "Armonización de Espacios",
+   "description": "",
+   "count": 5
+  },
+  {
+   "slug": "centros-de-energia",
+   "name": "Los Centros de Energía",
+   "description": "",
+   "count": 12
+  },
+  {
+   "slug": "medicina-de-la-forma",
+   "name": "Medicina de la Forma",
+   "description": "",
+   "count": 1
+  },
+  {
+   "slug": "reflexiones",
+   "name": "Reflexiones",
+   "description": "",
+   "count": 12
+  },
+  {
+   "slug": "solidos-platonicos",
+   "name": "Sólidos Platónicos",
+   "description": "",
+   "count": 9
+  },
+  {
+   "slug": "trazos-de-geometria-sagrada",
+   "name": "Trazos de Geometría Sagrada",
+   "description": "",
+   "count": 6
+  }
+ ],
+ "authors": [
+  {
+   "slug": "monique-dumoulin",
+   "name": "Monique Dumoulin",
+   "count": 35
+  },
+  {
+   "slug": "merc-loboyahoo-com",
+   "name": "Mercè Lobo Casulleras",
+   "count": 9
+  },
+  {
+   "slug": "desarrollador",
+   "name": "Espacio de Geometría Sagrada",
+   "count": 3
+  }
+ ],
+ "pages": [
+  {
+   "slug": "contacto",
+   "path": "/contacto/",
+   "kind": "institucional",
+   "title": "Contacto"
+  },
+  {
+   "slug": "cursos",
+   "path": "/cursos/",
+   "kind": "producto",
+   "title": "Cursos"
+  },
+  {
+   "slug": "trazos-re-conociendo-tu-campo-energetico",
+   "path": "/cursos/trazos-re-conociendo-tu-campo-energetico/",
+   "kind": "producto",
+   "title": "Trazos: Re-Conociendo tu Campo Energético"
+  },
+  {
+   "slug": "los-solidos-platonicos-y-la-estrella-madre",
+   "path": "/cursos/los-solidos-platonicos-y-la-estrella-madre/",
+   "kind": "producto",
+   "title": "Los Sólidos Platónicos y la Estrella Madre"
+  },
+  {
+   "slug": "ebook-7-trazos-de-geometria-sagrada",
+   "path": "/ebook-7-trazos-de-geometria-sagrada/",
+   "kind": "producto",
+   "title": "eBook 7 Trazos de Geometría Sagrada"
+  },
+  {
+   "slug": "quienes-somos",
+   "path": "/quienes-somos/",
+   "kind": "institucional",
+   "title": "Quienes somos"
+  },
+  {
+   "slug": "monique-dumolin",
+   "path": "/quienes-somos/monique-dumolin/",
+   "kind": "institucional",
+   "title": "Monique Dumolin"
+  },
+  {
+   "slug": "pablo-pettinaroli",
+   "path": "/quienes-somos/pablo-pettinaroli/",
+   "kind": "institucional",
+   "title": "Pablo Pettinaroli"
+  },
+  {
+   "slug": "que-hacemos",
+   "path": "/que-hacemos/",
+   "kind": "institucional",
+   "title": "Que Hacemos"
+  },
+  {
+   "slug": "formacion-profesional",
+   "path": "/formacion-profesional/",
+   "kind": "producto",
+   "title": "Formación Profesional"
+  },
+  {
+   "slug": "dossier-y-programa",
+   "path": "/formacion-profesional/dossier-y-programa/",
+   "kind": "producto",
+   "title": "Dossier y Programa"
+  },
+  {
+   "slug": "entrevista-confirrmada",
+   "path": "/formacion-profesional/entrevista-confirrmada/",
+   "kind": "confirmacion",
+   "title": "Entrevista Confirrmada"
+  },
+  {
+   "slug": "formacion_profesional",
+   "path": "/formacion_profesional/",
+   "kind": "producto",
+   "title": "Formación Profesional en Geometría Sagrada"
+  },
+  {
+   "slug": "politica-de-privacidad",
+   "path": "/politica-de-privacidad/",
+   "kind": "legal",
+   "title": "Política de Privacidad"
+  },
+  {
+   "slug": "descargo-de-responsabilidad",
+   "path": "/descargo-de-responsabilidad/",
+   "kind": "legal",
+   "title": "Descargo de Responsabilidad"
+  },
+  {
+   "slug": "responsabilidad-empresarial",
+   "path": "/responsabilidad-empresarial/",
+   "kind": "legal",
+   "title": "Responsabilidad empresarial"
+  },
+  {
+   "slug": "experiencia-exclusiva-2",
+   "path": "/experiencia-exclusiva-2/",
+   "kind": "producto",
+   "title": "Experiencia Exclusiva – Semana Geo"
+  },
+  {
+   "slug": "workshop-experiencias-geometricas",
+   "path": "/workshop-experiencias-geometricas/",
+   "kind": "producto",
+   "title": "Workshop Experiencias Geométricas"
+  },
+  {
+   "slug": "pago-confirmado",
+   "path": "/pago-confirmado/",
+   "kind": "confirmacion",
+   "title": "Pago Confirmado"
+  },
+  {
+   "slug": "experiencia-geometrica-gracias",
+   "path": "/experiencia-geometrica-gracias/",
+   "kind": "confirmacion",
+   "title": "Experiencia Exclusiva – Semana Geo"
+  },
+  {
+   "slug": "mentoria-emprendimientos",
+   "path": "/mentoria-emprendimientos/",
+   "kind": "producto",
+   "title": "Transforma tu \"Don\" en un Servicio que Impacte (muchas) Vidas"
+  },
+  {
+   "slug": "actualizate",
+   "path": "/actualizate/",
+   "kind": "producto",
+   "title": "Actualiza tu \"identidad\" con Geometría Sagrada"
+  },
+  {
+   "slug": "seminario",
+   "path": "/seminario/",
+   "kind": "producto",
+   "title": "Seminario"
+  },
+  {
+   "slug": "experiencia-exclusiva",
+   "path": "/experiencia-exclusiva/",
+   "kind": "producto",
+   "title": "experiencia-exclusiva"
+  },
+  {
+   "slug": "ig",
+   "path": "/ig/",
+   "kind": "producto",
+   "title": "IG"
+  },
+  {
+   "slug": "seminario-emprender-estudiantes",
+   "path": "/seminario-emprender-estudiantes/",
+   "kind": "producto",
+   "title": "Seminario Geometría Sagrada para Potenciar tu Emprendimiento"
+  }
+ ],
+ "legacyPrefixes": [
+  "/courses/",
+  "/lessons/",
+  "/topics/",
+  "/groups/",
+  "/quizzes/",
+  "/producto/",
+  "/wp-admin/",
+  "/wp-login.php",
+  "/wp-json/",
+  "/wp-content/",
+  "/wp-includes/",
+  "/xmlrpc.php"
+ ],
+ "legacyPages": [
+  "/tienda/",
+  "/carrito/",
+  "/finalizar-compra/",
+  "/mi-cuenta/",
+  "/ingreso-a-la-plataforma/",
+  "/acceso/",
+  "/mis-cursos/",
+  "/mi-cuenta/ayuda/",
+  "/mi-cuenta/tus-datos/",
+  "/registration/",
+  "/registration-success/",
+  "/registration-2/",
+  "/registration-success-2/"
+ ]
+}

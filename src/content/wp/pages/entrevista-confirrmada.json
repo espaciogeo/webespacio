@@ -1,0 +1,57 @@
+{
+ "id": "32123",
+ "slug": "entrevista-confirrmada",
+ "path": "/formacion-profesional/entrevista-confirrmada/",
+ "kind": "confirmacion",
+ "title": "Entrevista Confirrmada",
+ "date": "2024-02-12",
+ "modified": "2025-01-25",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": true,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "¡Tu SOLICITUD fue RECIBIDA!"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "En menos de 5 minutos, una persona del equipo revisará tu solicitud de entrevista y te enviará por correo los detalles si la misma es confirmada. Te invitamos a ver el siguiente video para no perderte de ningún detalle:"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "video",
+     "provider": "vimeo",
+     "id": "850971468?h=ed22cd3e4e"
+    },
+    {
+     "t": "heading",
+     "level": 4,
+     "text": "Recuerda que sólo entrevistamos personas que dispongan del tiempo y el mínimo necesario de inversión para comenzar. Si tu entrevista es aceptada, te comunicaremos los pasos a seguir por correo."
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "¿Dudas o consultas?"
+    },
+    {
+     "t": "text",
+     "html": "<p>Completa el formulario para que podamos enviarte el Dossier, el programa y los medios de pago habilitados en tu país. También, puedes escribirnos a <strong><a href=\"mailto:info@espaciodegeometriasagrada.com\">info@espaciodegeometríasagrada.com</a>. Te responderemos en menos de 48 hs.</strong></p>"
+    }
+   ]
+  }
+ ]
+}

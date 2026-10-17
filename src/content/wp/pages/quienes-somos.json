@@ -1,0 +1,97 @@
+{
+ "id": "31952",
+ "slug": "quienes-somos",
+ "path": "/quienes-somos/",
+ "kind": "institucional",
+ "title": "Quienes somos",
+ "date": "2024-01-17",
+ "modified": "2026-07-13",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "QUIENES SOMOS"
+    },
+    {
+     "t": "text",
+     "html": "<p>El <b>Espacio de Geometría Sagrada</b> fue fundado en el año 2014 por <b><i>Monique Dumoulin</i></b>, con la misión <i>de </i><b><i>compartir y multiplicar</i></b><i> este conocimiento ancestral que es la </i><b><i>Geometría Sagrada</i></b> <i>en todo el mundo</i>, a través de Cursos, Talleres y Seminarios, tanto presenciales como por internet.</p><p><b><i>Cada mes brindamos clases online y gratuitas</i></b> que son emitidas desde nuestra web para todo el mundo, con el fin de <i>democratizar el conocimiento y que este llegue a quienes resuenen</i>.</p><p><b><i>Más de 5000 personas de todas partes del mundo son parte de nuestra comunidad de estudiantes</i></b>, que acceden regularmente a nuestra plataforma de estudios con el fin de aprender como <b><i>aplicar esta maravillosa filosofía en sus vidas</i></b>.</p><p>En las redes, el <b>Espacio de Geometría Sagrada</b> cuenta con más de <i>125000 seguidores en </i><a href=\"https://www.facebook.com/EspaciodeGeometriaSagrada\"><b>Facebook</b></a>, más de 50000 en <a href=\"https://www.instagram.com/espaciodegeometriasagrada/\"><b>Instagram </b></a>y decenas de miles de vistas en nuestro Canal de <a href=\"https://www.youtube.com/c/EspaciodegeometriasagradaxMoniqueDumoulin\"><b>Youtube</b></a>. </p><p><b><i>Monique Dumoulin</i></b> es <i>Arquitecta egresada de la </i><b><i>U.B.A.</i></b>, y <i>Formadora Geómetra</i>. Lleva ya mas de 20 años difundiendo este conocimiento. <i>Actualmente este Espacio es dirigido por</i> <b><i>Pablo Pettinaroli</i></b>, Diseñador Multimedial, y <i>autor del podcast \"Manual para Sobrevivientes\".</i></p>"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Juntos, encabezan un equipo profesionales interdisciplinario, con pasión por lo que hacen. Conocenos!"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/monique-dumolin.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Monique Dumolin"
+    },
+    {
+     "t": "text",
+     "html": "<p>Fundadora y Facilitadora Geómetra</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Sus más de 20 años de experiencia se alquimizaron en esta misión de compartir y multiplicar este conocimiento ancestral.</p>"
+    },
+    {
+     "t": "button",
+     "text": "Ver Más Info",
+     "href": "/quienes/monique-dumolin/"
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/pablo-pettinaroli.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Pablo Pettinaroli"
+    },
+    {
+     "t": "text",
+     "html": "<p>Director Ejecutivo</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Su pasión por la tecnología y su sueño de democratizar el conocimiento confluyeron en su trabajo dentro del Espacio.</p>"
+    },
+    {
+     "t": "button",
+     "text": "Ver Más Info",
+     "href": "/quienes/pablo-pettinaroli/"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Formadores Certificados"
+    }
+   ]
+  }
+ ]
+}

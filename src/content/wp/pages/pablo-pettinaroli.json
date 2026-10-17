@@ -1,0 +1,38 @@
+{
+ "id": "32012",
+ "slug": "pablo-pettinaroli",
+ "path": "/quienes-somos/pablo-pettinaroli/",
+ "kind": "institucional",
+ "title": "Pablo Pettinaroli",
+ "date": "2024-01-17",
+ "modified": "2024-01-17",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/pablo-pettinaroli.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 3,
+     "text": "Pablo Pettinaroli"
+    },
+    {
+     "t": "text",
+     "html": "<p>Director Ejecutivo</p>"
+    },
+    {
+     "t": "text",
+     "html": "<p>Pablo Pettinaroli es Orador especialista en Motivación, Coach Ontológico, Diseñador Multimedial y Practitioner en Programación Neuro Lingüistica.</p><p>Desde hace 15 años, investiga como el uso de la técnologia puede ser utilizado para democratizar el conocimiento. Ha estudiado y aprendido de personas como Tony Robbins, Joe Dispenza, Deepack Chopra y Diana Fontanez.</p><p>Apasionado por el Liderazgo, el desarrollo personal y la espiritualidad, es creador del Podcast \"Manual para Sobrevivientes\", emitido por FM Rock and Pop, donde cuenta como luego de sobrevivir a la tragedia de Cromañon, puso en práctica todo lo estudiado para mejorar su calidad de vida y concretar sus proyectos.</p><p>Desde la fundación del Espacio de Geometría Sagrada, aporta su visión y conocimiento para que esta maravillosa herramienta llegue a todo el mundo.</p><p>Hoy, dirige un equipo de personas increibles que tienen como fin lograr cada uno de los objetivos propuestos.</p><p>Puedes seguirlo en sus redes:</p>"
+    }
+   ]
+  }
+ ]
+}

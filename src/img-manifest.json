@@ -1,0 +1,54 @@
+{
+  "equipo-duo": {
+    "w": 1600,
+    "h": 1067
+  },
+  "equipo-retrato": {
+    "w": 1433,
+    "h": 2560
+  },
+  "monique-taller": {
+    "w": 1600,
+    "h": 2405
+  },
+  "pablo-icosaedro": {
+    "w": 1080,
+    "h": 1080
+  },
+  "trazo-compas": {
+    "w": 1600,
+    "h": 2405
+  },
+  "trazo-compas-2": {
+    "w": 1600,
+    "h": 2405
+  },
+  "construccion-manos": {
+    "w": 1600,
+    "h": 2405
+  },
+  "octaedros": {
+    "w": 1600,
+    "h": 2405
+  },
+  "trazo-toro": {
+    "w": 1600,
+    "h": 2405
+  },
+  "taller-alumnas": {
+    "w": 1600,
+    "h": 2405
+  },
+  "taller-grupo": {
+    "w": 1600,
+    "h": 1064
+  },
+  "vesica-lapiz": {
+    "w": 1600,
+    "h": 1200
+  },
+  "libro": {
+    "w": 632,
+    "h": 885
+  }
+}

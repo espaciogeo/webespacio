@@ -1,0 +1,668 @@
+[
+ {
+  "old": "/inicio/",
+  "nuevo": "/",
+  "tipo": "página reemplazada",
+  "estado": "301"
+ },
+ {
+  "old": "/blog/",
+  "nuevo": "/blog/",
+  "tipo": "página reemplazada",
+  "estado": "200"
+ },
+ {
+  "old": "/contacto/",
+  "nuevo": "/contacto/",
+  "tipo": "página · institucional",
+  "estado": "200"
+ },
+ {
+  "old": "/cursos/",
+  "nuevo": "/cursos/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/cursos/trazos-re-conociendo-tu-campo-energetico/",
+  "nuevo": "/cursos/trazos-re-conociendo-tu-campo-energetico/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/cursos/los-solidos-platonicos-y-la-estrella-madre/",
+  "nuevo": "/cursos/los-solidos-platonicos-y-la-estrella-madre/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/ebook-7-trazos-de-geometria-sagrada/",
+  "nuevo": "/ebook-7-trazos-de-geometria-sagrada/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/quienes-somos/",
+  "nuevo": "/quienes-somos/",
+  "tipo": "página · institucional",
+  "estado": "200"
+ },
+ {
+  "old": "/quienes-somos/monique-dumolin/",
+  "nuevo": "/quienes-somos/monique-dumolin/",
+  "tipo": "página · institucional",
+  "estado": "200"
+ },
+ {
+  "old": "/quienes-somos/pablo-pettinaroli/",
+  "nuevo": "/quienes-somos/pablo-pettinaroli/",
+  "tipo": "página · institucional",
+  "estado": "200"
+ },
+ {
+  "old": "/que-hacemos/",
+  "nuevo": "/que-hacemos/",
+  "tipo": "página · institucional",
+  "estado": "200"
+ },
+ {
+  "old": "/formacion-profesional/",
+  "nuevo": "/formacion-profesional/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/formacion-profesional/dossier-y-programa/",
+  "nuevo": "/formacion-profesional/dossier-y-programa/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/tienda/",
+  "nuevo": "/tienda/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/carrito/",
+  "nuevo": "/carrito/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/finalizar-compra/",
+  "nuevo": "/finalizar-compra/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/mi-cuenta/",
+  "nuevo": "/mi-cuenta/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/formacion-profesional/entrevista-confirrmada/",
+  "nuevo": "/formacion-profesional/entrevista-confirrmada/",
+  "tipo": "página · confirmacion",
+  "estado": "200"
+ },
+ {
+  "old": "/formacion_profesional/",
+  "nuevo": "/formacion_profesional/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/ingreso-a-la-plataforma/",
+  "nuevo": "/ingreso-a-la-plataforma/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/acceso/",
+  "nuevo": "/acceso/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/mis-cursos/",
+  "nuevo": "/mis-cursos/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/mi-cuenta/ayuda/",
+  "nuevo": "/mi-cuenta/ayuda/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/politica-de-privacidad/",
+  "nuevo": "/politica-de-privacidad/",
+  "tipo": "página · legal",
+  "estado": "200"
+ },
+ {
+  "old": "/descargo-de-responsabilidad/",
+  "nuevo": "/descargo-de-responsabilidad/",
+  "tipo": "página · legal",
+  "estado": "200"
+ },
+ {
+  "old": "/responsabilidad-empresarial/",
+  "nuevo": "/responsabilidad-empresarial/",
+  "tipo": "página · legal",
+  "estado": "200"
+ },
+ {
+  "old": "/mi-cuenta/tus-datos/",
+  "nuevo": "/mi-cuenta/tus-datos/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/registration/",
+  "nuevo": "/registration/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/registration-success/",
+  "nuevo": "/registration-success/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/registration-2/",
+  "nuevo": "/registration-2/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/registration-success-2/",
+  "nuevo": "/registration-success-2/",
+  "tipo": "plataforma (WordPress)",
+  "estado": "proxy"
+ },
+ {
+  "old": "/experiencia-exclusiva-2/",
+  "nuevo": "/experiencia-exclusiva-2/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/workshop-experiencias-geometricas/",
+  "nuevo": "/workshop-experiencias-geometricas/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/pago-confirmado/",
+  "nuevo": "/pago-confirmado/",
+  "tipo": "página · confirmacion",
+  "estado": "200"
+ },
+ {
+  "old": "/experiencia-geometrica-gracias/",
+  "nuevo": "/experiencia-geometrica-gracias/",
+  "tipo": "página · confirmacion",
+  "estado": "200"
+ },
+ {
+  "old": "/mentoria-emprendimientos/",
+  "nuevo": "/mentoria-emprendimientos/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/actualizate/",
+  "nuevo": "/actualizate/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/inicio-nuevo/",
+  "nuevo": "/",
+  "tipo": "página reemplazada",
+  "estado": "301"
+ },
+ {
+  "old": "/seminario/",
+  "nuevo": "/seminario/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/experiencia-exclusiva/",
+  "nuevo": "/experiencia-exclusiva/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/ig/",
+  "nuevo": "/ig/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/seminario-emprender-estudiantes/",
+  "nuevo": "/seminario-emprender-estudiantes/",
+  "tipo": "página · producto",
+  "estado": "200"
+ },
+ {
+  "old": "/los-chakras-7-centros-energeticos/",
+  "nuevo": "/los-chakras-7-centros-energeticos/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/los-5-solidos-platonicos/",
+  "nuevo": "/los-5-solidos-platonicos/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/re-descubri-te-a-traves-de-la-sagrada-geometria/",
+  "nuevo": "/re-descubri-te-a-traves-de-la-sagrada-geometria/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/las-formas-del-espacio-sagrado/",
+  "nuevo": "/las-formas-del-espacio-sagrado/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/trazando-descubro-que/",
+  "nuevo": "/trazando-descubro-que/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/celebremos-la-vida-en-perpetuo-movimiento/",
+  "nuevo": "/celebremos-la-vida-en-perpetuo-movimiento/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/los-centros-de-energia-primer-chacra/",
+  "nuevo": "/los-centros-de-energia-primer-chacra/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/geometria-sagrada-estrella-madre-el-secreto-de-la-vida/",
+  "nuevo": "/geometria-sagrada-estrella-madre-el-secreto-de-la-vida/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/atenea-espacio-de-geometria-sagrada/",
+  "nuevo": "/atenea-espacio-de-geometria-sagrada/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/activa-tu-campo-de-potencial-con-esta-poderosa-meditacion/",
+  "nuevo": "/activa-tu-campo-de-potencial-con-esta-poderosa-meditacion/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/estereografiar-tu-trazo/",
+  "nuevo": "/estereografiar-tu-trazo/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/los-centros-de-energia-segundo-chakra/",
+  "nuevo": "/los-centros-de-energia-segundo-chakra/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/los-centros-de-energia-tercer-chakra/",
+  "nuevo": "/los-centros-de-energia-tercer-chakra/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/los-centros-de-energia-cuarto-chakra/",
+  "nuevo": "/los-centros-de-energia-cuarto-chakra/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/los-centros-de-energia-quinto-chakra/",
+  "nuevo": "/los-centros-de-energia-quinto-chakra/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/los-centros-de-energia-sexto-chakra/",
+  "nuevo": "/los-centros-de-energia-sexto-chakra/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/los-centros-de-energia-septimo-chakra/",
+  "nuevo": "/los-centros-de-energia-septimo-chakra/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/los-solidos-platonicos-y-su-origen/",
+  "nuevo": "/los-solidos-platonicos-y-su-origen/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/tetraedro-sus-caracteristicas/",
+  "nuevo": "/tetraedro-sus-caracteristicas/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/cubo-y-octaedro-sus-caracteristicas/",
+  "nuevo": "/cubo-y-octaedro-sus-caracteristicas/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/icosaedro-y-dodecaedro-sus-caracteristicas/",
+  "nuevo": "/icosaedro-y-dodecaedro-sus-caracteristicas/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/los-seis-elementos/",
+  "nuevo": "/los-seis-elementos/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/que-es-un-mandala/",
+  "nuevo": "/que-es-un-mandala/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/geometria-sagrada-una-herramienta-de-evolucion/",
+  "nuevo": "/geometria-sagrada-una-herramienta-de-evolucion/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/la-llamada-rejilla-cristica/",
+  "nuevo": "/la-llamada-rejilla-cristica/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/los-5-elementos-y-los-3-ciclos4002/",
+  "nuevo": "/los-5-elementos-y-los-3-ciclos4002/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/laberintos-chartes-sus-secretos/",
+  "nuevo": "/laberintos-chartes-sus-secretos/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/que-significa-sustentabilidad/",
+  "nuevo": "/que-significa-sustentabilidad/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/la-geometria-sagrada-ti/",
+  "nuevo": "/la-geometria-sagrada-ti/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/puedes-encarar-esta-vida-de-diferentes-maneras/",
+  "nuevo": "/puedes-encarar-esta-vida-de-diferentes-maneras/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/4723-2/",
+  "nuevo": "/4723-2/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/mas-alla-de-tu-cuerpo-fisico/",
+  "nuevo": "/mas-alla-de-tu-cuerpo-fisico/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/por-que-trazar-tus-propios-mandalas/",
+  "nuevo": "/por-que-trazar-tus-propios-mandalas/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/la-geometria-sagrada-y-tu/",
+  "nuevo": "/la-geometria-sagrada-y-tu/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/la-arquitectura-la-forma-y-la-geometria/",
+  "nuevo": "/la-arquitectura-la-forma-y-la-geometria/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/meditacion-cielo-tierra/",
+  "nuevo": "/meditacion-cielo-tierra/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/meditemos-con-el-dodecaedro/",
+  "nuevo": "/meditemos-con-el-dodecaedro/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/meditacion-con-el-cubo-de-metatatron/",
+  "nuevo": "/meditacion-con-el-cubo-de-metatatron/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/las-9-esencias-cristalinas-y-la-semilla-de-la-vida/",
+  "nuevo": "/las-9-esencias-cristalinas-y-la-semilla-de-la-vida/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/breve-introduccion-a-las-tres-disciplinas-iniciaticas/",
+  "nuevo": "/breve-introduccion-a-las-tres-disciplinas-iniciaticas/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/la-grandeza-de-un-simple-punto/",
+  "nuevo": "/la-grandeza-de-un-simple-punto/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/el-numero-0-cero/",
+  "nuevo": "/el-numero-0-cero/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/el-numero-1-uno/",
+  "nuevo": "/el-numero-1-uno/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/repasemos-algunos-conceptos-antes-de-continuar/",
+  "nuevo": "/repasemos-algunos-conceptos-antes-de-continuar/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/repasemos-los-solidos-platonicos/",
+  "nuevo": "/repasemos-los-solidos-platonicos/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/el-cubo-y-su-relacion-con-los-numeros-y-los-astros/",
+  "nuevo": "/el-cubo-y-su-relacion-con-los-numeros-y-los-astros/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/relacionemos-el-tetraedro-con-los-numeros-y-los-astros/",
+  "nuevo": "/relacionemos-el-tetraedro-con-los-numeros-y-los-astros/",
+  "tipo": "entrada",
+  "estado": "200"
+ },
+ {
+  "old": "/category/armonizacion-de-espacios/",
+  "nuevo": "/category/armonizacion-de-espacios/",
+  "tipo": "categoría",
+  "estado": "200"
+ },
+ {
+  "old": "/category/blog/armonizacion-de-espacios/",
+  "nuevo": "/category/armonizacion-de-espacios/",
+  "tipo": "categoría (ruta vieja)",
+  "estado": "301"
+ },
+ {
+  "old": "/category/centros-de-energia/",
+  "nuevo": "/category/centros-de-energia/",
+  "tipo": "categoría",
+  "estado": "200"
+ },
+ {
+  "old": "/category/blog/centros-de-energia/",
+  "nuevo": "/category/centros-de-energia/",
+  "tipo": "categoría (ruta vieja)",
+  "estado": "301"
+ },
+ {
+  "old": "/category/medicina-de-la-forma/",
+  "nuevo": "/category/medicina-de-la-forma/",
+  "tipo": "categoría",
+  "estado": "200"
+ },
+ {
+  "old": "/category/blog/medicina-de-la-forma/",
+  "nuevo": "/category/medicina-de-la-forma/",
+  "tipo": "categoría (ruta vieja)",
+  "estado": "301"
+ },
+ {
+  "old": "/category/reflexiones/",
+  "nuevo": "/category/reflexiones/",
+  "tipo": "categoría",
+  "estado": "200"
+ },
+ {
+  "old": "/category/blog/reflexiones/",
+  "nuevo": "/category/reflexiones/",
+  "tipo": "categoría (ruta vieja)",
+  "estado": "301"
+ },
+ {
+  "old": "/category/solidos-platonicos/",
+  "nuevo": "/category/solidos-platonicos/",
+  "tipo": "categoría",
+  "estado": "200"
+ },
+ {
+  "old": "/category/blog/solidos-platonicos/",
+  "nuevo": "/category/solidos-platonicos/",
+  "tipo": "categoría (ruta vieja)",
+  "estado": "301"
+ },
+ {
+  "old": "/category/trazos-de-geometria-sagrada/",
+  "nuevo": "/category/trazos-de-geometria-sagrada/",
+  "tipo": "categoría",
+  "estado": "200"
+ },
+ {
+  "old": "/category/blog/trazos-de-geometria-sagrada/",
+  "nuevo": "/category/trazos-de-geometria-sagrada/",
+  "tipo": "categoría (ruta vieja)",
+  "estado": "301"
+ },
+ {
+  "old": "/author/monique-dumoulin/",
+  "nuevo": "/author/monique-dumoulin/",
+  "tipo": "autor",
+  "estado": "200"
+ },
+ {
+  "old": "/author/merc-loboyahoo-com/",
+  "nuevo": "/author/merc-loboyahoo-com/",
+  "tipo": "autor",
+  "estado": "200"
+ },
+ {
+  "old": "/author/desarrollador/",
+  "nuevo": "/author/desarrollador/",
+  "tipo": "autor",
+  "estado": "200"
+ },
+ {
+  "old": "/los-7-centros-energeticos/",
+  "nuevo": "/los-chakras-7-centros-energeticos/",
+  "tipo": "slug anterior",
+  "estado": "301"
+ },
+ {
+  "old": "/el-tetraedro-sus-caracteristicas/",
+  "nuevo": "/tetraedro-sus-caracteristicas/",
+  "tipo": "slug anterior",
+  "estado": "301"
+ },
+ {
+  "old": "/4002/",
+  "nuevo": "/los-5-elementos-y-los-3-ciclos4002/",
+  "tipo": "slug anterior",
+  "estado": "301"
+ },
+ {
+  "old": "/ancla-tu-energia-al-cielo-y-la-tierra/",
+  "nuevo": "/meditacion-cielo-tierra/",
+  "tipo": "slug anterior",
+  "estado": "301"
+ },
+ {
+  "old": "/quienes/monique-dumolin/",
+  "nuevo": "/quienes-somos/monique-dumolin/",
+  "tipo": "slug anterior",
+  "estado": "301"
+ },
+ {
+  "old": "/quienes/pablo-pettinaroli/",
+  "nuevo": "/quienes-somos/pablo-pettinaroli/",
+  "tipo": "slug anterior",
+  "estado": "301"
+ },
+ {
+  "old": "/seminario-emprender/",
+  "nuevo": "/seminario-emprender-estudiantes/",
+  "tipo": "slug anterior",
+  "estado": "301"
+ }
+]

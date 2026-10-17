@@ -1,0 +1,110 @@
+{
+ "id": "35971",
+ "slug": "pago-confirmado",
+ "path": "/pago-confirmado/",
+ "kind": "confirmacion",
+ "title": "Pago Confirmado",
+ "date": "2024-11-12",
+ "modified": "2024-12-08",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": true,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "Gracias por tu confianza!"
+    },
+    {
+     "t": "text",
+     "html": "<p>Para asegurarnos que tus compras lleguen al lugar que deben llegar, te pedimos que completes este formulario. <br>Al hacerlo, nos ayudas a identificar las compras según el medio de pago elegido.<br>Por favor, completa los datos. Gracias por tu compra!</p>"
+    },
+    {
+     "t": "form",
+     "name": "Contacto",
+     "fields": [
+      {
+       "label": "Ingresa el nombre de la persona que realizo el pago",
+       "type": "text",
+       "required": true,
+       "id": "name",
+       "options": []
+      },
+      {
+       "label": "Ingresa el email con el cual realizaste el pago",
+       "type": "email",
+       "required": true,
+       "id": "email",
+       "options": []
+      },
+      {
+       "label": "¿Que producto abonaste?",
+       "type": "select",
+       "required": true,
+       "id": "message",
+       "options": [
+        "Formación Profesional Online",
+        "Mentoría Geometría Sagrada para Emprendimientos",
+        "Actualizate: PNL + Geometría Sagrada",
+        "Seminario de Especialización Infancias",
+        "Workshop Experiencias Geométricas",
+        "eBooks de Geometría Sagrada",
+        "Curso Online \"Numerología, Astrologia...\""
+       ]
+      },
+      {
+       "label": "La compra realizada...",
+       "type": "radio",
+       "required": true,
+       "id": "field_dc6dd04",
+       "options": [
+        "Es para mi",
+        "Es para otra persona"
+       ]
+      },
+      {
+       "label": "El medio de pago fue",
+       "type": "checkbox",
+       "required": false,
+       "id": "field_c3b15b5",
+       "options": [
+        "MercadoPago",
+        "Transferencia Bancaria Argentina",
+        "Transferencia bancaria Exterior",
+        "Stripe",
+        "No estoy seguro/a"
+       ]
+      },
+      {
+       "label": "Si tu compra fue para otra persona, por favor, ingresa el mail y elnombre completo. Si realizaste una trasnferencia, incluye el número de operación",
+       "type": "textarea",
+       "required": false,
+       "id": "field_db0c1f8",
+       "options": []
+      },
+      {
+       "label": "field_59ebbcc",
+       "type": "recaptcha",
+       "required": false,
+       "id": "field_59ebbcc",
+       "options": []
+      }
+     ],
+     "submit": "Enviar",
+     "actions": [
+      "save-to-database",
+      "email",
+      "email2"
+     ],
+     "formId": "9355512",
+     "postId": "35971",
+     "redirect": ""
+    }
+   ]
+  }
+ ]
+}

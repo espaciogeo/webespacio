@@ -1,0 +1,118 @@
+{
+ "id": "31853",
+ "slug": "cursos",
+ "path": "/cursos/",
+ "kind": "producto",
+ "title": "Cursos",
+ "date": "2024-01-17",
+ "modified": "2024-07-26",
+ "seo": {
+  "title": "",
+  "description": ""
+ },
+ "noindex": false,
+ "sections": [
+  {
+   "blocks": [
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "CURSOS ONLINE"
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "PROXIMAMENTE NUEVO CURSOS DISPONIBLES"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/banner-formacion-horizontal.png",
+     "alt": ""
+    },
+    {
+     "t": "heading",
+     "level": 2,
+     "text": "eBOOKS + MasterClass"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "card",
+     "title": "7 TRAZOS DE GEOMETRIA SAGRADA",
+     "html": "Un eBook para aprender a trazar mandalas. Aprenderás los significados de 7 símbolos sagrados y geométricos, y el paso a paso para trazarlos. Ideal para dar tus primeros pasos con esta maravillosa herramienta.",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/ebook-trazos-de-circulos-de-cosecha.png"
+    },
+    {
+     "t": "card",
+     "title": "LOS SECRETOS DE LOS SÓLIDOS PLATÓNICOS",
+     "html": "En este eBook aprenderás a reconocer los 5 Sólidos Platónicos, estas figuras geométricas de las cuales Platón descubrió sus propiedades y su relación con los 5 elementos. También, tendrás un paso a paso de como trazarlos y construirlos en 3D.",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/ebook-los-secretos-de-los-solidos-platonicos.png"
+    },
+    {
+     "t": "card",
+     "title": "TRAZOS DE CÍRCULOS DE COSECHA",
+     "html": "¿Alguna vez has visto círculos en los campos de cosecha? Monique realizó una investigación y encontró una teoría sobre sus orígenes. Con este eBook, aprenderás la relación que estos tienen con la Geometría Sagrada.",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/ebook-7-trazos-de-la-geometria-sagrada.png"
+    },
+    {
+     "t": "card",
+     "title": "MASTERCLASS",
+     "html": "En esta clase, te enseñaremos a trazar un sólido platónico y construirlo, además de información adicional que no está en los eBoos. Tendrás acceso a un zoom exclusivo, y la posibilidad de ver la grabación de las anteriores.",
+     "img": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/masterclass.png"
+    }
+   ]
+  },
+  {
+   "blocks": [
+    {
+     "t": "button",
+     "text": "PROXIMAMENTE NUEVA EDICIÓN!",
+     "href": ""
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/banner-horizontal-CLASE-GRATUITA-INSCRIPCION-notebook.png",
+     "alt": ""
+    },
+    {
+     "t": "image",
+     "src": "media:https://espaciodegeometriasagrada.com/wp-content/uploads/2024/01/banner-horizontal-CLASE-GRATUITA-INSCRIPCION-texto.png",
+     "alt": ""
+    },
+    {
+     "t": "form",
+     "name": "Banner_Clase_gratuita",
+     "fields": [
+      {
+       "label": "Name",
+       "type": "text",
+       "required": true,
+       "id": "name",
+       "options": []
+      },
+      {
+       "label": "Email",
+       "type": "email",
+       "required": true,
+       "id": "email",
+       "options": []
+      }
+     ],
+     "submit": "Sí, Quiero Registrarme!",
+     "actions": [
+      "getresponse"
+     ],
+     "formId": "6399bb1",
+     "postId": "31853",
+     "redirect": ""
+    }
+   ]
+  }
+ ]
+}
