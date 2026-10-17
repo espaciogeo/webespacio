@@ -60,6 +60,7 @@ export type RouteData = { head: Head } & (
   | { type: 'home' }
   | { type: 'clase' }
   | { type: '404' }
+  | { type: 'app' }
   | { type: 'page'; page: PageData }
   | { type: 'collection'; collection: CollectionData }
   | { type: 'archive'; kicker: string; title: string; description: string; page: number; pages: number; basePath: string; posts: PostCard[]; categories: { slug: string; name: string; count: number }[]; active?: string; author?: string }

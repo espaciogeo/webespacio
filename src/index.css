@@ -224,3 +224,15 @@ img, video, canvas, iframe, svg { max-width: 100%; }
 /* Qué hacemos: el torbellino gira muy lento */
 .qh-spin { transform-box: fill-box; transform-origin: center; animation: qh-spin 160s linear infinite; }
 @keyframes qh-spin { to { transform: rotate(360deg); } }
+
+/* Academia: contenido literal de las lecciones de WordPress */
+.wp-content iframe { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; border-radius: 18px; background: var(--ink); margin: 1.6em 0; }
+.wp-content img { max-width: 100%; height: auto; border-radius: 14px; }
+.wp-content figure { margin: 1.6em 0; }
+.wp-content .has-text-align-center, .wp-content .aligncenter { text-align: center; }
+.wp-content .wp-block-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin: 1.4em 0; }
+.wp-content .wp-block-button__link { display: inline-flex; align-items: center; min-height: 52px; padding: 0 24px; border-radius: 999px; background: var(--ink); color: var(--paper); text-decoration: none; font-family: var(--font-display); font-weight: 600; }
+.wp-content table { width: 100%; border-collapse: collapse; font-size: .95em; }
+.wp-content td, .wp-content th { border-bottom: 1px solid var(--hair); padding: 10px 8px; text-align: left; vertical-align: top; }
+.wp-content .wp-block-embed__wrapper { position: relative; }
+.wp-content h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(26px, 2.4vw, 34px); color: var(--ink); line-height: 1.15; }

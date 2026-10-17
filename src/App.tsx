@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import type { RouteData } from './types';
 import { SiteLayout } from './components/site/SiteLayout';
@@ -10,6 +11,9 @@ import Article from './pages/Article';
 import NotFound from './pages/NotFound';
 import Collection from './pages/Collection';
 
+// La academia (con Supabase) se descarga solo cuando se entra a /ingresar o /academia.
+const AppArea = lazy(() => import('./pages/academia/AppArea'));
+
 // Cada HTML prerenderizado trae sus datos; React Router resuelve la ruta y el tipo elige la plantilla.
 function View({ data }: { data: RouteData }) {
   switch (data.type) {
@@ -18,6 +22,7 @@ function View({ data }: { data: RouteData }) {
     case 'page': return data.page.slug === 'que-hacemos' ? <QueHacemos page={data.page} /> : <WpPage page={data.page} />;
     case 'archive': return <Archive data={data} />;
     case 'collection': return <Collection data={data.collection} />;
+    case 'app': return <Suspense fallback={<div className="min-h-[70svh]" />}><AppArea /></Suspense>;
     case 'post': return <Article post={data.post} related={data.related} prev={data.prev} next={data.next} />;
     default: return <NotFound />;
   }

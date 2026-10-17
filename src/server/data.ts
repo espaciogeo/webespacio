@@ -192,6 +192,9 @@ function archiveRoutes(base: string, list: Entry[], meta: { kicker: string; titl
 export function routes(): R[] {
   const r: R[] = [];
   r.push({ path: '/', data: () => ({ type: 'home', head: head({ path: '/', title: `${SITE_NAME} · Formación online desde 2014` }) }) });
+  // Área privada (inicio de sesión y academia): se dibuja en el navegador.
+  r.push({ path: '/ingresar/', data: () => ({ type: 'app', head: head({ path: '/ingresar/', title: 'Ingresar a la academia', noindex: true }) }) });
+  r.push({ path: '/academia/', data: () => ({ type: 'app', head: head({ path: '/academia/', title: 'Academia', noindex: true }) }) });
   r.push({
     path: '/clase-gratuita/',
     data: () => ({ type: 'clase', head: head({ path: '/clase-gratuita/', title: 'Clase gratuita mensual', description: 'Un sábado al mes nos encontramos en vivo para compartir y multiplicar la Geometría Sagrada. Inscribite gratis.' }) }),
@@ -262,6 +265,7 @@ export function notFound(): RouteData {
 
 export function dataFor(path: string): RouteData {
   const p = path.endsWith('/') ? path : path + '/';
+  if (p.startsWith('/academia/') || p.startsWith('/ingresar/')) return { type: 'app', head: head({ path: p, title: 'Academia', noindex: true }) };
   return routes().find((r) => r.path === p)?.data() ?? notFound();
 }
 

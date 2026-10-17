@@ -10,6 +10,7 @@ if (!url || !key) {
   console.warn('[supabase] Falta VITE_SUPABASE_URL o VITE_SUPABASE_ANON_KEY en .env.local');
 }
 
-export const supabase = createClient(url ?? '', key ?? '', {
+// Sin claves (por ejemplo durante el armado del sitio) se usa una dirección vacía para no romper nada.
+export const supabase = createClient(url || 'https://sin-configurar.supabase.co', key || 'sin-clave', {
   auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true },
 });

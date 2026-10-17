@@ -578,6 +578,14 @@
     {
       "source": "/registration-success-2/:path*",
       "destination": "https://wp.espaciodegeometriasagrada.com/registration-success-2/:path*"
+    },
+    {
+      "source": "/academia/:path+",
+      "destination": "/academia/index.html"
+    },
+    {
+      "source": "/ingresar/:path+",
+      "destination": "/ingresar/index.html"
     }
   ]
 }

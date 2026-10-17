@@ -88,6 +88,9 @@ const vercel = {
     { source: '/', has: [{ type: 'query', key: 'compra_directa' }], destination: `${LEGACY}/` },
     ...proxyPrefixes.map((p) => ({ source: p.endsWith('.php') ? p : `${p}/:path*`, destination: p.endsWith('.php') ? `${LEGACY}${p}` : `${LEGACY}${p}/:path*` })),
     ...proxyPages.map((p) => ({ source: `${p}/:path*`, destination: `${LEGACY}${p}/:path*` })),
+    // Academia: las rutas internas (curso, lección) se resuelven en el navegador
+    { source: '/academia/:path+', destination: '/academia/index.html' },
+    { source: '/ingresar/:path+', destination: '/ingresar/index.html' },
   ],
 };
 fs.writeFileSync(path.resolve('vercel.json'), JSON.stringify(vercel, null, 2) + '\n');

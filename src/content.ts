@@ -18,7 +18,7 @@ export const links = {
   admision: '/formaciones/admision/',
   blog: 'https://espaciodegeometriasagrada.substack.com/',
   contacto: `${SITE}/contacto/`,
-  acceso: `${SITE}/acceso/`,
+  acceso: import.meta.env.DEV ? '/ingresar/' : `${SITE}/acceso/`,
   quienesSomos: `${SITE}/quienes-somos/`,
   monique: `${SITE}/quienes-somos/monique-dumolin/`,
   pablo: `${SITE}/quienes-somos/pablo-pettinaroli/`,
