@@ -1,5 +1,7 @@
 # Espacio de Geometría Sagrada — sitio y plataforma
 
+**Antes de empezar, leé `RESUMEN-PROYECTO.md`: tiene el estado completo del proyecto (qué está hecho, qué falta y decisiones tomadas).**
+
 Rediseño del sitio espaciodegeometriasagrada.com. Hablá siempre en español (rioplatense), simple y sin tecnicismos: quien pide los cambios no es programador.
 
 ## Reglas de trabajo (importantes)
