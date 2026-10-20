@@ -236,3 +236,38 @@ img, video, canvas, iframe, svg { max-width: 100%; }
 .wp-content td, .wp-content th { border-bottom: 1px solid var(--hair); padding: 10px 8px; text-align: left; vertical-align: top; }
 .wp-content .wp-block-embed__wrapper { position: relative; }
 .wp-content h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(26px, 2.4vw, 34px); color: var(--ink); line-height: 1.15; }
+
+/* Sección azul (#094372) con letras blancas: En números y Cierre de la home */
+.sec-azul {
+  --c-ink: 255 255 255; --c-gray: 214 228 240; --c-accent-ink: 102 204 153;
+  --ink: #fff; --ink-2: rgb(214 228 240); --ink-3: rgb(214 228 240);
+  --hair: rgb(255 255 255 / 0.18); --line: rgb(255 255 255 / 0.16); --line-2: rgb(255 255 255 / 0.28);
+  --ux-ink: #fff; --ux-ink-2: rgb(214 228 240); --ux-ink-3: rgb(214 228 240);
+  --ux-surface: rgb(255 255 255 / 0.06); --ux-surface-2: rgb(255 255 255 / 0.12);
+  --ux-line: rgb(255 255 255 / 0.18); --ux-line-2: rgb(255 255 255 / 0.32);
+  background: #094372; color: #fff;
+}
+.sec-azul .kicker, .sec-azul .kicker b { color: rgb(214 228 240); }
+.sec-azul .btn-ghost:hover { background: #fff; color: #094372; }
+.sec-azul .u370-dot { background: #094372; }
+.sec-azul .u044-pm { background: rgb(255 255 255 / 0.14); }
+.sec-azul .u044-pm::before, .sec-azul .u044-pm::after { background: #fff; }
+.sec-azul .u044-it.open .u044-pm { background: #fff; }
+.sec-azul .u044-it.open .u044-pm::before, .sec-azul .u044-it.open .u044-pm::after { background: #094372; }
+/* Quiénes somos: tarjetas del equipo entran escalonadas; lista de formadores se despliega al elegir país */
+.eq-card.rv { transition-delay: var(--d, 0ms); }
+@keyframes fc-abre { from { opacity: 0; transform: translateY(-8px); clip-path: inset(0 0 100% 0); } to { opacity: 1; transform: none; clip-path: inset(0 0 0 0); } }
+.fc-abre { animation: fc-abre .6s var(--ease-out, ease-out) both; }
+/* Formación profesional: testimonios entran escalonados, flotan suave y se levantan al pasar el mouse */
+.fp-card.rv { transition-delay: var(--d, 0ms); }
+.fp-card { transition: transform .5s var(--ease-out, ease-out), box-shadow .5s var(--ease-out, ease-out); }
+.fp-card.is-rv:hover { transform: translateY(-6px) rotate(-0.4deg); box-shadow: 0 34px 60px -30px rgb(0 0 0 / 0.65); }
+@keyframes fp-flota { 0%, 100% { translate: 0 0; } 50% { translate: 0 -8px; } }
+@media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
+  .fp-col:nth-child(1) { animation: fp-flota 9s ease-in-out infinite; }
+  .fp-col:nth-child(2) { animation: fp-flota 11s ease-in-out -3s infinite; }
+  .fp-col:nth-child(3) { animation: fp-flota 10s ease-in-out -6s infinite; }
+}
+.fp-mision.rv { transition-delay: var(--d, 0ms); }
+.fp-flor-g { transform-box: fill-box; transform-origin: center; }
+@media (prefers-reduced-motion: no-preference) { .fp-flor-g { animation: qh-spin 160s linear infinite; } }

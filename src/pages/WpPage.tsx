@@ -40,7 +40,7 @@ export default function WpPage({ page }: { page: PageData }) {
         )}
       </PageHero>
 
-      <Sections sections={page.sections} narrow={legal} />
+      <Sections sections={page.sections} narrow={legal} sinMargen={page.path === '/formaciones/formacion-profesional/'} />
 
       {faqItems && faqItems.length > 0 && (
         <section id="preguntas" className="wrap border-t hairline py-[10svh]" data-rv>

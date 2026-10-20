@@ -102,8 +102,7 @@ function Piece({ g, dark }: { g: Group; dark?: boolean }) {
             const inner = (
               <>
                 {c.img && <div className="mb-5 overflow-hidden rounded-[14px]"><MediaImg m={c.img} sizes="(min-width:1024px) 30vw, 90vw" className="aspect-[4/3] w-full object-cover" /></div>}
-                <p className="mono text-mono text-ink-3">{String(i + 1).padStart(2, '0')}</p>
-                {c.title && <h3 className="mt-1 flex items-start justify-between gap-3 font-display text-h4 font-bold leading-tight tracking-[-0.02em]">{c.title}{c.href && <ArrowUpRight size={22} className="mt-0.5 flex-none" aria-hidden />}</h3>}
+                                {c.title && <h3 className="mt-1 flex items-start justify-between gap-3 font-display text-h4 font-bold leading-tight tracking-[-0.02em]">{c.title}{c.href && <ArrowUpRight size={22} className="mt-0.5 flex-none" aria-hidden />}</h3>}
                 {c.html && <div className="prose-egs mt-3 !text-body" dangerouslySetInnerHTML={{ __html: c.html }} />}
               </>
             );
@@ -142,7 +141,8 @@ const MEDIA = new Set(['images', 'image', 'gallery', 'video', 'map']);
 const WIDE = new Set(['compare', 'plans', 'tickets', 'table', 'embed', 'bookbuy', 'calculator', 'stats', 'videos', 'cards', 'steps', 'quotes']);
 
 type Sec = { blocks: Block[]; kicker?: string; id?: string; tone?: 'dark' | 'soft' };
-export function Sections({ sections, narrow = false }: { sections: Sec[]; narrow?: boolean }) {
+// sinMargen: sin la columna vacía de la izquierda cuando la sección no tiene kicker (hoy solo Formación profesional).
+export function Sections({ sections, narrow = false, sinMargen = false }: { sections: Sec[]; narrow?: boolean; sinMargen?: boolean }) {
   return (
     <>
       {sections.map((s, si) => {
@@ -155,25 +155,25 @@ export function Sections({ sections, narrow = false }: { sections: Sec[]; narrow
         const wide = rest.some((g) => WIDE.has(g.t));
         const split = !narrow && !wide && media.length === 1 && text.length > 0;
         const flip = si % 2 === 1;
-        const n = String(si + 1).padStart(2, '0');
         const dark = s.tone === 'dark';
+        const libre = sinMargen && !s.kicker;
         const tone = dark ? 'bg-ink text-paper [&_.text-ink-2]:text-paper/80 [&_.prose-egs]:text-paper/85 [&_.prose-egs_strong]:text-paper [&_.kicker]:text-paper/70 [&_.kicker_b]:text-paper' : s.tone === 'soft' ? 'bg-[var(--paper-2)]' : '';
         return (
           <section key={si} id={s.id} data-rv className={`rv border-t hairline py-[var(--section-y)] scroll-mt-24 ${tone}`}>
             <div className="wrap grid grid-cols-12 gap-x-4 gap-y-8">
-              <p className={`kicker col-span-12 ${wide ? '' : 'lg:col-span-2'}`}><b>{n}</b>{s.kicker && <> · {s.kicker}</>}</p>
+              {!libre && <p className={`kicker col-span-12 ${wide ? '' : 'lg:col-span-2'}`}>{s.kicker}</p>}
               {split ? (
                 <>
-                  <div className={`col-span-12 flex min-w-0 flex-col gap-6 lg:col-span-5 ${flip ? 'lg:order-3 lg:col-start-8' : ''}`}>
+                  <div className={`col-span-12 flex min-w-0 flex-col gap-6 ${libre ? (flip ? 'lg:col-span-6 lg:order-3 lg:col-start-7' : 'lg:col-span-6') : `lg:col-span-5 ${flip ? 'lg:order-3 lg:col-start-8' : ''}`}`}>
                     {title && <Piece g={title} />}
                     {text.map((g, i) => <Piece key={i} g={g} />)}
                   </div>
-                  <div className={`col-span-12 min-w-0 lg:col-span-5 lg:self-center ${flip ? 'lg:order-2 lg:col-start-3' : 'lg:col-start-8'}`}>
+                  <div className={`col-span-12 min-w-0 lg:self-center ${libre ? (flip ? 'lg:col-span-6 lg:order-2 lg:col-start-1' : 'lg:col-span-6 lg:col-start-7') : `lg:col-span-5 ${flip ? 'lg:order-2 lg:col-start-3' : 'lg:col-start-8'}`}`}>
                     <Piece g={media[0]} />
                   </div>
                 </>
               ) : (
-                <div className={`col-span-12 flex min-w-0 flex-col gap-6 ${narrow ? 'lg:col-span-7 lg:col-start-3' : wide ? '' : 'lg:col-span-9'}`}>
+                <div className={`col-span-12 flex min-w-0 flex-col gap-6 ${libre ? (wide ? '' : 'lg:col-span-10') : narrow ? 'lg:col-span-7 lg:col-start-3' : wide ? '' : 'lg:col-span-9'}`}>
                   {title && <Piece g={title} />}
                   {rest.map((g, i) => <Piece key={i} g={g} />)}
                 </div>

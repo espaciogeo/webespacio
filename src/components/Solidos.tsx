@@ -78,7 +78,7 @@ export function Solidos() {
 
           {/* Solo el activo (móvil) */}
           <div className="mt-auto lg:hidden" aria-live="polite">
-            <p className="mono text-sm text-paper/60">0{cur + 1} / 05 · <span className="text-accent">{s.elemento}</span></p>
+            <p className="mono text-sm text-paper/60"><span className="text-accent">{s.elemento}</span></p>
             <p className="mt-1 font-display text-[44px] font-bold leading-none tracking-[-0.04em]">{s.nombre}</p>
             <p className="mono mt-3 text-[15px] text-paper/75">{s.caras} caras · {s.vertices} vértices · {s.aristas} aristas</p>
           </div>

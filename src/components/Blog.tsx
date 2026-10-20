@@ -1,5 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 import { blog, links } from '../content';
+import type { PostCard } from '../types';
+import { MediaImg } from './site/Bits';
 import { fruitCenters, metatronLines } from '../lib/geometry';
 
 // Figuras de línea propias (las portadas originales del blog tienen texto incrustado y se descartaron).
@@ -37,13 +39,23 @@ export function Figura({ tipo, className }: { tipo: 'metatron' | 'tetraedro' | '
   );
 }
 
-export function Blog({ n = '08' }: { n?: string } = {}) {
-  const [main, ...rest] = blog.articulos;
+type Tipo = 'metatron' | 'tetraedro' | 'cubo' | 'numeros';
+const FIGS: Tipo[] = ['metatron', 'tetraedro', 'cubo', 'numeros'];
+const figFor = (slug: string) => FIGS[[...slug].reduce((a, c) => a + c.charCodeAt(0), 0) % FIGS.length];
+const fecha = (d: string) => new Date(d + 'T12:00:00').toLocaleDateString('es-AR', { day: 'numeric', month: 'short', year: 'numeric' });
+type Item = { href: string; titulo: string; fecha: string; autor: string; extracto: string; figura: Tipo; image?: PostCard['image'] };
+
+// "Para leer despacio": toma solos los últimos artículos del blog (llegan desde el build). Si no llegan, usa la lista fija de content.ts.
+export function Blog({ posts }: { n?: string; posts?: PostCard[] } = {}) {
+  const items: Item[] = posts?.length
+    ? posts.slice(0, 4).map((p) => ({ href: p.path, titulo: p.title, fecha: fecha(p.date), autor: p.authors.map((a) => a.name).join(' y '), extracto: p.excerpt, figura: figFor(p.slug), image: p.image }))
+    : blog.articulos.map((a) => ({ ...a, image: null }));
+  const [main, ...rest] = items;
   return (
     <section aria-labelledby="blog-title" className="wrap border-t hairline py-[14svh]">
       <div className="flex flex-wrap items-end justify-between gap-6">
         <div>
-          <p className="kicker"><b>{n}</b> · {blog.kicker}</p>
+          <p className="kicker">{blog.kicker}</p>
           <h2 id="blog-title" className="h-section mt-3">{blog.titulo}</h2>
         </div>
         <a href={links.archivoBlog} className="btn btn-ghost">Ver todos los artículos <ArrowRight size={18} aria-hidden /></a>
@@ -52,8 +64,9 @@ export function Blog({ n = '08' }: { n?: string } = {}) {
       <div className="mt-[8svh] grid grid-cols-12 gap-x-4 gap-y-12">
         <a href={main.href} className="group col-span-12 block lg:col-span-7">
           <div className="relative aspect-[5/4] overflow-hidden rounded-[22px] border hairline bg-paper">
-            <Figura tipo={main.figura} className="absolute inset-[8%] transition-transform duration-[1.2s] ease-[cubic-bezier(.2,.8,.2,1)] group-hover:rotate-[30deg]" />
-            <span className="mono absolute left-5 top-5 text-[13px] text-ink-3">fig. 01 · 13 centros, 78 líneas</span>
+            {main.image
+              ? <MediaImg m={main.image} sizes="(min-width:1024px) 56vw, 100vw" className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" />
+              : <Figura tipo={main.figura} className="absolute inset-[8%] transition-transform duration-[1.2s] ease-[cubic-bezier(.2,.8,.2,1)] group-hover:rotate-[30deg]" />}
           </div>
           <p className="mono mt-6 text-[14px] text-ink-3">{main.fecha} · {main.autor}</p>
           <h3 className="mt-2 max-w-[22ch] font-bold tracking-[-0.035em] group-hover:underline group-hover:decoration-2 group-hover:underline-offset-8" style={{ fontSize: 'clamp(30px, 3.4vw, 54px)', lineHeight: 1 }}>{main.titulo}</h3>
@@ -61,14 +74,16 @@ export function Blog({ n = '08' }: { n?: string } = {}) {
         </a>
 
         <ol className="col-span-12 lg:col-span-5">
-          {rest.map((a, i) => (
+          {rest.map((a) => (
             <li key={a.href} className="border-t hairline first:border-t-0 lg:first:border-t">
               <a href={a.href} className="group grid grid-cols-[88px_1fr] items-start gap-5 py-7 sm:grid-cols-[120px_1fr]">
-                <div className="aspect-square overflow-hidden rounded-[14px] border hairline bg-paper">
-                  <Figura tipo={a.figura} className="h-full w-full p-2 transition-transform duration-700 group-hover:scale-110" />
+                <div className="relative aspect-square overflow-hidden rounded-[14px] border hairline bg-paper">
+                  {a.image
+                    ? <MediaImg m={a.image} sizes="120px" className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                    : <Figura tipo={a.figura} className="h-full w-full p-2 transition-transform duration-700 group-hover:scale-110" />}
                 </div>
                 <div>
-                  <p className="mono text-[13px] text-ink-3">0{i + 2} · {a.fecha}</p>
+                  <p className="mono text-[13px] text-ink-3">{a.fecha}</p>
                   <h3 className="mt-1 text-[23px] font-bold leading-tight tracking-[-0.02em] group-hover:underline group-hover:underline-offset-4">{a.titulo}</h3>
                   <p className="mt-1 text-[15px] text-ink-3">{a.autor}</p>
                 </div>

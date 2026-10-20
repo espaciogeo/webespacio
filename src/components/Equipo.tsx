@@ -22,34 +22,31 @@ function MaskImg({ name, alt, className, sizes }: { name: string; alt: string; c
   );
 }
 
-export function Equipo({ n = '07' }: { n?: string } = {}) {
+// Nuestro equipo (home y Qué hacemos): texto a la izquierda; a la derecha Monique y Pablo, cada uno con su foto e info. Sin foto repetida.
+export function Equipo(_props: { n?: string; compacto?: boolean } = {}) {
   const [monique, pablo] = equipo.personas;
   return (
     <section aria-labelledby="equipo-title" className="wrap py-[14svh]">
-      <div className="grid grid-cols-12 gap-x-4 gap-y-10">
-        <div className="col-span-12 lg:col-span-5">
-          <p className="kicker"><b>{n}</b> · {equipo.kicker}</p>
-          <h2 id="equipo-title" className="h-section mt-3" style={{ fontSize: 'clamp(38px, 5vw, 84px)' }}>Monique<br />y Pablo.</h2>
-          <p className="mt-6 max-w-[36ch] text-[20px] leading-snug text-ink-2">{equipo.intro}</p>
-          <p className="mono mt-4 max-w-[40ch] text-[14px] text-ink-3">{equipo.formadora}</p>
-          <a href={links.quienesSomos} className="link-arrow mt-6">Conocé al equipo <ArrowRight size={18} aria-hidden /></a>
+      <div className="grid grid-cols-12 gap-x-6 gap-y-12">
+        <div className="col-span-12 lg:col-span-4">
+          <div className="lg:sticky lg:top-28">
+            <p className="kicker">{equipo.kicker}</p>
+            <h2 id="equipo-title" className="h-section mt-3" style={{ fontSize: 'clamp(38px, 4.6vw, 76px)' }}>Monique<br />y Pablo.</h2>
+            <p className="mt-6 max-w-[36ch] text-[20px] leading-snug text-ink-2">{equipo.intro}</p>
+            <a href={links.quienesSomos} className="link-arrow mt-6">Conocé al equipo <ArrowRight size={18} aria-hidden /></a>
+          </div>
         </div>
-        <MaskImg name="equipo-duo" alt="Monique Dumoulin y Pablo Pettinaroli saludando" sizes="(min-width:1024px) 58vw, 100vw"
-          className="col-span-12 aspect-[3/2] rounded-[22px] lg:col-span-7" />
-      </div>
-
-      <div className="mt-[10svh] grid grid-cols-12 gap-x-4 gap-y-14">
-        {[monique, pablo].map((p, i) => (
-          <article key={p.nombre} className={`col-span-12 grid grid-cols-12 gap-x-4 sm:col-span-6 ${i === 1 ? 'lg:col-span-5 lg:col-start-8 lg:mt-32' : 'lg:col-span-5'}`}>
-            <MaskImg name={p.img} alt={p.nombre} sizes="(min-width:1024px) 28vw, 50vw" className={`col-span-12 rounded-[18px] ${i === 0 ? 'aspect-[4/5]' : 'aspect-square'}`} />
-            <div className="col-span-12 mt-5">
-              <p className="mono text-[14px] text-ink-3">{p.rol}</p>
-              <h3 className="mt-1 text-[34px] font-bold leading-none tracking-[-0.035em]">{p.nombre}</h3>
+        <div className="col-span-12 grid gap-x-6 gap-y-12 sm:grid-cols-2 lg:col-span-8">
+          {[monique, pablo].map((p) => (
+            <article key={p.nombre} className="min-w-0">
+              <MaskImg name={p.img} alt={p.nombre} sizes="(min-width:1024px) 30vw, (min-width:640px) 50vw, 100vw" className="aspect-[4/5] w-full rounded-[20px]" />
+              <p className="mono mt-5 text-[14px] text-ink-3">{p.rol}</p>
+              <h3 className="mt-1 font-display text-[clamp(26px,2.4vw,34px)] font-medium leading-none tracking-[-0.03em]">{p.nombre}</h3>
               <p className="mt-3 max-w-[42ch] text-[18px] leading-relaxed text-ink-2">{p.bio}</p>
               <a href={p.href} className="link-arrow mt-2 text-[17px]">Ver más <ArrowRight size={18} aria-hidden /></a>
-            </div>
-          </article>
-        ))}
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );

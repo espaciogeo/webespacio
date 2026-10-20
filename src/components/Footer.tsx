@@ -4,7 +4,7 @@ import { forwardRef } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { footer, legales, links, nav, redes } from '../content';
 
-const CREDITO = 'Diseño y desarrollo: [a definir]'; // [INVENTADO] completar con el estudio/persona responsable
+const CREDITO = 'Diseño y desarrollo: Share & Multiply Producciones';
 
 export const Footer = forwardRef<HTMLElement, { reveal: boolean }>(function Footer({ reveal }, ref) {
   return (
@@ -53,7 +53,7 @@ export const Footer = forwardRef<HTMLElement, { reveal: boolean }>(function Foot
           <ul className="flex flex-wrap gap-x-5 gap-y-1">
             {legales.map((l) => <li key={l.label}><a href={l.href} className="hover:underline">{l.label}</a></li>)}
           </ul>
-          <p>{footer.copyright} · {CREDITO}</p>
+          <p>{footer.copyright}<br />{CREDITO}</p>
         </div>
       </div>
     </footer>

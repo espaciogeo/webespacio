@@ -49,7 +49,7 @@ export const nav: NavItem[] = [
 export const redes = [
   { label: 'Instagram', href: 'https://www.instagram.com/espaciodegeometriasagrada/' },
   { label: 'Facebook', href: 'https://www.facebook.com/EspaciodeGeometriaSagrada/' },
-  { label: 'YouTube', href: 'https://www.youtube.com/c/EspaciodegeometriasagradaxMoniqueDumoulin' },
+  { label: 'YouTube', href: 'https://www.youtube.com/channel/UCOziyLMsnP2cumt1ZUr1wpA' },
   { label: 'TikTok', href: 'https://www.tiktok.com/@espaciogeometriasagrada' },
 ];
 
@@ -144,7 +144,7 @@ export const solidos = [
 export const propuestasIntro = {
   kicker: 'Propuestas',
   // Real (/que-hacemos/): "Estos pilares puedes aprenderlos a través de diferentes modalidades, según el grado de interés..."
-  titulo: 'Según el grado de interés que tengas.',
+  titulo: 'Propuestas pensadas para todos los niveles',
 };
 
 export const clase = {
@@ -158,61 +158,58 @@ export const clase = {
   ok: '¡Listo! Te avisamos por email', // [INVENTADO]
 };
 
+// Cajas debajo de la clase gratuita, en este orden.
 export const propuestas = [
   {
-    id: 'ebook',
-    n: '02',
-    titulo: 'eBook · 7 trazos de Geometría Sagrada',
-    texto: 'Aprendé a crear tus primeros mandalas usando la Geometría Sagrada, con una guía paso a paso, aunque no tengas experiencia previa ni sepas dibujar.',
-    meta: '45 páginas · PDF · Monique Dumoulin',
-    lista: ['Tubo toro', 'Triángulo', 'Pentágono', 'Hexágono', 'Octógono', 'Ying-yang', 'Laberinto cretense'],
-    cta: 'Conocer el eBook',
-    href: links.ebook,
-    img: 'trazo-compas-2',
-  },
-  {
-    id: 'cursos',
-    n: '03',
-    titulo: 'Cursos online',
-    texto: 'La Geometría Sagrada se aplica en 4 pilares: Trazos, Construcciones, Armonización de Espacios y Medicina de las Formas. Hay un curso para cada opción.',
-    meta: 'A tu ritmo · 100% online', // [INVENTADO] (resumen)
-    cta: 'Ver cursos',
-    href: links.cursos,
-    img: 'trazo-toro',
-  },
-  {
-    id: 'formacion',
-    n: '04',
-    titulo: 'Formación profesional',
-    texto: 'La primera Formación Profesional de Geometría Sagrada de habla hispana. Aprende el lenguaje del universo aplicado a tu vida profesional y personal, en 9 meses y con acompañamiento personalizado.', // fuente: admision.espaciodegeometriasagrada.com
-    meta: 'Inscripciones abiertas · entrevista de orientación sin compromiso',
-    cta: 'Ver todas las formaciones',
-    href: links.formacion,
-    img: 'taller-alumnas',
-  },
-  {
     id: 'libro',
-    n: '05',
     titulo: 'El libro',
     texto: '12 años de enseñanza condensados en 228 páginas. No necesitás conocimientos previos, ni saber dibujar. Solo disposición a redescubrirte.',
-    meta: 'Puesto #1 en España en su debut · primera edición agotada',
+    meta: 'Puesto #1 en España en su debut',
     cta: 'Quiero mi ejemplar',
     href: links.libro,
     img: 'libro',
   },
+  {
+    id: 'ebooks',
+    titulo: 'eBooks + MasterClass',
+    texto: 'Tres eBooks de Monique Dumoulin para practicar en casa, paso a paso, con 6 audios y una MasterClass de regalo.',
+    meta: 'PDF · audios · MasterClass',
+    cta: 'Ver los eBooks',
+    href: links.ebooks,
+    img: 'trazo-compas-2',
+  },
+  {
+    id: 'experiencias',
+    titulo: 'Experiencias presenciales',
+    texto: 'Workshops y retiros en tu ciudad: un día o un fin de semana para trazar, construir y compartir en persona.', // [INVENTADO] validar
+    meta: 'Workshops · retiros',
+    cta: 'Ver experiencias',
+    href: '/formaciones/experiencias/',
+    img: 'taller-grupo',
+  },
+  {
+    id: 'formaciones',
+    titulo: 'Formaciones',
+    texto: 'Formación Profesional, Especialización en Terapias y Armonización de Espacios. Online y con acompañamiento personalizado.', // [INVENTADO] validar
+    meta: 'Entrevista de orientación sin compromiso',
+    cta: 'Ver formaciones',
+    href: links.formacion,
+    img: 'taller-alumnas',
+  },
 ];
 
 export const cifras = {
-  kicker: 'En números', // [INVENTADO]
+  kicker: 'En números',
   items: [
-    { valor: 2000, prefijo: '+', label: 'estudiantes en la formación profesional' },
-    { valor: 100000, prefijo: '+', label: 'personas en la comunidad en redes' },
-    { valor: 2014, prefijo: 'desde ', label: 'compartiendo y multiplicando', esAnio: true },
+    { valor: 10000, prefijo: '+', label: 'estudiantes' },
+    { valor: 12, prefijo: '+', label: 'años compartiendo y multiplicando' },
+    { valor: 100000, prefijo: '+', label: 'seguidores en nuestras redes' },
   ],
   hitos: [
-    { anio: '2013', texto: 'Cierra la Escuela de Sagrada Geometría del Sur del Mundo, co-fundada por Monique junto a Dana Tir.' },
-    { anio: '2014', texto: 'Monique Dumoulin funda el Espacio de Geometría Sagrada.' },
-    { anio: 'Hoy', texto: '12 años de enseñanza condensados en un libro de 228 páginas.' },
+    { anio: '2014', texto: 'Monique Dumoulin funda el Espacio de Geometría Sagrada. Pablo la acompaña en el viaje.' },
+    { anio: '2019', texto: 'Lanzamos la primera Formación de habla hispana que abarca 4 pilares.' },
+    { anio: '2024', texto: 'Festejamos 10 años de vida con el regreso de las experiencias presenciales.' },
+    { anio: '2026', texto: '12 años después, nuestro primer libro es publicado en todo el mundo.' },
   ],
 };
 
@@ -281,6 +278,14 @@ export const faq = [
   { q: '¿Por dónde empiezo?', a: 'Por la clase gratuita y el eBook “7 trazos de Geometría Sagrada”: aprenderás los principios básicos y tus primeros trazos.' }, // [INVENTADO] pregunta + redacción
 ];
 
+// Clases gratuitas de nuestro canal de YouTube (solo clases gratuitas).
+// Para sumar una: pegá el link del video en `url` y un título. Se muestran en el orden de la lista.
+export const clasesYoutube: { url: string; titulo: string }[] = [
+  { url: 'https://www.youtube.com/watch?v=oHpd3qcFAIc', titulo: 'Geometría Sagrada: una Filosofía de Vida · Semana Geométrica, día 5' },
+  // { url: 'https://www.youtube.com/watch?v=XXXXXXXXXXX', titulo: '...' },
+];
+export const canalYoutube = 'https://www.youtube.com/channel/UCOziyLMsnP2cumt1ZUr1wpA';
+
 export const cierre = {
   kicker: 'Clase gratuita', // real
   titulo: ['Un sábado al mes,', 'trazamos juntos.'], // [INVENTADO]
@@ -290,7 +295,7 @@ export const cierre = {
 
 export const footer = {
   comunidad: 'Somos una comunidad de buscadores con más de 100.000 personas en las redes que estamos compartiendo y multiplicando.',
-  copyright: '© 2014 – 2026 Espacio de Geometría Sagrada',
+  copyright: '© 2014 – 2026 Espacio de Geometría Sagrada es una marca registrada por Monique Dumoulin',
   horario: 'Lunes a viernes de 10.30 a 15.30 hs, hora Argentina.',
   email: 'info@espaciodegeometriasagrada.com',
 };

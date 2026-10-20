@@ -62,7 +62,7 @@ export function Hero() {
         </motion.div>
 
         <motion.div style={{ opacity: cueO }} className="kicker absolute bottom-5 right-[var(--gutter)] hidden items-center gap-2 lg:flex">
-          scroll <ArrowDown size={14} aria-hidden />
+          desliza <ArrowDown size={14} aria-hidden />
         </motion.div>
         <motion.p style={{ opacity: endO }} className="kicker absolute bottom-6 left-1/2 -translate-x-1/2 whitespace-nowrap">
           de la flor de la vida a los <b>sólidos</b> ↓

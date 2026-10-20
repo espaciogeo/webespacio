@@ -1,3 +1,4 @@
+import type { PostCard } from '../types';
 // "Qué hacemos": página propia con el mismo orden de contenido que la original
 // (https://espaciodegeometriasagrada.com/que-hacemos/), dibujada con el lenguaje de la home:
 // tipografía grande, trazos geométricos en línea, blanco puro y acentos en verde agua.
@@ -120,9 +121,9 @@ const propuestasQH = [
 
 type FormBlock = { t: 'form'; name: string; fields: any[]; submit: string; formId: string; postId: string; redirect?: string };
 
-export default function QueHacemos({ page }: { page: PageData }) {
+export default function QueHacemos({ page, latest }: { page: PageData; latest?: PostCard[] }) {
   const form = page.sections.flatMap((s) => s.blocks).find((b) => b.t === 'form') as FormBlock | undefined;
-  const k = (n: string, t: string) => <p className="kicker"><b>{n}</b> · {t}</p>;
+  const k = (_n: string, t: string) => <p className="kicker">{t}</p>;
 
   return (
     <>
@@ -314,8 +315,8 @@ export default function QueHacemos({ page }: { page: PageData }) {
       </section>
 
       {/* 9 · Últimos artículos · 10 · Equipo */}
-      <Blog n="07" />
-      <Equipo n="08" />
+      <Blog posts={latest} />
+      <Equipo />
     </>
   );
 }

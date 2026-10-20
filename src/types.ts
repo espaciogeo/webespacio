@@ -57,11 +57,11 @@ export type TocItem = { id: string; text: string; level: number };
 export type Head = { title: string; description: string; canonical: string; image: string; noindex: boolean; type: string; jsonld?: Record<string, unknown> };
 
 export type RouteData = { head: Head } & (
-  | { type: 'home' }
+  | { type: 'home'; latest?: PostCard[] }
   | { type: 'clase' }
   | { type: '404' }
   | { type: 'app' }
-  | { type: 'page'; page: PageData }
+  | { type: 'page'; page: PageData; latest?: PostCard[] }
   | { type: 'collection'; collection: CollectionData }
   | { type: 'archive'; kicker: string; title: string; description: string; page: number; pages: number; basePath: string; posts: PostCard[]; categories: { slug: string; name: string; count: number }[]; active?: string; author?: string }
   | { type: 'post'; post: PostCard & { html: string; toc: TocItem[]; modified: string; subtitle?: string; aboutBook?: boolean; substackUrl?: string }; related: PostCard[]; prev?: PostCard | null; next?: PostCard | null }

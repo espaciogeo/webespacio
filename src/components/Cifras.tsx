@@ -17,7 +17,7 @@ function Counter({ to, from = 0, prefix, label, year }: { to: number; from?: num
   }, [inView, to, from, year]);
   return (
     <div ref={ref}>
-      <p className="font-display font-bold leading-[0.85] tracking-[-0.05em]" style={{ fontSize: 'clamp(52px, 8.6vw, 144px)', fontVariantNumeric: 'tabular-nums' }}>
+      <p className="font-display font-bold leading-[0.85] tracking-[-0.05em]" style={{ fontSize: 'clamp(52px, 6vw, 104px)', fontVariantNumeric: 'tabular-nums' }}>
         <span className="mr-1 align-top text-[0.4em] font-medium tracking-normal text-ink-3">{prefix.trim()}</span>
         {year ? v : v.toLocaleString('es-AR')}
       </p>
@@ -49,13 +49,15 @@ export function Cifras() {
 
   const [a, b, c] = cifras.items;
   return (
-    <section aria-labelledby="cifras-title" className="wrap relative py-[14svh]">
-      <p className="kicker"><b>06</b> · {cifras.kicker}</p>
+    <section aria-labelledby="cifras-title" className="sec-azul relative">
+      <div className="wrap py-[14svh]">
+      <p className="kicker">{cifras.kicker}</p>
       <h2 id="cifras-title" className="sr-only font-bold">El Espacio en números</h2>
-      <div className="mt-10 grid grid-cols-12 gap-x-4 gap-y-14">
-        <div className="col-span-12 sm:col-span-7 lg:col-span-6"><Counter to={a.valor} prefix={a.prefijo} label={a.label} /></div>
-        <div className="col-span-12 sm:col-span-5 sm:mt-40 lg:col-span-5 lg:col-start-8"><Counter to={c.valor} from={1990} prefix={c.prefijo} label={c.label} year /></div>
-        <div className="col-span-12 lg:col-span-9 lg:col-start-3 lg:-mt-6"><Counter to={b.valor} prefix={b.prefijo} label={b.label} /></div>
+      {/* Una fila, tres columnas, todo a la misma altura */}
+      <div className="mt-10 grid items-start gap-x-8 gap-y-12 md:grid-cols-3">
+        <Counter to={a.valor} prefix={a.prefijo} label={a.label} />
+        <Counter to={b.valor} prefix={b.prefijo} label={b.label} />
+        <Counter to={c.valor} prefix={c.prefijo} label={c.label} />
       </div>
 
       <div className="mt-[14svh] grid grid-cols-12 gap-x-4 gap-y-10">
@@ -82,6 +84,7 @@ export function Cifras() {
             ))}
           </ol>
         </div>
+      </div>
       </div>
     </section>
   );

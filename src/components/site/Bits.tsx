@@ -77,24 +77,34 @@ export function PageHero({ kicker, title, lede, trazo, children, facts, image, b
 }
 
 // Video liviano: muestra la miniatura y carga el reproductor recién al hacer clic.
-export function Video({ provider, id, title = 'Video' }: { provider: string; id: string; title?: string }) {
+// vertical: para videos cortos (formato celular); recorta las barras negras de la miniatura. chico: botón de play más amable.
+export function Video({ provider, id, title = 'Video', vertical = false, chico = false }: { provider: string; id: string; title?: string; vertical?: boolean; chico?: boolean }) {
   const [on, setOn] = useState(false);
   const [vid, hash] = id.split('?h=');
   const src = provider === 'youtube'
     ? `https://www.youtube-nocookie.com/embed/${vid}?autoplay=1&rel=0`
     : `https://player.vimeo.com/video/${vid}?autoplay=1${hash ? `&h=${hash}` : ''}`;
   return (
-    <div className="relative aspect-video overflow-hidden rounded-[18px] bg-ink">
+    <div className={`relative overflow-hidden rounded-[18px] bg-ink ${vertical ? 'aspect-[3/4]' : 'aspect-video'}`}>
       {on ? (
         <iframe src={src} title={title} allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowFullScreen className="absolute inset-0 h-full w-full" />
       ) : (
         <button type="button" onClick={() => setOn(true)} className="group absolute inset-0 grid place-items-center" aria-label={`Reproducir ${title}`}>
           {provider === 'youtube'
-            ? <img src={`https://i.ytimg.com/vi/${vid}/hqdefault.jpg`} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover opacity-80 transition-opacity group-hover:opacity-100" />
+            ? (vertical
+              ? <img src={`https://i.ytimg.com/vi/${vid}/maxresdefault.jpg`} alt="" loading="lazy" className="absolute left-1/2 top-1/2 w-[316%] max-w-none -translate-x-1/2 -translate-y-1/2 transition-transform duration-700 group-hover:scale-[1.04]" />
+              : <img src={`https://i.ytimg.com/vi/${vid}/maxresdefault.jpg`} onError={(e) => { const i = e.currentTarget; if (!i.src.includes('hqdefault')) i.src = `https://i.ytimg.com/vi/${vid}/hqdefault.jpg`; }} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" />)
             : <Trazo tipo="semilla" className="absolute inset-[12%] opacity-25 [&_*]:!stroke-paper" />}
-          <span className="relative grid h-20 w-20 place-items-center rounded-full bg-[var(--ochre)] shadow-xl transition-transform group-hover:scale-110">
-            <svg viewBox="0 0 24 24" className="ml-1 h-8 w-8 fill-ink"><path d="M7 4.5v15l13-7.5z" /></svg>
-          </span>
+          {chico ? (
+            <span className="absolute bottom-3 left-3 flex items-center gap-2 rounded-full bg-white/95 py-1.5 pl-1.5 pr-3.5 text-[13px] font-medium text-[#094372] shadow-md transition-transform group-hover:scale-105">
+              <span className="grid h-7 w-7 place-items-center rounded-full bg-[#66cc99]"><svg viewBox="0 0 24 24" className="ml-0.5 h-3.5 w-3.5 fill-[#094372]"><path d="M7 4.5v15l13-7.5z" /></svg></span>
+              Ver testimonio
+            </span>
+          ) : (
+            <span className="relative grid h-20 w-20 place-items-center rounded-full bg-[var(--ochre)] shadow-xl transition-transform group-hover:scale-110">
+              <svg viewBox="0 0 24 24" className="ml-1 h-8 w-8 fill-ink"><path d="M7 4.5v15l13-7.5z" /></svg>
+            </span>
+          )}
         </button>
       )}
     </div>
@@ -118,7 +128,7 @@ export function Accordion({ items }: { items: { title: string; html?: string; te
               e.preventDefault();
               qs.current[(n + items.length) % items.length]?.focus();
             }}>
-            <span className="u044-n">{String(i + 1).padStart(2, '0')}</span><span className="u044-t">{f.title}</span><span className="u044-pm" aria-hidden="true" />
+            <span className="u044-t">{f.title}</span><span className="u044-pm" aria-hidden="true" />
           </button>
           <div className="u044-body" role="region" id={`${uid}-a${i}`} aria-labelledby={`${uid}-q${i}`}>
             <div><div className="u044-a prose-egs">{f.html ? <div dangerouslySetInnerHTML={{ __html: f.html }} /> : <p>{f.text}</p>}</div></div>

@@ -73,7 +73,7 @@ export function Manifiesto() {
       <div className="flor-bg sticky top-0 bg-paper flex h-[100svh] items-center overflow-hidden">
         <div className="wrap grid w-full grid-cols-12 items-start gap-x-4 gap-y-8">
           <div className="col-span-12 flex items-center gap-4 lg:col-span-2 lg:flex-col lg:items-start">
-            <p className="kicker"><b>02</b> · {manifiesto.kicker}</p>
+            <p className="kicker">{manifiesto.kicker}</p>
             <span className="u260-pg hidden lg:mt-6 lg:block" aria-hidden="true"><i ref={pg} /></span>
           </div>
           <div ref={box} className="relative col-span-12 lg:col-span-8">

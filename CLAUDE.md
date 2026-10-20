@@ -11,6 +11,9 @@ Rediseño del sitio espaciodegeometriasagrada.com. Hablá siempre en español (r
 - No toques `.env.local` ni muestres claves.
 - Antes de subir, corré `npm run build` y asegurate de que termine sin errores.
 - "Subí los cambios" = `git add .` + commit con mensaje claro en español + `git push`. Vercel publica solo desde `main`.
+- Se trabaja en localhost; NO subir nada hasta que Pablo lo pida.
+- WEB = lo que vende, muestra y publicita. PLATAFORMA = /ingresar/, /academia/ y lo que pasa adentro.
+- Si pide "lo mismo" o "igual a X", copiar esa estructura tal cual. Si pide ver algo, mostrarlo (no solo listarlo).
 
 ## Diseño (decisiones ya tomadas)
 - Fondo: blanco puro #FFFFFF en todo el sitio. Nada de grises, sombras de fondo, texturas ni grano.
@@ -19,10 +22,14 @@ Rediseño del sitio espaciodegeometriasagrada.com. Hablá siempre en español (r
 - El entramado de flor de la vida de fondo va SOLO en la sección Manifiesto de la home (clase `.flor-bg`).
 - Ilustraciones: trazos geométricos en SVG (líneas azules, guías verdes, anotaciones en mono), no imágenes genéricas.
 - Orden de los sólidos: tetraedro, hexaedro (cubo), octaedro, icosaedro, dodecaedro.
+- Montserrat sin negrita en nombres/títulos salvo pedido. Sin <hr> visibles. Sin emojis en tablas. Precios tachados en azul y negrita.
+- Sin numeraciones 01/02/03 en ningún lado (solo #NN de News y pasos ordenados).
+- Secciones azules: clase `.sec-azul` (index.css).
 
 ## Dónde está cada cosa
 - Textos de la home: `src/content.ts` · Secciones de la home: `src/components/*.tsx` · Home: `src/pages/Home.tsx`
 - Página "Qué hacemos": `src/pages/QueHacemos.tsx` (página propia, no usa la plantilla genérica)
+- Página "Quiénes somos": `src/pages/QuienesSomos.tsx` (página propia) · formadores certificados: `src/content/formadores.ts`
 - Páginas migradas de WordPress: `src/content/wp/pages/*.json` + plantilla `src/pages/WpPage.tsx`
 - Formaciones y precios: `src/content/formaciones.ts`, `src/content/colecciones.ts`, `src/content/precios.json`
 - Estilos globales: `src/index.css`, `src/styles/`

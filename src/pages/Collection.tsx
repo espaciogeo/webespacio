@@ -11,7 +11,7 @@ const SPAN: Record<NonNullable<CollectionItem['size']>, string> = {
   s: 'md:col-span-6 lg:col-span-4',
 };
 
-function Item({ it, i }: { it: CollectionItem; i: number }) {
+function Item({ it }: { it: CollectionItem; i?: number }) {
   const size = it.size ?? 'm';
   const big = size === 'xl';
   return (
@@ -23,7 +23,7 @@ function Item({ it, i }: { it: CollectionItem; i: number }) {
       )}
       <div className={`flex flex-1 flex-col ${it.image ? 'pt-5' : 'rounded-[22px] p-6 shadow-[inset_0_0_0_1px_var(--line)]'}`}>
         <p className="kicker flex flex-wrap items-center gap-x-3 gap-y-1">
-          <b>{String(i + 1).padStart(2, '0')}</b><span>{it.kicker}</span>
+          <span>{it.kicker}</span>
           {it.status && <span className="rounded-full bg-[var(--paper-2)] px-2.5 py-0.5 normal-case tracking-normal text-ink-2">{it.status}</span>}
         </p>
         <h3 className={`mt-3 font-display font-bold leading-[1.05] tracking-[-0.03em] text-ink ${big ? 'text-[clamp(30px,3.4vw,52px)]' : 'text-h3'}`}>{it.title}</h3>
@@ -47,11 +47,11 @@ export default function Collection({ data }: { data: CollectionData }) {
   return (
     <>
       <PageHero kicker={data.kicker} title={data.title} lede={data.lede} trazo={data.trazo as TrazoTipo} />
-      {data.groups.map((g, gi) => (
+      {data.groups.map((g) => (
         <section key={g.title} className="rv border-t hairline py-[var(--section-y)]" data-rv>
           <div className="wrap">
             <div className="grid grid-cols-12 gap-x-4 gap-y-4">
-              <p className="kicker col-span-12 lg:col-span-2"><b>{String(gi + 1).padStart(2, '0')}</b></p>
+              <p className="kicker col-span-12 lg:col-span-2"></p>
               <div className="col-span-12 lg:col-span-8">
                 <h2 className="font-display font-bold tracking-[-0.03em]" style={{ fontSize: 'var(--fs-h2)', lineHeight: 1.02 }}>{g.title}</h2>
                 {g.text && <p className="mt-4 max-w-[60ch] text-reading text-ink-2">{g.text}</p>}

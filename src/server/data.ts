@@ -191,7 +191,7 @@ function archiveRoutes(base: string, list: Entry[], meta: { kicker: string; titl
 
 export function routes(): R[] {
   const r: R[] = [];
-  r.push({ path: '/', data: () => ({ type: 'home', head: head({ path: '/', title: `${SITE_NAME} · Formación online desde 2014` }) }) });
+  r.push({ path: '/', data: () => ({ type: 'home', latest: entries.slice(0, 4).map(card), head: head({ path: '/', title: `${SITE_NAME} · Formación online desde 2014` }) }) });
   // Área privada (inicio de sesión y academia): se dibuja en el navegador.
   r.push({ path: '/ingresar/', data: () => ({ type: 'app', head: head({ path: '/ingresar/', title: 'Ingresar a la academia', noindex: true }) }) });
   r.push({ path: '/academia/', data: () => ({ type: 'app', head: head({ path: '/academia/', title: 'Academia', noindex: true }) }) });
@@ -210,7 +210,7 @@ export function routes(): R[] {
           ? { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: p.faq.map((f) => ({ '@type': 'Question', name: f.title, acceptedAnswer: { '@type': 'Answer', text: f.html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() } })) }
           : isCourse ? { '@context': 'https://schema.org', '@type': 'Course', name: p.title, description: p.seo.description || p.hero?.lede, provider: { '@type': 'Organization', name: SITE_NAME, sameAs: ORIGIN } }
           : isEvent ? undefined : undefined;
-        return { type: 'page', page: p, head: head({ path: p.path, title: p.seo.title || p.title, description: p.seo.description || p.hero?.lede, noindex: p.noindex, image: ogImg(p.hero?.image ?? firstImg?.src ?? null), jsonld }) };
+        return { type: 'page', page: p, ...(p.slug === 'que-hacemos' ? { latest: entries.slice(0, 4).map(card) } : {}), head: head({ path: p.path, title: p.seo.title || p.title, description: p.seo.description || p.hero?.lede, noindex: p.noindex, image: ogImg(p.hero?.image ?? firstImg?.src ?? null), jsonld }) };
       },
     });
   }

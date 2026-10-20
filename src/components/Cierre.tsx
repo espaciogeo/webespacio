@@ -5,7 +5,8 @@
 import { useEffect, useId, useRef, useState } from 'react';
 import { useInView } from 'framer-motion';
 import { rgba } from '../lib/tokens';
-import { cierre, faq } from '../content';
+import { cierre, faq, clasesYoutube, canalYoutube } from '../content';
+import { ArrowUpRight, Play } from 'lucide-react';
 import { scrollToId } from '../lib/scroll';
 
 function Constelacion() {
@@ -43,11 +44,11 @@ function Constelacion() {
         for (const p of P) {
           const d = Math.hypot(p.x - ptr.x, p.y - ptr.y);
           if (d > PL) continue;
-          cx.strokeStyle = rgba('--c-ink', (1 - d / PL) * 0.5); cx.lineWidth = 1.2;
+          cx.strokeStyle = rgba('--c-paper', (1 - d / PL) * 0.5); cx.lineWidth = 1.2;
           cx.beginPath(); cx.moveTo(ptr.x, ptr.y); cx.lineTo(p.x, p.y); cx.stroke();
         }
       }
-      cx.fillStyle = rgba('--c-ink', 0.32);
+      cx.fillStyle = rgba('--c-paper', 0.4);
       for (const p of P) { cx.beginPath(); cx.arc(p.x, p.y, 1.5, 0, 6.2832); cx.fill(); }
     }
     let vis = false, raf = 0, last = 0;
@@ -94,7 +95,7 @@ function Faq() {
               e.preventDefault();
               qs.current[(n + faq.length) % faq.length]?.focus();
             }}>
-            <span className="u044-n">0{i + 1}</span><span className="u044-t">{f.q}</span><span className="u044-pm" aria-hidden="true" />
+            <span className="u044-t">{f.q}</span><span className="u044-pm" aria-hidden="true" />
           </button>
           <div className="u044-body" role="region" id={`${uid}-a${i}`} aria-labelledby={`${uid}-q${i}`}>
             <div><div className="u044-a"><p>{f.a}</p></div></div>
@@ -105,15 +106,70 @@ function Faq() {
   );
 }
 
+// Saca el ID de un link de YouTube (watch?v=, youtu.be/, /live/, /shorts/, /embed/).
+const ytId = (url: string) => url.match(/(?:v=|youtu\.be\/|\/live\/|\/shorts\/|\/embed\/)([\w-]{11})/)?.[1] ?? null;
+
+function VideoLite({ id, titulo }: { id: string; titulo: string }) {
+  const [on, setOn] = useState(false);
+  return (
+    <div className="relative aspect-video overflow-hidden rounded-[18px] bg-ink">
+      {on ? (
+        <iframe className="absolute inset-0 h-full w-full" src={`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`} title={titulo}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+      ) : (
+        <button type="button" onClick={() => setOn(true)} className="group absolute inset-0 h-full w-full" aria-label={`Reproducir: ${titulo}`}>
+          <img src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity group-hover:opacity-100" />
+          <span className="absolute left-1/2 top-1/2 grid h-16 w-16 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-paper text-ink shadow-lg transition-transform group-hover:scale-110"><Play size={26} aria-hidden /></span>
+        </button>
+      )}
+    </div>
+  );
+}
+
+// Clases gratuitas del canal de YouTube. Los videos se cargan en content.ts (clasesYoutube).
+function ClasesYoutube() {
+  const vids = clasesYoutube.map((v) => ({ ...v, id: ytId(v.url) })).filter((v): v is { url: string; titulo: string; id: string } => !!v.id);
+  const [cur, setCur] = useState(0);
+  const v = vids[cur];
+  return (
+    <div>
+      <p className="kicker mb-5">Clases gratuitas en YouTube</p>
+      {v ? (
+        <>
+          <VideoLite key={v.id} id={v.id} titulo={v.titulo} />
+          <p className="mt-3 text-[17px] font-medium">{v.titulo}</p>
+          {vids.length > 1 && (
+            <ul className="mt-4 grid grid-cols-3 gap-3">
+              {vids.map((x, i) => (
+                <li key={x.id}>
+                  <button type="button" onClick={() => setCur(i)} aria-label={x.titulo} aria-current={i === cur}
+                    className={`block aspect-video w-full overflow-hidden rounded-[10px] ring-offset-2 ${i === cur ? 'ring-2 ring-[var(--accent)]' : 'opacity-70 hover:opacity-100'}`}>
+                    <img src={`https://i.ytimg.com/vi/${x.id}/mqdefault.jpg`} alt="" loading="lazy" className="h-full w-full object-cover" />
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </>
+      ) : (
+        <div className="grid aspect-video place-items-center rounded-[18px] p-6 text-center shadow-[inset_0_0_0_1px_var(--line-2)]">
+          <p className="text-[17px] text-ink-2">Mirá las clases gratuitas en nuestro canal.</p>
+        </div>
+      )}
+      <a href={canalYoutube} target="_blank" rel="noopener" className="btn btn-ghost mt-5">Ver el canal <ArrowUpRight size={18} aria-hidden /></a>
+    </div>
+  );
+}
+
 export function Cierre() {
   const h = useRef<HTMLHeadingElement>(null);
   const inView = useInView(h, { once: true, margin: '-20% 0px' });
   return (
-    <section aria-labelledby="cierre-title" className="relative overflow-hidden bg-paper">
+    <section aria-labelledby="cierre-title" className="sec-azul relative overflow-hidden">
       <Constelacion />
       <div className="wrap relative grid grid-cols-12 gap-x-4 gap-y-14 py-[16svh]">
         <div className="col-span-12 lg:col-span-7">
-          <p className="kicker"><b>09</b> · {cierre.kicker}</p>
+          <p className="kicker">{cierre.kicker}</p>
           <h2 ref={h} id="cierre-title" className={`u237 display mt-5 ${inView ? 'is-in' : ''}`} style={{ fontSize: 'clamp(46px, 7.4vw, 128px)', lineHeight: 0.9 }}>
             {cierre.titulo.map((l, i) => <span key={l} className="u237-ln"><span className="u237-in" style={{ ['--i' as string]: i }}>{l}</span></span>)}
           </h2>
@@ -121,9 +177,20 @@ export function Cierre() {
           <a href="#clase" onClick={(e) => { e.preventDefault(); scrollToId('clase'); }} className="btn btn-primary mt-8">{cierre.cta}</a>
         </div>
         <div className="col-span-12 lg:col-span-5 lg:pt-16">
-          <p className="kicker mb-5">Preguntas frecuentes</p>
-          <Faq />
+          <ClasesYoutube />
         </div>
+      </div>
+    </section>
+  );
+}
+
+// Preguntas frecuentes: al final de la home, solas. Título a la izquierda, preguntas a la derecha.
+export function PreguntasFrecuentes() {
+  return (
+    <section aria-labelledby="faq-title" className="wrap border-t hairline py-[14svh]">
+      <div className="grid grid-cols-12 gap-x-4 gap-y-8">
+        <h2 id="faq-title" className="h-section col-span-12 lg:col-span-4" style={{ fontSize: 'clamp(29px, calc(6.4vw - 11px), 93px)' }}>Preguntas frecuentes</h2>
+        <div className="col-span-12 lg:col-span-8"><Faq /></div>
       </div>
     </section>
   );

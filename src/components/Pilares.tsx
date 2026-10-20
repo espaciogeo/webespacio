@@ -99,7 +99,7 @@ export function Pilares() {
       <div className="sticky top-0 flex h-[100svh] flex-col overflow-hidden pb-6 pt-20 lg:pb-10 lg:pt-28">
         <div className="wrap flex w-full items-end justify-between gap-6">
           <div>
-            <p className="kicker"><b>03</b> · {pilaresIntro.kicker}</p>
+            <p className="kicker">{pilaresIntro.kicker}</p>
             <h2 id="pilares-title" className="h-section mt-2 lg:mt-3" style={{ fontSize: 'clamp(28px, 4.6vw, 76px)' }}>{pilaresIntro.titulo}</h2>
           </div>
           {/* #390 */}
@@ -120,8 +120,7 @@ export function Pilares() {
                 className="relative flex h-full w-[86vw] flex-none flex-col overflow-hidden rounded-[22px] border hairline bg-paper sm:w-[74vw] lg:w-[min(62vw,1080px)] lg:flex-row"
                 aria-label={`${p.n}. ${p.titulo}`}>
                 <div className="relative flex min-h-0 flex-col p-5 sm:p-7 lg:w-[52%] lg:p-10">
-                  <span className="u241-n mono pointer-events-none absolute -bottom-6 right-2 select-none text-[34vw] leading-none text-ink/[0.06] lg:-bottom-10 lg:text-[15vw]" aria-hidden="true">{p.n}</span>
-                  <p className="kicker"><b>{p.n}</b> · {p.nota}</p>
+                  <p className="kicker">{p.nota}</p>
                   <h3 className="mt-2 font-bold tracking-[-0.04em] lg:mt-auto" style={{ fontSize: 'clamp(28px, 3vw, 50px)', lineHeight: 1 }}>{p.titulo}</h3>
                   <p className="relative mt-3 max-w-[42ch] text-[17px] leading-relaxed text-ink-2 lg:mt-5 lg:text-[19px]">{p.texto}</p>
                   <a href={p.href} className="link-arrow relative mt-2 self-start text-[17px] lg:mt-6">

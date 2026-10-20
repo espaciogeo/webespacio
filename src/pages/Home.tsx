@@ -8,22 +8,24 @@ import { Cifras } from '../components/Cifras';
 import { Testimonios } from '../components/Testimonios';
 import { Equipo } from '../components/Equipo';
 import { Blog } from '../components/Blog';
-import { Cierre } from '../components/Cierre';
+import { Cierre, PreguntasFrecuentes } from '../components/Cierre';
+import type { PostCard } from '../types';
 
-export default function Home() {
+export default function Home({ latest }: { latest?: PostCard[] }) {
   return (
     <div className="home-white">
       <Loader />
       <Hero />
-      <Manifiesto />
+      <Propuestas />
       <Pilares />
       <Solidos />
-      <Propuestas />
+      <Manifiesto />
       <Cifras />
       <Testimonios />
-      <Equipo />
-      <Blog />
       <Cierre />
+      <Equipo />
+      <Blog posts={latest} />
+      <PreguntasFrecuentes />
     </div>
   );
 }
