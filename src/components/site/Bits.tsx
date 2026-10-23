@@ -78,6 +78,21 @@ export function PageHero({ kicker, title, lede, trazo, children, facts, image, b
 
 // Video liviano: muestra la miniatura y carga el reproductor recién al hacer clic.
 // vertical: para videos cortos (formato celular); recorta las barras negras de la miniatura. chico: botón de play más amable.
+// Miniatura real de Vimeo: se pide a su oEmbed (público, sin clave) y se usa la imagen grande.
+function VimeoThumb({ vid, hash }: { vid: string; hash?: string }) {
+  const [src, setSrc] = useState(`https://vumbnail.com/${vid}.jpg`);
+  useEffect(() => {
+    let ok = true;
+    const url = `https://vimeo.com/${vid}${hash ? `/${hash}` : ''}`;
+    fetch(`https://vimeo.com/api/oembed.json?width=1280&url=${encodeURIComponent(url)}`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((j) => { if (ok && j?.thumbnail_url) setSrc(String(j.thumbnail_url).replace(/_\d+x\d+/, '_1280x720')); })
+      .catch(() => {});
+    return () => { ok = false; };
+  }, [vid, hash]);
+  return <img src={src} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" />;
+}
+
 export function Video({ provider, id, title = 'Video', vertical = false, chico = false }: { provider: string; id: string; title?: string; vertical?: boolean; chico?: boolean }) {
   const [on, setOn] = useState(false);
   const [vid, hash] = id.split('?h=');
@@ -94,7 +109,7 @@ export function Video({ provider, id, title = 'Video', vertical = false, chico =
             ? (vertical
               ? <img src={`https://i.ytimg.com/vi/${vid}/maxresdefault.jpg`} alt="" loading="lazy" className="absolute left-1/2 top-1/2 w-[316%] max-w-none -translate-x-1/2 -translate-y-1/2 transition-transform duration-700 group-hover:scale-[1.04]" />
               : <img src={`https://i.ytimg.com/vi/${vid}/maxresdefault.jpg`} onError={(e) => { const i = e.currentTarget; if (!i.src.includes('hqdefault')) i.src = `https://i.ytimg.com/vi/${vid}/hqdefault.jpg`; }} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" />)
-            : <Trazo tipo="semilla" className="absolute inset-[12%] opacity-25 [&_*]:!stroke-paper" />}
+            : <VimeoThumb vid={vid} hash={hash} />}
           {chico ? (
             <span className="absolute bottom-3 left-3 flex items-center gap-2 rounded-full bg-white/95 py-1.5 pl-1.5 pr-3.5 text-[13px] font-medium text-[#094372] shadow-md transition-transform group-hover:scale-105">
               <span className="grid h-7 w-7 place-items-center rounded-full bg-[#66cc99]"><svg viewBox="0 0 24 24" className="ml-0.5 h-3.5 w-3.5 fill-[#094372]"><path d="M7 4.5v15l13-7.5z" /></svg></span>

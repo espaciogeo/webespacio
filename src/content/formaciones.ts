@@ -351,10 +351,11 @@ export const club = page({
 /* Experiencias Geométricas (experiencias.espaciodegeometriasagrada.com) */
 /* ------------------------------------------------------------------ */
 const E = P.experiencias;
-export const experienciasEventos = [
-  { path: '/formaciones/experiencias/presentacion-del-libro/', title: '7 de Noviembre - Buenos Aires', sub: 'Presentación Libro - Exclusiva Comunidad' },
-  { path: '/formaciones/experiencias/buenos-aires-28-de-noviembre/', title: '28 de Noviembre - Buenos Aires', sub: 'Fecha confirmada - Etapa Preventa 1' },
-  { path: '/formaciones/experiencias/retiro-maldonado-uruguay/', title: '19 al 21 de Marzo - Maldonado (Uruguay)', sub: 'Fecha confirmada - Etapa Preventa Abierta' },
+// flyer: ruta de la imagen del flyer de cada evento (ej. '/img/flyers/bsas-2811.webp'). Si está vacío, se muestra un flyer armado con los datos.
+export const experienciasEventos: { path: string; title: string; sub: string; fecha: string; lugar: string; nombre: string; flyer?: string }[] = [
+  { path: '/formaciones/experiencias/presentacion-del-libro/', title: '7 de Noviembre - Buenos Aires', sub: 'Presentación Libro - Exclusiva Comunidad', fecha: 'Sábado 7 de noviembre', lugar: 'Belgrano, Buenos Aires', nombre: 'Presentación del libro' },
+  { path: '/formaciones/experiencias/buenos-aires-28-de-noviembre/', title: '28 de Noviembre - Buenos Aires', sub: 'Fecha confirmada - Etapa Preventa 1', fecha: 'Sábado 28 de noviembre', lugar: 'Belgrano, Buenos Aires', nombre: 'Workshop · Laberinto de Chartres' },
+  { path: '/formaciones/experiencias/retiro-maldonado-uruguay/', title: '19 al 21 de Marzo - Maldonado (Uruguay)', sub: 'Fecha confirmada - Etapa Preventa Abierta', fecha: '19 al 21 de marzo', lugar: 'Maldonado, Uruguay', nombre: 'Retiro · Activando tu Campo de Potencial' },
 ];
 export const experiencias = page({
   slug: 'experiencias',
