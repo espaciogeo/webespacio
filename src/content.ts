@@ -30,8 +30,8 @@ export const nav: NavItem[] = [
   {
     label: 'Formaciones', href: links.formacion,
     children: [
-      { label: 'Formación Profesional', href: '/formaciones/formacion-profesional/', text: '9 meses, con acompañamiento personalizado' },
-      { label: 'Especialización en Terapias', href: '/formaciones/especializacion-en-terapias/', text: 'Para médicos, psicólogos y terapeutas' },
+      { label: 'Formación Profesional', href: '/formaciones/formacion-profesional/', text: 'Geómetra Iniciado: 9 meses · Geómetra Avanzado: 12 meses · Formador Geómetra: 24 meses' },
+      { label: 'Especialización en Terapias', href: '/formaciones/especializacion-en-terapias/', text: 'Protocolos de Geometría Sagrada para tus terapias' },
       { label: 'Armonización de Espacios', href: '/formaciones/armonizacion-de-espacios/', text: 'Tres caminos de 9 meses' },
       { label: 'Experiencias y retiros', href: '/formaciones/experiencias/', text: 'Eventos presenciales en tu ciudad' },
       { label: 'Club Formadores Geómetras', href: '/formaciones/club-formadores/', text: 'Para Formadores certificados' },
@@ -80,14 +80,14 @@ export const manifiesto = {
   // "comunidad de buscadores", "compartir y multiplicar", "democratizar el conocimiento",
   // "lenguaje del universo, codificado en símbolos y patrones", "la medida es profana y la Proporción es Sagrada".
   texto:
-    'Desde 2014, compartimos este conocimiento *ancestral.* Ya acompañamos a + de 10mil personas en todo el mundo.',
+    'Lo que se comparte, se multiplica. Desde 2014 nos propusimos democratizar este *conocimiento ancestral.*',
   marcada: 'ancestral',
   nota: 'vesica piscis · trazo a lápiz de una alumna', // [INVENTADO] (no sabemos quién hizo el trazo; validar)
 };
 
 export const pilaresIntro = {
-  kicker: 'Los 4 pilares',
-  titulo: 'Independientes y complementarios.', // real: "los cuales son independientes y complementarios"
+  kicker: 'Independientes y complementarios',
+  titulo: 'Los 4 pilares', // real: "los cuales son independientes y complementarios"
 };
 
 export const pilares = [
@@ -130,6 +130,7 @@ export const solidosIntro = {
   // Real (eBook): "Hay siete formas principales dentro de la Geometría Sagrada: los cinco Sólidos Platónicos, el Círculo y la Espiral."
   titulo: '5 Mentes, 5 Consciencias',
   texto: 'Platón decía que la Geometría nos obliga a contemplar la esencia. Cada sólido se relaciona con uno de los 5 elementos.', // real (eBook "Los Secretos de los Sólidos Platónicos")
+  cva: 'C · V · A: caras, vértices y aristas. Las caras son las superficies planas de cada sólido. Los vértices, las puntas donde se encuentran. Las aristas, los bordes que las unen.',
 };
 
 // Datos geométricos (hechos) + elemento según la lámina del sitio ("Los-Seis-Elementos").
@@ -215,7 +216,7 @@ export const cifras = {
 
 export const testimonios = {
   kicker: 'Formadores certificados',
-  titulo: 'Lo que dicen quienes se formaron.', // [INVENTADO]
+  titulo: 'Lo que dicen quienes se formaron', // [INVENTADO]
   // Citas textuales (recortadas) de /formacion-profesional/. `marca` es un fragmento literal de la cita.
   lista: [
     { nombre: 'Ma. Laura de Rose', lugar: 'Buenos Aires, Argentina', texto: 'El Espacio de Geometría Sagrada es un lugar donde encuentro familia, mucha información ordenada, y un lugar donde encontrarme conmigo misma.', marca: 'mucha información ordenada' },
@@ -230,7 +231,7 @@ export const testimonios = {
 
 export const equipo = {
   kicker: 'Nuestro equipo',
-  intro: 'Monique Dumoulin y Pablo Pettinaroli encabezan un equipo de personas interdisciplinario, con pasión por lo que hacen.',
+  intro: 'Encabezan un equipo interdisciplinario de personas con pasión por lo que hacen.',
   personas: [
     {
       nombre: 'Monique Dumoulin',
@@ -252,7 +253,7 @@ export const equipo = {
 
 export const blog = {
   kicker: 'Del blog',
-  titulo: 'Para leer despacio.', // [INVENTADO]
+  titulo: 'Para leer despacio', // [INVENTADO]
   categorias: [
     { nombre: 'Trazos', href: `${SITE}/category/trazos-de-geometria-sagrada/` },
     { nombre: 'Sólidos Platónicos', href: `${SITE}/category/solidos-platonicos/` },
@@ -288,7 +289,7 @@ export const canalYoutube = 'https://www.youtube.com/channel/UCOziyLMsnP2cumt1ZU
 
 export const cierre = {
   kicker: 'Clase gratuita', // real
-  titulo: ['Un sábado al mes,', 'trazamos juntos.'], // [INVENTADO]
+  titulo: ['Un sábado al mes,', 'trazamos juntos'], // [INVENTADO]
   texto: 'Sigamos democratizando el conocimiento.', // real (banner de la home)
   cta: 'Reservar mi lugar', // [INVENTADO]
 };

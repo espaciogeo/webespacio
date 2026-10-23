@@ -24,7 +24,7 @@ function Torbellino() {
   }));
   const spiral = (a: number) => Array.from({ length: 141 }, (_, k) => { const i = k / 10, th = (a * 2 * Math.PI) / ARMS + i * 0.42, rho = 0.1 * Math.pow(1.27, i); return `${(rho * Math.cos(th)).toFixed(3)},${(rho * Math.sin(th)).toFixed(3)}`; }).join(' ');
   return (
-    <svg viewBox="-3.6 -3.6 7.2 7.2" className="h-full w-full" role="img" aria-label="Torbellino: el mismo patrón desde el átomo hasta la galaxia">
+    <svg viewBox="-4.2 -4.2 8.4 8.4" className="h-full w-full overflow-visible" role="img" aria-label="Torbellino: el mismo patrón desde el átomo hasta la galaxia">
       <g className="qh-spin">
         <g fill="none" stroke="var(--pencil)" strokeWidth={0.012}>
           {Array.from({ length: ARMS }, (_, a) => <polyline key={a} points={spiral(a)} />)}
@@ -70,10 +70,14 @@ function Glifo({ n }: { n: number }) {
   return (
     <svg viewBox="0 0 96 96" className="h-20 w-20" aria-hidden="true">
       {n === 0 && (<>
-        <line {...gd} x1={8} y1={60} x2={88} y2={60} />
-        <circle {...ink} cx={48} cy={60} r={26} />
-        <path {...ink} d="M48 60 L60 16 L36 16 Z" strokeWidth={1.2} />
-        <circle cx={48} cy={60} r={2.6} fill="var(--accent)" />
+        {/* Compás: los trazos se hacen con compás */}
+        <path {...gd} d="M18 82 A38 38 0 0 1 78 82" strokeDasharray="3 3" />
+        <line {...ink} x1={48} y1={6} x2={48} y2={14} />
+        <circle {...ink} cx={48} cy={19} r={5} />
+        <path {...ink} d="M45 23 L26 82 M51 23 L70 82" />
+        <path {...ink} d="M36 52 L60 52" strokeWidth={1.2} />
+        <path {...ink} d="M70 82 L73 90" strokeWidth={2.4} />
+        <circle cx={26} cy={84} r={2.6} fill="var(--accent)" />
       </>)}
       {n === 1 && (<>
         <circle {...gd} cx={48} cy={50} r={38} />
@@ -134,10 +138,10 @@ export default function QueHacemos({ page, latest }: { page: PageData; latest?: 
             <p className="kicker">Qué hacemos</p>
             <MaskTitle text="¿Qué es la Geometría Sagrada?" className="display mt-5" style={{ fontSize: 'clamp(46px, 6.6vw, 112px)' }} />
             <p className="mt-8 max-w-[34ch] font-display text-[clamp(22px,2vw,30px)] leading-snug text-ink">
-              Es el lenguaje del universo, codificado en símbolos y patrones. Es el modelo de la creación y engendra toda la forma.
+              En el Espacio enseñamos Geometría Sagrada para que la apliques en tu vida: trazamos, construimos los sólidos, armonizamos espacios y usamos las formas como medicina.
             </p>
             <p className="mt-6 max-w-[52ch] text-body text-ink-2">
-              Se dice que “Dios” Geometriza. Ha creado armonía en la materia con esta preciosa herramienta la Geometría Sagrada, donde <span className="text-ink">la medida es profana</span> y <span className="font-medium text-accent-ink">la Proporción es Sagrada</span>.
+              La Geometría Sagrada es el lenguaje del universo, codificado en símbolos y patrones, donde <span className="text-ink">la medida es profana</span> y <span className="font-medium text-accent-ink">la Proporción es Sagrada</span>.
             </p>
           </div>
           <div className="col-span-12 sm:col-span-8 sm:col-start-3 lg:col-span-5 lg:col-start-8">
@@ -180,7 +184,7 @@ export default function QueHacemos({ page, latest }: { page: PageData; latest?: 
           <div className="col-span-12 lg:col-span-6 lg:col-start-7">
             {k('02', 'Un mismo patrón')}
             <h2 id="qh-patron" className="mt-4 font-display text-[clamp(26px,2.6vw,40px)] font-semibold leading-tight tracking-[-0.02em]">
-              Desde un simple átomo hasta una inmensa galaxia.
+              Desde un simple átomo hasta una inmensa galaxia
             </h2>
             <p className="mt-6 max-w-[54ch] text-body leading-relaxed text-ink-2">Redescubrirla nos permite observar una planificación, desarrollo y mantenimiento en base a patrones, un lenguaje simbólico de las fuerzas de la creación del universo que nos ayuda a entender mentalmente lo que ya intuitivamente conocemos.</p>
             <p className="mt-5 max-w-[54ch] text-body leading-relaxed text-ink-2">Todo en el universo proviene de una misma fuente o Inteligencia Universal, podrás llamarlo, Madre Naturaleza, Espíritu. La Geometría Sagrada nos demuestra, como todo lo que existe fue creado por medio de los mismos principios básicos, como desde un simple átomo hasta una inmensa galaxia siguen un mismo patrón Geométrico idéntico.</p>
@@ -225,7 +229,7 @@ export default function QueHacemos({ page, latest }: { page: PageData; latest?: 
         </div>
 
         <div className="mt-[12svh] grid gap-10 lg:grid-cols-2">
-          <h3 className="font-display text-[clamp(28px,3vw,48px)] font-normal leading-[1.12] tracking-[-0.02em] text-ink">En el arte y la música, en los diseños arquitectónicos, encontrarás estos patrones de organización.</h3>
+          <h3 className="font-display text-[clamp(28px,3vw,48px)] font-normal leading-[1.12] tracking-[-0.02em] text-ink">En el arte y la música, en los diseños arquitectónicos, encontrarás estos patrones de organización</h3>
           <h3 className="font-display text-[clamp(28px,3vw,48px)] font-semibold leading-[1.12] tracking-[-0.02em] text-accent-ink">Recordarlos es parte de tu evolución consciente. ¡Te estás re-descubriendo!</h3>
         </div>
 
@@ -243,7 +247,7 @@ export default function QueHacemos({ page, latest }: { page: PageData; latest?: 
       {/* 6 · Los 4 pilares */}
       <section aria-labelledby="qh-pilares" data-rv className="rv wrap border-t hairline py-[12svh]">
         {k('04', 'Los 4 pilares')}
-        <h2 id="qh-pilares" className="h-section mt-3 max-w-[22ch]" style={{ fontSize: 'var(--fs-h2)' }}>Te proponemos descubrir y comprender la Geometría Sagrada basándonos en 4 pilares, independientes y complementarios.</h2>
+        <h2 id="qh-pilares" className="h-section mt-3" style={{ fontSize: 'var(--fs-h2)' }}>Te proponemos descubrir y comprender la Geometría Sagrada basándonos en 4 pilares, independientes y complementarios</h2>
         <div className="mt-12 grid gap-5 md:grid-cols-2">
           {pilaresQH.map((p, i) => (
             <article key={p.titulo} className="flex flex-col rounded-[22px] p-7 shadow-[inset_0_0_0_1px_var(--line-2)] lg:p-9">
@@ -263,7 +267,7 @@ export default function QueHacemos({ page, latest }: { page: PageData; latest?: 
         <div className="grid grid-cols-12 gap-x-4 gap-y-6">
           <div className="col-span-12 lg:col-span-5">
             {k('05', 'Propuestas')}
-            <h2 id="qh-prop" className="h-section mt-3" style={{ fontSize: 'var(--fs-h2)' }}>Estas son nuestras propuestas.</h2>
+            <h2 id="qh-prop" className="h-section mt-3" style={{ fontSize: 'var(--fs-h2)' }}>Estas son nuestras propuestas</h2>
           </div>
           <p className="col-span-12 max-w-[46ch] text-lead text-ink-2 lg:col-span-6 lg:col-start-7 lg:self-end">Estos pilares puedes aprenderlos a través de diferentes modalidades, según el grado de interés que tengas en la involucración de los mismos.</p>
         </div>
@@ -296,7 +300,7 @@ export default function QueHacemos({ page, latest }: { page: PageData; latest?: 
         <div className="wrap grid grid-cols-12 items-center gap-x-4 gap-y-12">
           <div className="col-span-12 lg:col-span-5">
             <p className="kicker !text-paper/60"><b className="!text-paper">06</b> · Redes</p>
-            <h2 id="qh-redes" className="mt-4 font-display text-[clamp(28px,3vw,48px)] font-semibold leading-[1.08] tracking-[-0.02em]">Somos una comunidad de buscadores con más de 100.000 personas en las redes.</h2>
+            <h2 id="qh-redes" className="mt-4 font-display text-[clamp(28px,3vw,48px)] font-semibold leading-[1.08] tracking-[-0.02em]">Somos una comunidad de buscadores con más de 100.000 personas en las redes</h2>
             <p className="mt-5 max-w-[42ch] text-body text-paper/75">Estamos compartiendo y multiplicando este conocimiento. Seguinos y sumate.</p>
             <ul className="mt-8 flex flex-wrap gap-3">
               {redes.map((r) => (

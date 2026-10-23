@@ -131,7 +131,7 @@ export default function Article({ post, related, prev, next }: { post: Full; rel
       {related.length > 0 && (
         <section className="wrap border-t hairline py-[10svh]">
           <div className="flex flex-wrap items-end justify-between gap-4">
-            <h2 className="h-section" style={{ fontSize: 'var(--fs-h2)' }}>Seguí leyendo.</h2>
+            <h2 className="h-section" style={{ fontSize: 'var(--fs-h2)' }}>Seguí leyendo</h2>
             <a href="/blog/" className="link-arrow">Todos los artículos <ArrowRight size={18} aria-hidden /></a>
           </div>
           <ol className="mt-10 grid gap-8 md:grid-cols-3">

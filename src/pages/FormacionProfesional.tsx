@@ -23,7 +23,17 @@ function BtnEntrevista({ texto = 'Solicitá tu entrevista', claro = false }: { t
   return <a href={ENTREVISTA} className={`btn ${claro ? 'btn-primary' : 'btn-primary'} mt-8 inline-flex`}>{texto} <ArrowRight size={18} aria-hidden /></a>;
 }
 
-const h2 = { fontSize: 'var(--fs-h2)', lineHeight: 1.02 } as const;
+export const h2 = { fontSize: 'var(--fs-h2)', lineHeight: 1.02 } as const;
+
+// La Formación: negrita solo en las cifras (pedido de Pablo, 23/10)
+const LISTA_FORMACION = '<ul>'
+  + '<li>Compuesta por <strong>11 cursos</strong>.</li>'
+  + '<li>Duración total: <strong>24 meses</strong> de cursada.</li>'
+  + '<li>100% online. Las primeras 6 materias se cursan al ritmo del estudiante, siguiendo videos y material de descarga. Las restantes 5 se cursan en vivo y directo, en diferentes horas y días de cursada.</li>'
+  + '<li>Clases de acompañamiento el 2.º y 4.º sábado de cada mes, a cargo de formadores del equipo.</li>'
+  + '<li>4 pilares: Trazos de Geometría Sagrada, Construcciones en 3D, Medicina de las Formas y Armonización de Espacios.</li>'
+  + '<li>Apoyo y orientación a cargo del Consejo Académico.</li>'
+  + '</ul>';
 
 // Testimonios de admision (F) + 6 testimonios en video de formacion.espaciodegeometriasagrada.com
 const TESTIMONIOS = [
@@ -43,13 +53,13 @@ const SALIDAS = [
   { t: 'Acceder a programas de formación continua', x: 'Para sumar más saberes y experiencias, con los líderes más influyentes en el campo del desarrollo del potencial humano.', img: 'construccion-manos' },
 ];
 // Formulario de contacto con mensaje (el de la página del Dossier en WordPress: nombre, email y mensaje)
-const CONTACTO = { name: 'Contacto', formId: 'd050aec', postId: '32072', submit: 'Enviar consulta', fields: [
+export const CONTACTO = { name: 'Contacto', formId: 'd050aec', postId: '32072', submit: 'Enviar consulta', fields: [
   { label: 'Nombre', type: 'text', required: true, id: 'name', options: [] as string[] },
   { label: 'Email', type: 'email', required: true, id: 'email', options: [] as string[] },
   { label: 'Tu mensaje', type: 'textarea', required: false, id: 'message', options: [] as string[] },
 ] };
 // Fondo de la sección azul: flor de la vida en trazo fino
-function FlorFondo() {
+export function FlorFondo() {
   const r = 1; const pts: [number, number][] = [[0, 0]];
   for (let k = 1; k <= 2; k++) for (let i = 0; i < 6 * k; i++) {
     const side = Math.floor(i / k), step = i % k;
@@ -96,16 +106,9 @@ function VideoCaja({ id, d }: { id: string; d: number }) {
 export default function FormacionProfesional({ page }: { page: PageData }) {
   const { find } = useBloques(page);
   const video = find('video');
-  const listaFormacion = find('text', 'Compuesta por 11 cursos');
   const quienes = find('text', 'cuenta ya con');
   const dudas = find('text', 'Completa el formulario');
   const quienesHtml = quienes?.html.replace('cuenta ya con 8 años', 'cuenta ya con más de 12 años');
-
-  // Columnas de testimonios: cita y video intercalados; la columna del medio arranca más abajo.
-  const piezas = TESTIMONIOS.flatMap((t, i) => {
-    const c = { k: 'c' as const, t, i }, v = { k: 'v' as const, id: VIDEOS[i], i };
-    return Math.floor(i / 2) % 2 === 0 ? [c, v] : [v, c];
-  });
 
   return (
     <>
@@ -130,7 +133,7 @@ export default function FormacionProfesional({ page }: { page: PageData }) {
       <section className="sec-azul relative overflow-hidden py-[var(--section-y)]">
         <FlorFondo />
         <div className="wrap relative grid grid-cols-12 gap-x-6 gap-y-8" data-rv>
-          <h2 className="col-span-12 font-display font-medium tracking-[-0.03em] lg:col-span-6" style={h2}>Te presentamos la primera Formación Profesional de Geometría Sagrada de habla hispana.</h2>
+          <h2 className="col-span-12 font-display font-medium tracking-[-0.03em] lg:col-span-6" style={h2}>Te presentamos la primera Formación Profesional de Geometría Sagrada de habla hispana</h2>
           <div className="col-span-12 lg:col-span-5 lg:col-start-8 lg:self-end">
             <p className="kicker">Facilitada por Geómetras, para todo el mundo</p>
             <p className="mt-4 text-reading leading-relaxed text-ink-2">La Formación Profesional en Geometría Sagrada está diseñada para que la realices desde la comodidad de tu hogar. Está compuesta por 11 cursos, tiene una duración de 24 meses, y entrega un Certificado Internacional con aval del Espacio de Geometría Sagrada.</p>
@@ -142,37 +145,14 @@ export default function FormacionProfesional({ page }: { page: PageData }) {
       <section className="wrap grid grid-cols-12 gap-x-6 gap-y-10 py-[var(--section-y)]" data-rv>
         <div className="col-span-12 min-w-0 lg:col-span-6">
           <h2 className="font-display font-medium tracking-[-0.03em]" style={h2}>La Formación</h2>
-          {listaFormacion && <div className="prose-egs mt-6" dangerouslySetInnerHTML={{ __html: listaFormacion.html }} />}
+          <div className="prose-egs mt-6" dangerouslySetInnerHTML={{ __html: LISTA_FORMACION }} />
           <BtnEntrevista />
         </div>
-        <div className="col-span-12 min-w-0 lg:col-span-6 lg:self-center">
-          <div className="aspect-[4/5] overflow-hidden rounded-[22px] lg:aspect-[5/6]">
+        {/* PENDIENTE: Pablo pasa la foto de la Formación Profesional */}
+        <div className="col-span-12 min-w-0 lg:col-span-6">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-[22px] lg:aspect-auto lg:h-full lg:[&_img]:absolute lg:[&_img]:inset-0">
             <Img name="taller-alumnas" alt="Alumnas de la Formación trazando Geometría Sagrada" sizes="(min-width:1024px) 46vw, 100vw" className="h-full w-full object-cover" />
           </div>
-        </div>
-      </section>
-
-      {/* 6 · Dossier: a la derecha va la presentación (PENDIENTE: reemplazar la imagen de referencia por el ppt) */}
-      <section className="wrap grid grid-cols-12 gap-x-6 gap-y-10 pb-[var(--section-y)]" data-rv>
-        <div className="col-span-12 min-w-0 lg:col-span-5 lg:self-center">
-          <h2 className="font-display font-medium tracking-[-0.03em]" style={{ fontSize: 'clamp(30px, 3.4vw, 52px)', lineHeight: 1.05 }}>Descargá el Dossier y el Programa de Estudios</h2>
-          <div className="flex flex-wrap gap-3">
-            <BtnEntrevista />
-          </div>
-        </div>
-        <div className="col-span-12 min-w-0 lg:col-span-7">
-          <div className="fp-ppt relative aspect-video overflow-hidden rounded-[18px] bg-[#094372] text-white shadow-[0_30px_60px_-40px_rgb(0_0_0/0.6)]" role="img" aria-label="Imagen de referencia: acá va la presentación del Dossier">
-            <Trazo tipo="semilla" className="absolute -right-[8%] top-1/2 w-[55%] -translate-y-1/2 opacity-30 [&_*]:!stroke-white" />
-            <div className="absolute inset-0 flex flex-col justify-between p-[6%]">
-              <p className="text-[12px] uppercase tracking-[0.2em] text-white/70">Espacio de Geometría Sagrada</p>
-              <div>
-                <p className="font-display text-[clamp(22px,3vw,40px)] font-medium leading-tight">Dossier y Programa<br />de Estudios</p>
-                <p className="mt-2 text-[14px] text-white/70">Formación Profesional en Geometría Sagrada</p>
-              </div>
-              <div className="flex items-center justify-between text-[12px] text-white/60"><span>1 / 12</span><span>‹ ›</span></div>
-            </div>
-          </div>
-          <p className="mt-3 text-[14px] text-ink-3">Imagen de referencia. Acá va la presentación.</p>
         </div>
       </section>
 
@@ -196,28 +176,36 @@ export default function FormacionProfesional({ page }: { page: PageData }) {
         </div>
       </section>
 
-      {/* Cifras: el mismo módulo de la home */}
-      <Cifras />
-
-      {/* F · Testimonios reales: fondo azul, citas en cajas blancas intercaladas con 6 videos */}
-      <section className="sec-azul overflow-hidden border-t border-white/10 py-[var(--section-y)]" aria-labelledby="fp-testimonios">
-        <div className="wrap">
-          <div className="mx-auto max-w-[860px] text-center" data-rv>
-            <p className="kicker">¿Qué dicen nuestros estudiantes?</p>
-            <h2 id="fp-testimonios" className="mt-4 font-display font-medium tracking-[-0.03em]" style={h2}>Testimonios reales de personas reales</h2>
-            <p className="mt-5 text-reading text-ink-2">Luego de 12 años compartiendo y multiplicando este conocimiento, podemos decir con orgullo y alegría que tenemos testimonios reales… de personas reales.</p>
-          </div>
-          <div className="mx-auto mt-12 grid max-w-[1180px] grid-cols-1 gap-4 min-[480px]:grid-cols-2 lg:grid-cols-4 lg:gap-5">
-            {piezas.map((p, j) => p.k === 'c' ? <Cita key={'c' + p.i} t={p.t} d={(j % 4) * 90} /> : <VideoCaja key={'v' + p.i} id={p.id} d={(j % 4) * 90} />)}
-          </div>
-          <div className="mt-16 grid items-center gap-6 lg:grid-cols-12" data-rv>
-            <p className="font-display text-[clamp(22px,2.2vw,32px)] leading-snug lg:col-span-7">Podríamos poner cientos y cientos de testimonios…<br />pero el que más nos importa es el próximo: <b className="font-semibold">el tuyo</b>.</p>
-            <div className="lg:col-span-4 lg:col-start-9 lg:text-right">
-              <a href={ENTREVISTA} className="btn btn-primary inline-flex">Solicitá tu entrevista de admisión <ArrowRight size={18} aria-hidden /></a>
-            </div>
+      {/* 6 · Dossier: a la derecha va la presentación (PENDIENTE: reemplazar la imagen de referencia por el ppt) */}
+      <section className="sec-azul relative overflow-hidden py-[var(--section-y)]">
+        <div className="wrap grid grid-cols-12 gap-x-6 gap-y-10" data-rv>
+        <div className="col-span-12 min-w-0 lg:col-span-5 lg:self-center">
+          <h2 className="font-display font-medium tracking-[-0.03em]" style={{ fontSize: 'clamp(30px, 3.4vw, 52px)', lineHeight: 1.05 }}>Descargá el Dossier y el Programa de Estudios</h2>
+          <div className="flex flex-wrap gap-3">
+            <BtnEntrevista />
           </div>
         </div>
+        <div className="col-span-12 min-w-0 lg:col-span-7">
+          <div className="fp-ppt relative aspect-video overflow-hidden rounded-[18px] bg-[#094372] text-white ring-1 ring-white/25 shadow-[0_30px_60px_-40px_rgb(0_0_0/0.6)]" role="img" aria-label="Imagen de referencia: acá va la presentación del Dossier">
+            <Trazo tipo="semilla" className="absolute -right-[8%] top-1/2 w-[55%] -translate-y-1/2 opacity-30 [&_*]:!stroke-white" />
+            <div className="absolute inset-0 flex flex-col justify-between p-[6%]">
+              <p className="text-[12px] uppercase tracking-[0.2em] text-white/70">Espacio de Geometría Sagrada</p>
+              <div>
+                <p className="font-display text-[clamp(22px,3vw,40px)] font-medium leading-tight">Dossier y Programa<br />de Estudios</p>
+                <p className="mt-2 text-[14px] text-white/70">Formación Profesional en Geometría Sagrada</p>
+              </div>
+              <div className="flex items-center justify-between text-[12px] text-white/60"><span>1 / 12</span><span>‹ ›</span></div>
+            </div>
+          </div>
+          <p className="mt-3 text-[14px] text-white/60">Imagen de referencia. Acá va la presentación.</p>
+        </div>
+        </div>
       </section>
+
+      <SecTestimonios />
+
+      {/* Cifras: el mismo módulo de la home */}
+      <Cifras />
 
       {/* 13 · Inscripción: acá va la encuesta de precalificación (PENDIENTE: embeber la encuesta de GHL) */}
       <section id="inscripcion" className="wrap grid scroll-mt-24 grid-cols-12 gap-x-6 gap-y-8 py-[var(--section-y)]" data-rv>
@@ -236,51 +224,99 @@ export default function FormacionProfesional({ page }: { page: PageData }) {
         </div>
       </section>
 
-      {/* 4 + B · título de C: misión con sólidos platónicos girando, en escalera */}
-      <section className="sec-azul relative overflow-hidden py-[var(--section-y)]">
-        <div className="wrap" data-rv>
-          <div className="grid grid-cols-12 gap-x-6 gap-y-6">
-            <h2 className="col-span-12 font-display font-medium tracking-[-0.03em] lg:col-span-6" style={h2}>La experiencia, nuestro mayor orgullo</h2>
-            {quienesHtml && <div className="prose-egs col-span-12 text-reading lg:col-span-5 lg:col-start-8 lg:self-end" dangerouslySetInnerHTML={{ __html: quienesHtml }} />}
-          </div>
-          <p className="kicker mt-10">Nuestra Misión: Compartir y Multiplicar</p>
-          <ol className="mt-6 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-4">
-            {[
-              ['Democratizar el conocimiento', 'Nuestra misión es expandir la Geometría Sagrada al mayor número de personas posible. Estas clases tienen un valor simbólico, para que cualquiera pueda dar sus primeros pasos y beneficiarse de este conocimiento ancestral.'],
-              ['Una Trayectoria de 12 Años', 'Llevamos más de once años compartiendo y multiplicando esta enseñanza. A lo largo de este camino hemos acompañado a miles de personas en su proceso de transformación, siempre con honestidad y respeto por cada estudiante.'],
-              ['Experiencias Transformadoras', 'Estas clases son el primer contacto con un conocimiento ancestral que puede aplicarse en tu vida diaria. No es solo teoría: son experiencias que te permiten sentir la geometría en tu cuerpo, tus emociones y tu entorno.'],
-              ['El Camino a la Maestría', 'Para quienes buscan ir más allá, tenemos propuestas de aprendizaje profesional. No prometemos soluciones rápidas: se trata de un viaje de práctica y compromiso, diseñado para quienes quieren integrar esta sabiduría en profundidad.'],
-            ].map(([t, x], i) => (
-              <li key={t} data-rv className={`rv fp-mision ${['', '', 'lg:-mt-10', 'lg:-mt-20'][i]}`} style={{ ['--d' as string]: `${i * 140}ms` }}>
-                <div className="relative grid h-36 w-36 place-items-center">
-                  <span className="absolute inset-3 rounded-full bg-white/[0.06]" aria-hidden />
-                  <SolidoGira idx={i} className="relative h-32 w-32" />
-                </div>
-                <h3 className="mt-5 font-display text-[24px] font-medium leading-tight">{t}</h3>
-                <p className="mt-3 text-[17px] leading-relaxed text-ink-2">{x}</p>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
+      {quienesHtml && <SecExperiencia html={quienesHtml} />}
 
-      {/* 16 · Nuestro equipo de formadores */}
-      <section aria-labelledby="fp-formadores" className="wrap py-[var(--section-y)]" data-rv>
-        <h2 id="fp-formadores" className="font-display font-medium tracking-[-0.03em]" style={h2}>Nuestro equipo de formadores</h2>
-        <img src="/img/formadores-equipo.webp" alt="Formadoras y Formadores del equipo: Patricia, Javier, Nancy, Sandra, Silvia, Lili, Marisa, Natividad, Zulay, Zunilda, Marcela, Romina, Silvia, Alodia y Lorena"
-          width={1200} height={675} loading="lazy" className="mx-auto mt-10 w-full max-w-[1100px]" />
-      </section>
+      <SecFormadores />
 
-      {/* 15 · Dudas o consultas, abajo de todo, con formulario que incluye mensaje */}
-      <section id="formulario" className="bg-[var(--paper-2)] scroll-mt-24 py-[var(--section-y)]">
-        <div className="wrap grid grid-cols-12 gap-x-6 gap-y-8" data-rv>
-          <div className="col-span-12 lg:col-span-5">
-            <h2 className="font-display font-medium tracking-[-0.03em]" style={h2}>¿Dudas o consultas?</h2>
-            {dudas && <div className="prose-egs mt-5" dangerouslySetInnerHTML={{ __html: dudas.html }} />}
-          </div>
-          <div className="col-span-12 lg:col-span-6 lg:col-start-7"><div className="rounded-[24px] bg-paper p-6 sm:p-8"><WpForm {...CONTACTO} /></div></div>
-        </div>
-      </section>
+      {dudas && <SecDudas html={dudas.html} />}
     </>
+  );
+}
+
+/* ---------- Secciones compartidas con Especialización en Terapias ---------- */
+// F · Testimonios reales: fondo azul, citas en cajas blancas intercaladas con 6 videos
+export function SecTestimonios({ entrevista = ENTREVISTA }: { entrevista?: string }) {
+  // Columnas de testimonios: cita y video intercalados; la columna del medio arranca más abajo.
+  const piezas = TESTIMONIOS.flatMap((t, i) => {
+    const c = { k: 'c' as const, t, i }, v = { k: 'v' as const, id: VIDEOS[i], i };
+    return Math.floor(i / 2) % 2 === 0 ? [c, v] : [v, c];
+  });
+  return (
+  <section className="sec-azul overflow-hidden border-t border-white/10 py-[var(--section-y)]" aria-labelledby="fp-testimonios">
+    <div className="wrap">
+      <div className="mx-auto max-w-[860px] text-center" data-rv>
+        <p className="kicker">¿Qué dicen nuestros estudiantes?</p>
+        <h2 id="fp-testimonios" className="mt-4 font-display font-medium tracking-[-0.03em]" style={h2}>Testimonios reales de personas reales</h2>
+        <p className="mt-5 text-reading text-ink-2">Luego de 12 años compartiendo y multiplicando este conocimiento, podemos decir con orgullo y alegría que tenemos testimonios reales… de personas reales.</p>
+      </div>
+      <div className="mx-auto mt-12 grid max-w-[1180px] grid-cols-1 gap-4 min-[480px]:grid-cols-2 lg:grid-cols-4 lg:gap-5">
+        {piezas.map((p, j) => p.k === 'c' ? <Cita key={'c' + p.i} t={p.t} d={(j % 4) * 90} /> : <VideoCaja key={'v' + p.i} id={p.id} d={(j % 4) * 90} />)}
+      </div>
+      <div className="mt-16 grid items-center gap-6 lg:grid-cols-12" data-rv>
+        <p className="font-display text-[clamp(22px,2.2vw,32px)] leading-snug lg:col-span-7">Podríamos poner cientos y cientos de testimonios…<br />pero el que más nos importa es el próximo: <b className="font-semibold">el tuyo</b>.</p>
+        <div className="lg:col-span-4 lg:col-start-9 lg:text-right">
+          <a href={entrevista} className="btn btn-primary inline-flex">Solicitá tu entrevista de admisión <ArrowRight size={18} aria-hidden /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  );
+}
+
+// 4 + B · título de C: misión con sólidos platónicos girando, en escalera
+export function SecExperiencia({ html }: { html: string }) {
+  return (
+  <section className="sec-azul relative overflow-hidden py-[var(--section-y)]">
+    <div className="wrap" data-rv>
+      <div className="grid grid-cols-12 gap-x-6 gap-y-6">
+        <h2 className="col-span-12 font-display font-medium tracking-[-0.03em] lg:col-span-6" style={h2}>La experiencia, nuestro mayor orgullo</h2>
+        <div className="prose-egs col-span-12 text-reading lg:col-span-5 lg:col-start-8 lg:self-end" dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
+      <p className="kicker mt-10">Nuestra Misión: Compartir y Multiplicar</p>
+      <ol className="mt-6 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-4">
+        {[
+          ['Democratizar el conocimiento', 'Nuestra misión es expandir la Geometría Sagrada al mayor número de personas posible. Estas clases tienen un valor simbólico, para que cualquiera pueda dar sus primeros pasos y beneficiarse de este conocimiento ancestral.'],
+          ['Una Trayectoria de 12 Años', 'Llevamos más de once años compartiendo y multiplicando esta enseñanza. A lo largo de este camino hemos acompañado a miles de personas en su proceso de transformación, siempre con honestidad y respeto por cada estudiante.'],
+          ['Experiencias Transformadoras', 'Estas clases son el primer contacto con un conocimiento ancestral que puede aplicarse en tu vida diaria. No es solo teoría: son experiencias que te permiten sentir la geometría en tu cuerpo, tus emociones y tu entorno.'],
+          ['El Camino a la Maestría', 'Para quienes buscan ir más allá, tenemos propuestas de aprendizaje profesional. No prometemos soluciones rápidas: se trata de un viaje de práctica y compromiso, diseñado para quienes quieren integrar esta sabiduría en profundidad.'],
+        ].map(([t, x], i) => (
+          <li key={t} data-rv className={`rv fp-mision ${['', '', 'lg:-mt-10', 'lg:-mt-20'][i]}`} style={{ ['--d' as string]: `${i * 140}ms` }}>
+            <div className="relative grid h-36 w-36 place-items-center">
+              <span className="absolute inset-3 rounded-full bg-white/[0.06]" aria-hidden />
+              <SolidoGira idx={i} className="relative h-32 w-32" />
+            </div>
+            <h3 className="mt-5 font-display text-[24px] font-medium leading-tight">{t}</h3>
+            <p className="mt-3 text-[17px] leading-relaxed text-ink-2">{x}</p>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+  );
+}
+
+// 16 · Nuestro equipo de formadores
+export function SecFormadores() {
+  return (
+  <section aria-labelledby="fp-formadores" className="wrap py-[var(--section-y)]" data-rv>
+    <h2 id="fp-formadores" className="font-display font-medium tracking-[-0.03em]" style={h2}>Nuestro equipo de formadores</h2>
+    <img src="/img/formadores-equipo.webp" alt="Formadoras y Formadores del equipo: Patricia, Javier, Nancy, Sandra, Silvia, Lili, Marisa, Natividad, Zulay, Zunilda, Marcela, Romina, Silvia, Alodia y Lorena"
+      width={1200} height={675} loading="lazy" className="mx-auto mt-10 w-full max-w-[1100px]" />
+  </section>
+  );
+}
+
+// 15 · Dudas o consultas, abajo de todo, con formulario que incluye mensaje
+export function SecDudas({ html, form = CONTACTO }: { html: string; form?: typeof CONTACTO }) {
+  return (
+  <section id="formulario" className="bg-[var(--paper-2)] scroll-mt-24 py-[var(--section-y)]">
+    <div className="wrap grid grid-cols-12 gap-x-6 gap-y-8" data-rv>
+      <div className="col-span-12 lg:col-span-5">
+        <h2 className="font-display font-medium tracking-[-0.03em]" style={h2}>¿Dudas o consultas?</h2>
+        <div className="prose-egs mt-5" dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
+      <div className="col-span-12 lg:col-span-6 lg:col-start-7"><div className="rounded-[24px] bg-paper p-6 sm:p-8"><WpForm {...form} /></div></div>
+    </div>
+  </section>
   );
 }

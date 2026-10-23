@@ -30,7 +30,7 @@ function Formadores() {
     <section aria-labelledby="formadores-title" className="wrap border-t hairline py-[14svh]">
       <div className="grid grid-cols-12 gap-x-4 gap-y-8">
         <div className="col-span-12 lg:col-span-4">
-          <h2 id="formadores-title" className="h-section" style={{ fontSize: 'clamp(31px, calc(6.4vw - 9px), 95px)' }}>Formadores certificados</h2>
+          <h2 id="formadores-title" className="h-section" style={{ fontSize: 'clamp(27px, calc(6.4vw - 14px), 90px)' }}>Formadores certificados</h2>
           <p className="mt-5 max-w-[34ch] text-[18px] leading-relaxed text-ink-2">{formadores.length} Formadores Geómetras en {paises.length} países. Elegí un país para ver quiénes están cerca tuyo.</p>
         </div>
         <div className="col-span-12 lg:col-span-8">

@@ -21,7 +21,7 @@ export default function ClaseGratuita() {
         <div className="grid grid-cols-12 gap-x-4 gap-y-8">
           <div className="col-span-12 lg:col-span-4">
             <p className="kicker">Preguntas frecuentes</p>
-            <h2 className="h-section mt-3" style={{ fontSize: 'var(--fs-h2)' }}>Antes de empezar.</h2>
+            <h2 className="h-section mt-3" style={{ fontSize: 'var(--fs-h2)' }}>Antes de empezar</h2>
           </div>
           <div className="col-span-12 lg:col-span-7 lg:col-start-6"><Accordion items={faq.map((f) => ({ title: f.q, text: f.a }))} /></div>
         </div>

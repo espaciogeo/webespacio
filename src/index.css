@@ -271,3 +271,5 @@ img, video, canvas, iframe, svg { max-width: 100%; }
 .fp-mision.rv { transition-delay: var(--d, 0ms); }
 .fp-flor-g { transform-box: fill-box; transform-origin: center; }
 @media (prefers-reduced-motion: no-preference) { .fp-flor-g { animation: qh-spin 160s linear infinite; } }
+/* Hero: "Geometría Sagrada" en Playfair Display 400 (única excepción a Montserrat) */
+.hero-playfair { font-family: 'Playfair Display', Georgia, serif; font-weight: 400; letter-spacing: -0.01em; line-height: 1.02; }

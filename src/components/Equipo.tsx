@@ -31,7 +31,7 @@ export function Equipo(_props: { n?: string; compacto?: boolean } = {}) {
         <div className="col-span-12 lg:col-span-4">
           <div className="lg:sticky lg:top-28">
             <p className="kicker">{equipo.kicker}</p>
-            <h2 id="equipo-title" className="h-section mt-3" style={{ fontSize: 'clamp(38px, 4.6vw, 76px)' }}>Monique<br />y Pablo.</h2>
+            <h2 id="equipo-title" className="h-section mt-3" style={{ fontSize: 'clamp(38px, 4.6vw, 76px)' }}>Monique<br />y Pablo</h2>
             <p className="mt-6 max-w-[36ch] text-[20px] leading-snug text-ink-2">{equipo.intro}</p>
             <a href={links.quienesSomos} className="link-arrow mt-6">Conocé al equipo <ArrowRight size={18} aria-hidden /></a>
           </div>
@@ -40,10 +40,8 @@ export function Equipo(_props: { n?: string; compacto?: boolean } = {}) {
           {[monique, pablo].map((p) => (
             <article key={p.nombre} className="min-w-0">
               <MaskImg name={p.img} alt={p.nombre} sizes="(min-width:1024px) 30vw, (min-width:640px) 50vw, 100vw" className="aspect-[4/5] w-full rounded-[20px]" />
-              <p className="mono mt-5 text-[14px] text-ink-3">{p.rol}</p>
-              <h3 className="mt-1 font-display text-[clamp(26px,2.4vw,34px)] font-medium leading-none tracking-[-0.03em]">{p.nombre}</h3>
-              <p className="mt-3 max-w-[42ch] text-[18px] leading-relaxed text-ink-2">{p.bio}</p>
-              <a href={p.href} className="link-arrow mt-2 text-[17px]">Ver más <ArrowRight size={18} aria-hidden /></a>
+              {/* debajo de la foto, solo el nombre */}
+              <h3 className="mt-4 font-display text-[clamp(26px,2.4vw,34px)] font-medium leading-none tracking-[-0.03em]">{p.nombre}</h3>
             </article>
           ))}
         </div>

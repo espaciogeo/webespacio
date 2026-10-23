@@ -55,6 +55,8 @@ export function Solidos() {
             <p className="kicker !text-paper/60"><b className="!text-paper">04</b> · {solidosIntro.kicker}</p>
             <h2 id="solidos-title" className="h-section mt-3" style={{ fontSize: 'clamp(34px, 4.8vw, 80px)' }}>{solidosIntro.titulo}</h2>
             <p className="mt-4 hidden max-w-[40ch] text-[18px] text-paper/70 lg:block">{solidosIntro.texto}</p>
+            {/* qué es C · V · A */}
+            <p className="mt-4 max-w-[40ch] text-[16px] leading-relaxed text-paper/70"><b className="font-medium text-paper">{solidosIntro.cva.split(':')[0]}:</b>{solidosIntro.cva.slice(solidosIntro.cva.indexOf(':') + 1)}</p>
           </div>
 
           {/* Lista completa (desktop) */}

@@ -54,7 +54,8 @@ export function Cifras() {
       <p className="kicker">{cifras.kicker}</p>
       <h2 id="cifras-title" className="sr-only font-bold">El Espacio en números</h2>
       {/* Una fila, tres columnas, todo a la misma altura */}
-      <div className="mt-10 grid items-start gap-x-8 gap-y-12 md:grid-cols-3">
+      {/* cada cifra centrada en su columna, así quedan parejas */}
+      <div className="mt-10 grid items-start gap-x-8 gap-y-12 md:grid-cols-3 md:text-center [&_p]:md:mx-auto">
         <Counter to={a.valor} prefix={a.prefijo} label={a.label} />
         <Counter to={b.valor} prefix={b.prefijo} label={b.label} />
         <Counter to={c.valor} prefix={c.prefijo} label={c.label} />

@@ -47,7 +47,7 @@ export default function WpPage({ page }: { page: PageData }) {
           <div className="grid grid-cols-12 gap-x-4 gap-y-8">
             <div className="col-span-12 lg:col-span-4">
               <p className="kicker">Preguntas frecuentes</p>
-              <h2 className="h-section mt-3" style={{ fontSize: 'var(--fs-h2)' }}>Antes de empezar.</h2>
+              <h2 className="h-section mt-3" style={{ fontSize: 'var(--fs-h2)' }}>Antes de empezar</h2>
               {page.faqNote && <p className="mt-6 max-w-[40ch] text-body text-ink-2">{page.faqNote}</p>}
             </div>
             <div className="col-span-12 min-w-0 lg:col-span-7 lg:col-start-6"><Accordion items={faqItems} /></div>

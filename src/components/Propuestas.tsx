@@ -37,7 +37,8 @@ export function Propuestas() {
               <h3 className="font-display font-semibold leading-tight tracking-[-0.02em]" style={{ fontSize: 'clamp(22px, 1.8vw, 28px)' }}>{p.titulo}</h3>
               <p className="mt-3 text-[16px] leading-relaxed text-ink-2">{p.texto}</p>
               <p className="mono mt-auto pt-5 text-[13px] text-ink-3">{p.meta}</p>
-              <a href={p.href} className="btn btn-ghost mt-4 self-start">
+              {/* título y texto a la izquierda; botón centrado con fondo azul */}
+              <a href={p.href} className="btn mt-4 self-center bg-[#094372] text-white hover:bg-[#0b5590]">
                 {p.cta} <ArrowUpRight size={18} aria-hidden />
               </a>
             </div>

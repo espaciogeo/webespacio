@@ -45,7 +45,8 @@ export const Footer = forwardRef<HTMLElement, { reveal: boolean }>(function Foot
           </nav>
         </div>
 
-        <p className="u236-wm mt-12 select-none font-display font-bold leading-[0.92] tracking-[-0.04em]" style={{ fontSize: 'clamp(44px, 10.6vw, 176px)' }} aria-hidden="true">
+        {/* más chico y en una sola línea */}
+        <p className="u236-wm mt-12 select-none whitespace-nowrap font-display font-bold leading-[0.92] tracking-[-0.04em]" style={{ fontSize: 'clamp(18px, 5.4vw, 76px)' }} aria-hidden="true">
           compartir y multiplicar
         </p>
 

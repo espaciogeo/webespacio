@@ -1,6 +1,7 @@
 # Espacio de Geometría Sagrada — sitio y plataforma
 
-**Antes de empezar, leé `RESUMEN-PROYECTO.md`: tiene el estado completo del proyecto (qué está hecho, qué falta y decisiones tomadas).**
+**Antes de empezar, leé `RESUMEN-PROYECTO.md`, empezando por "ESTADO AL …": ahí está lo último que se hizo, qué falta revisar y qué sigue.**
+**Al terminar cada tanda de cambios, actualizá esa sección para que el próximo agente sepa dónde quedó todo.**
 
 Rediseño del sitio espaciodegeometriasagrada.com. Hablá siempre en español (rioplatense), simple y sin tecnicismos: quien pide los cambios no es programador.
 
@@ -18,7 +19,8 @@ Rediseño del sitio espaciodegeometriasagrada.com. Hablá siempre en español (r
 ## Diseño (decisiones ya tomadas)
 - Fondo: blanco puro #FFFFFF en todo el sitio. Nada de grises, sombras de fondo, texturas ni grano.
 - Colores: azul #094372 (tinta), verde agua #66CC99 (acento), gris #666666 (texto secundario). Tokens en `src/styles/tokens.css`.
-- Tipografías: Montserrat solo en normal (400) o semi negrita (600) para títulos; Roboto para texto; Roboto Mono para etiquetas chicas.
+- Tipografías: Montserrat solo en normal (400) o semi negrita (600) para títulos; Roboto para texto; Roboto Mono para etiquetas chicas. Única excepción: "Geometría Sagrada" del hero de la home en Playfair Display.
+- Títulos sin punto final.
 - El entramado de flor de la vida de fondo va SOLO en la sección Manifiesto de la home (clase `.flor-bg`).
 - Ilustraciones: trazos geométricos en SVG (líneas azules, guías verdes, anotaciones en mono), no imágenes genéricas.
 - Orden de los sólidos: tetraedro, hexaedro (cubo), octaedro, icosaedro, dodecaedro.
@@ -29,6 +31,7 @@ Rediseño del sitio espaciodegeometriasagrada.com. Hablá siempre en español (r
 ## Dónde está cada cosa
 - Textos de la home: `src/content.ts` · Secciones de la home: `src/components/*.tsx` · Home: `src/pages/Home.tsx`
 - Página "Qué hacemos": `src/pages/QueHacemos.tsx` (página propia, no usa la plantilla genérica)
+- Página "Formación profesional": `src/pages/FormacionProfesional.tsx` (página propia)
 - Página "Quiénes somos": `src/pages/QuienesSomos.tsx` (página propia) · formadores certificados: `src/content/formadores.ts`
 - Páginas migradas de WordPress: `src/content/wp/pages/*.json` + plantilla `src/pages/WpPage.tsx`
 - Formaciones y precios: `src/content/formaciones.ts`, `src/content/colecciones.ts`, `src/content/precios.json`

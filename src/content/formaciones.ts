@@ -147,7 +147,7 @@ export const terapias = page({
   path: '/formaciones/especializacion-en-terapias/',
   title: 'Especialización en Terapias con Geometría Sagrada',
   source: 'News Geométrico «Lo que no se aprende en un fin de semana» y «El terapeuta que ya no vuelve» (el subdominio terapias.espaciodegeometriasagrada.com hoy responde 404)',
-  seo: { title: 'Especialización en Terapias con Geometría Sagrada', description: 'Para médicos, psicólogos, psiquiatras y terapeutas: un recorrido de nueve meses con los protocolos de trabajo de la Medicina de las Formas y acompañamiento personalizado.' },
+  seo: { title: 'Especialización en Terapias con Geometría Sagrada', description: 'Aplicá protocolos de Geometría Sagrada en tus terapias: 7 módulos y un curso final en 9 meses, 100% online, con acompañamiento personalizado y certificación.' },
   hero: {
     kicker: 'Formaciones · Especialización',
     lede: 'La Especialización en Terapias fue creada para médicos, psicólogos, psiquiatras y terapeutas que quieren pasar por el cuerpo la experiencia completa: conocer los protocolos de trabajo, entender cómo se adapta a cada tipo de profesional y a cada consulta, y salir con las herramientas para acompañar con responsabilidad real.',

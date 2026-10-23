@@ -118,8 +118,9 @@ function VideoLite({ id, titulo }: { id: string; titulo: string }) {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
       ) : (
         <button type="button" onClick={() => setOn(true)} className="group absolute inset-0 h-full w-full" aria-label={`Reproducir: ${titulo}`}>
-          <img src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity group-hover:opacity-100" />
-          <span className="absolute left-1/2 top-1/2 grid h-16 w-16 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-paper text-ink shadow-lg transition-transform group-hover:scale-110"><Play size={26} aria-hidden /></span>
+          <img src={`https://i.ytimg.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" />
+          {/* play chico y discreto */}
+          <span className="absolute left-1/2 top-1/2 grid h-11 w-11 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-white/85 text-[#094372] shadow-md backdrop-blur-sm transition-transform group-hover:scale-110"><Play size={16} className="ml-0.5 fill-current" aria-hidden /></span>
         </button>
       )}
     </div>
